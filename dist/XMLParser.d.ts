@@ -3,7 +3,7 @@ export interface XmlNode {
     tag: string | undefined;
     text: string | undefined;
     attrs: any;
-    children: any[];
+    children: XmlNode[];
 }
 export declare class XMLParser extends expat.Parser {
     targetDepth: number;

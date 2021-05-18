@@ -10,7 +10,7 @@ export interface XmlNode {
   tag: string | undefined,
   text: string | undefined,
   attrs: any,
-  children: any[],
+  children: XmlNode[],
 }
 
 function createEmptyNode(tag?: string): XmlNode {

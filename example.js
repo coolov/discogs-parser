@@ -1,7 +1,7 @@
 const zlib = require("zlib");
 const https = require("https");
 
-const { createDiscogsParser } = require("discogs-parser");
+const { createDiscogsParser } = require("./dist/main");
 
 // more info here http://data.discogs.com/
 const DISCOGS_DATA_URL =
