@@ -1,0 +1,19 @@
+{
+  "name": "dp",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "node-expat": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@types/node-expat": "^2.3.1",
+    "ts-node": "^9.1.1"
+  },
+  "scripts": {
+    "example": "ts-node example.js",
+    "build": "tsc"
+  }
+}
