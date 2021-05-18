@@ -1,8 +1,8 @@
 {
   "name": "discogs-parser",
-  "main": "./lib/main.js",
-  "types": "./lib/main.d.ts",
-  "version": "1.0.1",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "version": "1.0.2",
   "license": "MIT",
   "dependencies": {
     "node-expat": "^2.4.0"
