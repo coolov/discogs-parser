@@ -1,5 +1,5 @@
 {
-  "name": "dp",
+  "name": "discogs-parser",
   "main": "./lib/main.js",
   "types": "./lib/main.d.ts",
   "version": "1.0.0",
