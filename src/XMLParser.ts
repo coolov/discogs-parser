@@ -6,19 +6,29 @@
  */
 import expat from "node-expat";
 
+interface keyval {
+  [key: string]: string | undefined
+};
+
 export interface XmlNode {
-  tag: string | undefined,
-  text: string | undefined,
-  attrs: any,
+  tag: string,
   children: XmlNode[],
+  _text?: string,
+  _attrs?: keyval,
+  attrs: keyval,
+  text: string,
 }
 
-function createEmptyNode(tag?: string): XmlNode {
+function createEmptyNode(tag: string): XmlNode {
   return {
     tag,
-    text: undefined,
-    attrs: {},
-    children: []
+    children: [],
+    get attrs() {
+      return this._attrs || {};
+    },
+    get text() {
+      return this._text || '';
+    },
   }
 }
 
@@ -31,8 +41,8 @@ export class XMLParser extends expat.Parser {
   record: XmlNode | undefined;
   constructor(targetDepth = 1) {
     super("UTF-8");
-    this.targetDepth = targetDepth + 1;
-    this.node = createEmptyNode();
+    this.targetDepth = targetDepth + 1; // 
+    this.node = createEmptyNode('$root');
     this.nodes = [];
     this.isCapturing = false;
     this.level = 0;
@@ -44,25 +54,21 @@ export class XMLParser extends expat.Parser {
   handleStartElement(name: string, attrs: any) {
     this.level++;
 
-    if (!this.isCapturing && this.level !== this.targetDepth) {
-      return;
-    }
     if (!this.isCapturing) {
+      if (this.level !== this.targetDepth) {
+        return;
+      }
       this.isCapturing = true;
-      this.node = createEmptyNode();
+      this.node = createEmptyNode('$root');
       this.nodes = [];
       this.record = undefined;
-    }
-
-    if (this.node.children === undefined) {
-      this.node.children = [];
     }
 
     const child = createEmptyNode(name);
     this.node.children.push(child);
 
     if (Object.keys(attrs).length > 0) {
-      child.attrs = attrs;
+      child._attrs = attrs;
     }
 
     this.nodes.push(this.node);
@@ -97,10 +103,10 @@ export class XMLParser extends expat.Parser {
     }
 
     if (txt.trim().length > 0) {
-      if (this.node.text === undefined) {
-        this.node.text = txt;
+      if (this.node._text === undefined) {
+        this.node._text = txt;
       } else {
-        this.node.text += txt;
+        this.node._text += txt;
       }
     }
   }

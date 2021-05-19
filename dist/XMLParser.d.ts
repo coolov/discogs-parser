@@ -1,9 +1,14 @@
 import expat from "node-expat";
+interface keyval {
+    [key: string]: string | undefined;
+}
 export interface XmlNode {
-    tag: string | undefined;
-    text: string | undefined;
-    attrs: any;
+    tag: string;
     children: XmlNode[];
+    _text?: string;
+    _attrs?: keyval;
+    attrs: keyval;
+    text: string;
 }
 export declare class XMLParser extends expat.Parser {
     targetDepth: number;
@@ -18,3 +23,4 @@ export declare class XMLParser extends expat.Parser {
     handleText(txt: string): void;
     resume(): void;
 }
+export {};
