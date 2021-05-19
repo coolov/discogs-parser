@@ -46,7 +46,7 @@ export interface Artist extends Entity, Contact {
     namevariations: string[];
     realname: string;
 }
-export declare function artist(node: XmlNode): Artist;
+export declare function newArtist(node: XmlNode): Artist;
 interface Sublabel {
     id: string;
     name: string;
@@ -58,13 +58,13 @@ export interface Label extends Entity, Contact {
     parentLabelName: string;
     sublabels: Sublabel[];
 }
-export declare function label(node: XmlNode): Label;
+export declare function newLabel(node: XmlNode): Label;
 export interface Master extends Entity, BaseRelease {
     main_release: string;
     year: string;
 }
-export declare function master(node: XmlNode): Master;
-interface Company {
+export declare function newMaster(node: XmlNode): Master;
+interface ReleaseCompany {
     id: string;
     name: string;
     catno: string;
@@ -72,13 +72,13 @@ interface Company {
     entity_type_name: string;
     resource_url: string;
 }
-interface Format {
+interface ReleaseFormat {
     name: string;
     qty: string;
     text: string;
     descriptions: string[];
 }
-interface Identifier {
+interface ReleaseIdentifier {
     type: string;
     description: string;
     value: string;
@@ -88,7 +88,7 @@ interface ReleaseLabel {
     name: string;
     catno: string;
 }
-interface Tracklist {
+interface ReleaseTracklist {
     position: string;
     title: string;
     duration: string;
@@ -99,14 +99,14 @@ export interface Release extends Entity, BaseRelease {
     country: string;
     master_id: string;
     released: string;
-    companies: Company[];
+    companies: ReleaseCompany[];
     extraartists: ReleaseArtist[];
-    formats: Format[];
-    identifiers: Identifier[];
+    formats: ReleaseFormat[];
+    identifiers: ReleaseIdentifier[];
     labels: ReleaseLabel[];
-    tracklist: Tracklist[];
+    tracklist: ReleaseTracklist[];
 }
-export declare function release(node: XmlNode): Release;
+export declare function newRelease(node: XmlNode): Release;
 export declare type Record = Release | Master | Artist | Label;
 export declare function nodeToType(node: XmlNode): Record;
 export {};

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.nodeToType = exports.release = exports.master = exports.label = exports.sublabel = exports.artist = void 0;
+exports.nodeToType = exports.newRelease = exports.newMaster = exports.newLabel = exports.sublabel = exports.newArtist = void 0;
 function childrenToObject(children) {
     let obj = {};
     children.forEach(child => {
@@ -14,10 +14,10 @@ function childrenToObject(children) {
 function mapChildren(node, mapFn) {
     return (node?.children || []).map(mapFn);
 }
-function mapFnText(node) {
+function newString(node) {
     return node.text;
 }
-function image(node) {
+function newImage(node) {
     return {
         type: node.attrs.type || '',
         uri: node.attrs.uri || '',
@@ -26,7 +26,7 @@ function image(node) {
         height: node.attrs.height || ''
     };
 }
-function entity(fields, id, type) {
+function newEntity(fields, id, type) {
     if (typeof id === 'undefined') {
         throw new Error('An id is required for type: ' + type);
     }
@@ -34,10 +34,10 @@ function entity(fields, id, type) {
         id,
         type,
         data_quality: fields.data_quality?.text || '',
-        images: mapChildren(fields.images, image)
+        images: mapChildren(fields.images, newImage)
     };
 }
-function video(node) {
+function newVideo(node) {
     const fields = childrenToObject(node.children);
     return {
         src: node.attrs.src || '',
@@ -47,7 +47,7 @@ function video(node) {
         description: fields.description?.text || '',
     };
 }
-function releaseArtist(node) {
+function newReleaseArtist(node) {
     const fields = childrenToObject(node.children);
     return {
         id: fields.id?.text || "",
@@ -59,29 +59,29 @@ function releaseArtist(node) {
         tracks: fields.tracks?.text || ""
     };
 }
-function baseRelease(fields) {
+function newBaseRelease(fields) {
     // console.log(fields.videos?.attrs)
     return {
         notes: fields.notes?.text || '',
         title: fields.title?.text || '',
-        artists: mapChildren(fields.artists, releaseArtist),
-        genres: mapChildren(fields.genres, mapFnText),
-        styles: mapChildren(fields.styles, mapFnText),
-        videos: mapChildren(fields.videos, video),
+        artists: mapChildren(fields.artists, newReleaseArtist),
+        genres: mapChildren(fields.genres, newString),
+        styles: mapChildren(fields.styles, newString),
+        videos: mapChildren(fields.videos, newVideo),
     };
 }
-function contact(fields) {
+function newContact(fields) {
     return {
         name: fields.name?.text || '',
         profile: fields.profile?.text || '',
-        urls: mapChildren(fields.urls, mapFnText)
+        urls: mapChildren(fields.urls, newString)
     };
 }
-function artist(node) {
+function newArtist(node) {
     const fields = childrenToObject(node.children);
     return {
-        ...entity(fields, fields.id?.text, 'artist'),
-        ...contact(fields),
+        ...newEntity(fields, fields.id?.text, 'artist'),
+        ...newContact(fields),
         aliases: (fields.aliases?.children || []).map(n => n.text),
         groups: (fields.groups?.children || []).map(n => n.text),
         // todo: this is a weird mixed array... figure out how to implement it
@@ -90,7 +90,7 @@ function artist(node) {
         realname: fields.realname?.text || ''
     };
 }
-exports.artist = artist;
+exports.newArtist = newArtist;
 function sublabel(node) {
     return {
         id: node.attrs.id || '',
@@ -98,11 +98,11 @@ function sublabel(node) {
     };
 }
 exports.sublabel = sublabel;
-function label(node) {
+function newLabel(node) {
     const fields = childrenToObject(node.children);
     return {
-        ...entity(fields, fields.id?.text, 'label'),
-        ...contact(fields),
+        ...newEntity(fields, fields.id?.text, 'label'),
+        ...newContact(fields),
         contactinfo: fields.contactinfo?.text || '',
         // parse from attributes
         parentLabelId: fields.parentLabel?.attrs.id || '',
@@ -110,18 +110,18 @@ function label(node) {
         sublabels: mapChildren(fields.sublabels, sublabel)
     };
 }
-exports.label = label;
-function master(node) {
+exports.newLabel = newLabel;
+function newMaster(node) {
     const fields = childrenToObject(node.children);
     return {
-        ...entity(fields, node.attrs.id, 'artist'),
-        ...baseRelease(fields),
+        ...newEntity(fields, node.attrs.id, 'master'),
+        ...newBaseRelease(fields),
         main_release: fields.main_release?.text || '',
         year: fields.year?.text || '',
     };
 }
-exports.master = master;
-function company(node) {
+exports.newMaster = newMaster;
+function newReleaseCompany(node) {
     const fields = childrenToObject(node.children);
     return {
         id: fields.id?.text || '',
@@ -132,7 +132,7 @@ function company(node) {
         resource_url: fields.resource_url?.text || '',
     };
 }
-function format(node) {
+function newReleaseFormat(node) {
     const fields = childrenToObject(node.children);
     return {
         name: node.attrs.name || '',
@@ -142,14 +142,14 @@ function format(node) {
     };
 }
 ;
-function identifier(node) {
+function newReleaseIdentifier(node) {
     return {
         type: node.attrs.type || '',
         description: node.attrs.description || '',
         value: node.attrs.value || ''
     };
 }
-function releaseLabel(node) {
+function newReleaseLabel(node) {
     const fields = childrenToObject(node.children);
     return {
         id: node.attrs.id || '',
@@ -157,43 +157,43 @@ function releaseLabel(node) {
         catno: node.attrs.catno || '',
     };
 }
-function tracklist(node) {
+function newReleaseTracklist(node) {
     const fields = childrenToObject(node.children);
     return {
         position: fields.position?.text || '',
         title: fields.title?.text || '',
         duration: fields.duration?.text || '',
-        artists: mapChildren(fields.artists, releaseArtist),
-        extraartists: mapChildren(fields.extraartists, releaseArtist)
+        artists: mapChildren(fields.artists, newReleaseArtist),
+        extraartists: mapChildren(fields.extraartists, newReleaseArtist)
     };
 }
-function release(node) {
+function newRelease(node) {
     const fields = childrenToObject(node.children);
     return {
-        ...entity(fields, '1', 'release'),
-        ...baseRelease(fields),
+        ...newEntity(fields, fields.id?.text, 'release'),
+        ...newBaseRelease(fields),
         country: fields.country?.text || '',
         master_id: fields.master_id?.text || '',
         released: fields.released?.text || '',
-        companies: mapChildren(fields.companies, company),
-        extraartists: mapChildren(fields.extraartists, releaseArtist),
-        formats: mapChildren(fields.formats, format),
-        identifiers: mapChildren(fields.identifiers, identifier),
-        labels: mapChildren(fields.labels, releaseLabel),
-        tracklist: mapChildren(fields.tracklist, tracklist)
+        companies: mapChildren(fields.companies, newReleaseCompany),
+        extraartists: mapChildren(fields.extraartists, newReleaseArtist),
+        formats: mapChildren(fields.formats, newReleaseFormat),
+        identifiers: mapChildren(fields.identifiers, newReleaseIdentifier),
+        labels: mapChildren(fields.labels, newReleaseLabel),
+        tracklist: mapChildren(fields.tracklist, newReleaseTracklist)
     };
 }
-exports.release = release;
+exports.newRelease = newRelease;
 function nodeToType(node) {
     switch (node.tag) {
         case "label":
-            return label(node);
+            return newLabel(node);
         case "release":
-            return release(node);
+            return newRelease(node);
         case "master":
-            return master(node);
+            return newMaster(node);
         case "artist":
-            return artist(node);
+            return newArtist(node);
         default:
             throw new Error('Failed to parse type!');
     }
