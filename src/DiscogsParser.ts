@@ -1,11 +1,12 @@
 import { Duplex } from "stream";
 import { XMLParser, XmlNode } from "./XMLParser";
+import { nodeToType, Record } from './Model';
 
 // Inspired by:
 // https://gist.github.com/FranckFreiburger/9af693b0432d7ee85d4e360e524551dc
 
 export class DiscogsParser extends Duplex {
-  records: (XmlNode | null)[];
+  records: (Record | null)[];
   parser: XMLParser;
   constructor() {
     super({
@@ -20,7 +21,7 @@ export class DiscogsParser extends Duplex {
       // be consumed by the reader
       try {
         // transform the XML record to a DiscogsItem
-        this.records.push(record);
+        this.records.push(nodeToType(record));
       } catch (err) {
         // print error!!!
         console.dir(record, { depth: 10 });

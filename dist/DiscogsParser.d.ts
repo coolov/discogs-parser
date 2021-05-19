@@ -1,8 +1,9 @@
 /// <reference types="node" />
 import { Duplex } from "stream";
-import { XMLParser, XmlNode } from "./XMLParser";
+import { XMLParser } from "./XMLParser";
+import { Record } from './Model';
 export declare class DiscogsParser extends Duplex {
-    records: (XmlNode | null)[];
+    records: (Record | null)[];
     parser: XMLParser;
     constructor();
     _write(chunk: any, encoding: BufferEncoding, callback: (error?: Error | null) => void): void;

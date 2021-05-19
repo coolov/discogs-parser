@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DiscogsParser = void 0;
 const stream_1 = require("stream");
 const XMLParser_1 = require("./XMLParser");
+const Model_1 = require("./Model");
 // Inspired by:
 // https://gist.github.com/FranckFreiburger/9af693b0432d7ee85d4e360e524551dc
 class DiscogsParser extends stream_1.Duplex {
@@ -18,7 +19,7 @@ class DiscogsParser extends stream_1.Duplex {
             // be consumed by the reader
             try {
                 // transform the XML record to a DiscogsItem
-                this.records.push(record);
+                this.records.push(Model_1.nodeToType(record));
             }
             catch (err) {
                 // print error!!!
