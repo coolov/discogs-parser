@@ -14,6 +14,9 @@ function childrenToObject(children) {
 function mapChildren(node, mapFn) {
     return (node?.children || []).map(mapFn);
 }
+function mapFnText(node) {
+    return node.text;
+}
 function image(node) {
     return {
         type: node.attrs.type || '',
@@ -44,16 +47,6 @@ function video(node) {
         description: fields.description?.text || '',
     };
 }
-function style(node) {
-    return {
-        name: node.text || ''
-    };
-}
-function genre(node) {
-    return {
-        name: node.text || ''
-    };
-}
 function releaseArtist(node) {
     const fields = childrenToObject(node.children);
     return {
@@ -72,8 +65,8 @@ function baseRelease(fields) {
         notes: fields.notes?.text || '',
         title: fields.title?.text || '',
         artists: mapChildren(fields.artists, releaseArtist),
-        genres: mapChildren(fields.genres, genre),
-        styles: mapChildren(fields.styles, style),
+        genres: mapChildren(fields.genres, mapFnText),
+        styles: mapChildren(fields.styles, mapFnText),
         videos: mapChildren(fields.videos, video),
     };
 }
@@ -81,7 +74,7 @@ function contact(fields) {
     return {
         name: fields.name?.text || '',
         profile: fields.profile?.text || '',
-        urls: (fields.urls?.children || []).map(node => node.text)
+        urls: mapChildren(fields.urls, mapFnText)
     };
 }
 function artist(node) {

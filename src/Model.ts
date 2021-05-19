@@ -23,6 +23,10 @@ function mapChildren<T>(node: XmlNode | undefined, mapFn: (childNode: XmlNode) =
     return (node?.children || []).map(mapFn);
 }
 
+function mapFnText(node: XmlNode): string {
+    return node.text;
+}
+
 // ---- ENTITY ----
 
 interface Image {
@@ -84,27 +88,6 @@ function video(node: XmlNode): Video {
         description: fields.description?.text || '',
     }
 }
-
-interface Style {
-    name: string
-}
-
-function style(node: XmlNode): Style {
-    return {
-        name: node.text || ''
-    }
-}
-
-interface Genre {
-    name: string
-}
-
-function genre(node: XmlNode): Genre {
-    return {
-        name: node.text || ''
-    }
-}
-
 interface ReleaseArtist {
     id: string,
     name: string,
@@ -133,8 +116,8 @@ interface BaseRelease {
     notes: string,
     title: string,
     artists: ReleaseArtist[],
-    genres: Genre[],
-    styles: Style[],
+    genres: string[],
+    styles: string[],
     videos: Video[],
 }
 
@@ -144,8 +127,8 @@ function baseRelease(fields: XMLNodeMap): BaseRelease {
         notes: fields.notes?.text || '',
         title: fields.title?.text || '',
         artists: mapChildren(fields.artists, releaseArtist),
-        genres: mapChildren(fields.genres, genre),
-        styles: mapChildren(fields.styles, style),
+        genres: mapChildren(fields.genres, mapFnText),
+        styles: mapChildren(fields.styles, mapFnText),
         videos: mapChildren(fields.videos, video),
     }
 }
@@ -163,7 +146,7 @@ function contact(fields: XMLNodeMap): Contact {
     return {
         name: fields.name?.text || '',
         profile: fields.profile?.text || '',
-        urls: (fields.urls?.children || []).map(node => node.text)
+        urls: mapChildren(fields.urls, mapFnText)
     }
 }
 

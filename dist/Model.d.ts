@@ -19,12 +19,6 @@ interface Video {
     title: string;
     description: string;
 }
-interface Style {
-    name: string;
-}
-interface Genre {
-    name: string;
-}
 interface ReleaseArtist {
     id: string;
     name: string;
@@ -37,8 +31,8 @@ interface BaseRelease {
     notes: string;
     title: string;
     artists: ReleaseArtist[];
-    genres: Genre[];
-    styles: Style[];
+    genres: string[];
+    styles: string[];
     videos: Video[];
 }
 interface Contact {
