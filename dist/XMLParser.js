@@ -8,14 +8,22 @@ exports.XMLParser = void 0;
  * Code based on node-big-xml
  * https://github.com/jahewson/node-big-xml
  *
- * Modification to pick target nodes based on depth instead of name
+ * 1) node-expat does a depth first traversal of the XML-tree
+ * 2) the assumption is that the xml file has a single root node,
+ *    containing one long homegenous list of nodes
+ * 3) the streaming parser will emit each child node in the list
  */
 const node_expat_1 = __importDefault(require("node-expat"));
 ;
-function createEmptyNode(tag) {
+function createEmptyNode(tag, attrs, parent) {
     return {
         tag,
         children: [],
+        parent,
+        _attrs: attrs,
+        get isRoot() {
+            return this.parent === undefined;
+        },
         get attrs() {
             return this._attrs || {};
         },
@@ -24,65 +32,41 @@ function createEmptyNode(tag) {
         },
     };
 }
+function peek(stack) {
+    if (stack.length) {
+        return stack[stack.length - 1];
+    }
+}
 class XMLParser extends node_expat_1.default.Parser {
-    constructor(targetDepth = 1) {
+    constructor() {
         super("UTF-8");
-        this.targetDepth = targetDepth + 1; // 
-        this.node = createEmptyNode('$root');
-        this.nodes = [];
-        this.isCapturing = false;
-        this.level = 0;
+        this.stack = [];
         this.on("startElement", this.handleStartElement.bind(this));
         this.on("text", this.handleText.bind(this));
         this.on("endElement", this.handleEndElement.bind(this));
     }
     handleStartElement(name, attrs) {
-        this.level++;
-        if (!this.isCapturing) {
-            if (this.level !== this.targetDepth) {
-                return;
-            }
-            this.isCapturing = true;
-            this.node = createEmptyNode('$root');
-            this.nodes = [];
-            this.record = undefined;
-        }
-        const child = createEmptyNode(name);
-        this.node.children.push(child);
-        if (Object.keys(attrs).length > 0) {
-            child._attrs = attrs;
-        }
-        this.nodes.push(this.node);
-        this.node = child;
-        if (this.level === this.targetDepth) {
-            this.record = this.node;
-        }
+        const parentNode = peek(this.stack);
+        const node = createEmptyNode(name, attrs, parentNode);
+        this.stack.push(node);
     }
     handleEndElement() {
-        this.level--;
-        const node = this.nodes.pop();
-        if (node !== undefined) {
-            this.node = node;
+        const node = this.stack.pop();
+        // we have reached the root node!
+        if (typeof node === 'undefined' || !node.parent) {
+            return this.emit("end");
         }
-        if (this.level === this.targetDepth - 1 && this.record !== undefined) {
-            this.isCapturing = false;
-            this.emit("record", this.record);
+        // emit all nodes on the first level
+        if (node.parent.isRoot) {
+            return this.emit("record", node);
         }
-        if (this.level === 0) {
-            this.emit("end");
-        }
+        // push children to the parent node
+        node.parent.children.push(node);
     }
     handleText(txt) {
-        if (!this.isCapturing) {
-            return;
-        }
-        if (txt.trim().length > 0) {
-            if (this.node._text === undefined) {
-                this.node._text = txt;
-            }
-            else {
-                this.node._text += txt;
-            }
+        const node = peek(this.stack); // peek
+        if (node) {
+            node._text = txt;
         }
     }
     resume() {
