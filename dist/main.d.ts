@@ -1,2 +1,2 @@
-import { DiscogsParser } from './DiscogsParser';
-export declare function createDiscogsParser(): DiscogsParser;
+export { Record, Release, Artist, Master, Label } from './Model';
+export { DiscogsParser } from './DiscogsParser';

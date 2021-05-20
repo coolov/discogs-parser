@@ -1,5 +1,11 @@
-import { DiscogsParser } from './DiscogsParser';
+export {
+    Record,
+    Release,
+    Artist,
+    Master,
+    Label
+} from './Model';
 
-export function createDiscogsParser() {
-    return new DiscogsParser();
-}
+export {
+    DiscogsParser
+} from './DiscogsParser';
