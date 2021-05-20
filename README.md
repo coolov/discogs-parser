@@ -1,6 +1,6 @@
 # discogs-parser
 
-The streaming parser implements a [Duplex interface](https://nodejs.org/api/stream.html#stream_duplex_and_transform_streams). Combine it with a pipe and the zlib module to read a compressed [data dump](http://data.discogs.com/) from disk or over the http.
+The streaming parser implements a [Duplex interface](https://nodejs.org/api/stream.html#stream_duplex_and_transform_streams). Combine it with a pipe and the zlib module to read a compressed [data dump](http://data.discogs.com/) from disk or over the http:
 
 ```javascript
 const zlib = require("zlib");
@@ -22,4 +22,29 @@ https.get(DISCOGS_DATA_URL, async (response) => {
 
   console.log("done!");
 });
+```
+
+You can also read the data dump from disk using fs module (and use TypeScript):
+
+```typescript
+import fs from "fs";
+import path from "path";
+import { Label, DiscogsParser } from "../main";
+
+const xmlFile = path.join(__dirname, "../../stubs/labels.xml");
+
+async function main() {
+  const discogsParser = new DiscogsParser<Label>();
+  const stream = fs.createReadStream(xmlFile).pipe(discogsParser);
+
+  for await (const label of stream) {
+    try {
+      console.log(label);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+}
+
+main();
 ```
