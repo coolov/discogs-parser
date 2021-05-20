@@ -5,7 +5,7 @@ The streaming parser implements a [Duplex interface](https://nodejs.org/api/stre
 ```javascript
 const zlib = require("zlib");
 const https = require("https");
-const { DiscogsParser } = require("./dist/main");
+const { DiscogsParser } = require("discogs-parser");
 
 // more info here http://data.discogs.com/
 const DISCOGS_DATA_URL =
@@ -29,7 +29,7 @@ You can also read the data dump from disk using fs module (and use TypeScript):
 ```typescript
 import fs from "fs";
 import path from "path";
-import { Label, DiscogsParser } from "../main";
+import { Label, DiscogsParser } from "discogs-parser";
 
 const xmlFile = path.join(__dirname, "../../stubs/labels.xml");
 
