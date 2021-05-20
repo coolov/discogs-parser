@@ -335,8 +335,9 @@ export interface Release extends Entity, BaseRelease {
 
 export function newRelease(node: XmlNode): Release {
     const fields = childrenToObject(node.children);
+
     return {
-        ...newEntity(fields, fields.id?.text, 'release'),
+        ...newEntity(fields, node.attrs.id, 'release'),
         ...newBaseRelease(fields),
         country: fields.country?.text || '',
         master_id: fields.master_id?.text || '',

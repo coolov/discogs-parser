@@ -170,7 +170,7 @@ function newReleaseTracklist(node) {
 function newRelease(node) {
     const fields = childrenToObject(node.children);
     return {
-        ...newEntity(fields, fields.id?.text, 'release'),
+        ...newEntity(fields, node.attrs.id, 'release'),
         ...newBaseRelease(fields),
         country: fields.country?.text || '',
         master_id: fields.master_id?.text || '',

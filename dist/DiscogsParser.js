@@ -23,7 +23,7 @@ class DiscogsParser extends stream_1.Duplex {
             }
             catch (err) {
                 // print error!!!
-                console.dir(record, { depth: 10 });
+                // console.dir(record, { depth: 10 });
                 this.emit("error", err);
             }
             // pause the parser if records start piling up
@@ -68,6 +68,9 @@ class DiscogsParser extends stream_1.Duplex {
             // wait for the first record and then read again
             this.parser.once("record", () => this._read());
         }
+    }
+    [Symbol.asyncIterator]() {
+        return super[Symbol.asyncIterator]();
     }
 }
 exports.DiscogsParser = DiscogsParser;

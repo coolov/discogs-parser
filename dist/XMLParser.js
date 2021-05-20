@@ -64,7 +64,7 @@ class XMLParser extends node_expat_1.default.Parser {
         node.parent.children.push(node);
     }
     handleText(txt) {
-        const node = peek(this.stack); // peek
+        const node = peek(this.stack);
         if (node) {
             node._text = txt;
         }

@@ -5,8 +5,8 @@ import { nodeToType, Record } from './Model';
 // Inspired by:
 // https://gist.github.com/FranckFreiburger/9af693b0432d7ee85d4e360e524551dc
 
-export class DiscogsParser extends Duplex {
-  records: (Record | null)[];
+export class DiscogsParser<T extends Record> extends Duplex {
+  records: (T | null)[];
   parser: XMLParser;
   constructor() {
     super({
@@ -21,10 +21,10 @@ export class DiscogsParser extends Duplex {
       // be consumed by the reader
       try {
         // transform the XML record to a DiscogsItem
-        this.records.push(nodeToType(record));
+        this.records.push(nodeToType(record) as T);
       } catch (err) {
         // print error!!!
-        console.dir(record, { depth: 10 });
+        // console.dir(record, { depth: 10 });
         this.emit("error", err);
       }
 
@@ -73,5 +73,9 @@ export class DiscogsParser extends Duplex {
       // wait for the first record and then read again
       this.parser.once("record", () => this._read());
     }
+  }
+
+  [Symbol.asyncIterator](): AsyncIterableIterator<T> {
+    return super[Symbol.asyncIterator]()
   }
 }
