@@ -1,30 +1,34 @@
 /*
  * Code based on node-big-xml
  * https://github.com/jahewson/node-big-xml
- * 
+ *
  * 1) node-expat does a depth first traversal of the XML-tree
- * 2) the assumption is that the xml file has a single root node, 
+ * 2) the assumption is that the xml file has a single root node,
  *    containing one long homegenous list of nodes
  * 3) the streaming parser will emit each child node in the list
  */
 import expat from "node-expat";
 
 interface keyval {
-  [key: string]: string | undefined
-};
-
-export interface XmlNode {
-  tag: string,
-  children: XmlNode[],
-  parent?: XmlNode,
-  _text?: string,
-  _attrs?: keyval,
-  attrs: keyval,
-  text: string,
-  isRoot: Boolean
+  [key: string]: string | undefined;
 }
 
-function createEmptyNode(tag: string, attrs: keyval, parent: XmlNode | undefined): XmlNode {
+export interface XmlNode {
+  tag: string;
+  children: XmlNode[];
+  parent?: XmlNode;
+  _text?: string;
+  _attrs?: keyval;
+  attrs: keyval;
+  text: string;
+  isRoot: Boolean;
+}
+
+function createEmptyNode(
+  tag: string,
+  attrs: keyval,
+  parent: XmlNode | undefined
+): XmlNode {
   return {
     tag,
     children: [],
@@ -37,9 +41,9 @@ function createEmptyNode(tag: string, attrs: keyval, parent: XmlNode | undefined
       return this._attrs || {};
     },
     get text() {
-      return this._text || '';
+      return this._text || "";
     },
-  }
+  };
 }
 
 function peek(stack: XmlNode[]): XmlNode | undefined {
@@ -67,7 +71,7 @@ export class XMLParser extends expat.Parser {
     const node = this.stack.pop();
 
     // we have reached the root node!
-    if (typeof node === 'undefined' || !node.parent) {
+    if (typeof node === "undefined" || !node.parent) {
       return this.emit("end");
     }
 

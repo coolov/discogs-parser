@@ -1,6 +1,6 @@
 import { Duplex } from "stream";
 import { XMLParser, XmlNode } from "./XMLParser";
-import { nodeToType, Record } from './Model';
+import { nodeToType, Record } from "./Model";
 
 // Inspired by:
 // https://gist.github.com/FranckFreiburger/9af693b0432d7ee85d4e360e524551dc
@@ -45,7 +45,11 @@ export class DiscogsParser<T extends Record> extends Duplex {
     });
   }
 
-  _write(chunk: any, encoding: BufferEncoding, callback: (error?: Error | null) => void) {
+  _write(
+    chunk: any,
+    encoding: BufferEncoding,
+    callback: (error?: Error | null) => void
+  ) {
     const ok = this.parser.parse(chunk);
     if (!ok) {
       // wait for the parser to resume
@@ -76,6 +80,6 @@ export class DiscogsParser<T extends Record> extends Duplex {
   }
 
   [Symbol.asyncIterator](): AsyncIterableIterator<T> {
-    return super[Symbol.asyncIterator]()
+    return super[Symbol.asyncIterator]();
   }
 }
