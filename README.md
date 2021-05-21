@@ -31,20 +31,17 @@ import fs from "fs";
 import path from "path";
 import { Label, DiscogsParser } from "discogs-parser";
 
-const xmlFile = path.join(__dirname, "../../stubs/labels.xml");
+const xmlFile = path.join(__dirname, "labels.xml");
 
-async function main() {
+async function parseLabels() {
   const discogsParser = new DiscogsParser<Label>();
+  const xmlFile = path.join(__dirname, "labels.xml");
   const stream = fs.createReadStream(xmlFile).pipe(discogsParser);
 
   for await (const label of stream) {
-    try {
-      console.log(label);
-    } catch (err) {
-      console.log(err);
-    }
+    console.log(label);
   }
 }
 
-main();
+parseLabels();
 ```
