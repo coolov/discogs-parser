@@ -1,6 +1,7 @@
 import { Duplex } from "stream";
 import { XMLParser, XmlNode } from "./XMLParser";
-import { nodeToType, Record } from "./Model";
+import { nodeToType } from "./Model";
+import { Record } from "./types";
 
 // Inspired by:
 // https://gist.github.com/FranckFreiburger/9af693b0432d7ee85d4e360e524551dc
@@ -79,7 +80,7 @@ export class DiscogsParser<T extends Record> extends Duplex {
     }
   }
 
-  [Symbol.asyncIterator](): AsyncIterableIterator<T> {
+  [Symbol.asyncIterator](): AsyncIterableIterator<T | null> {
     return super[Symbol.asyncIterator]();
   }
 }

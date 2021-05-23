@@ -14,7 +14,6 @@ exports.XMLParser = void 0;
  * 3) the streaming parser will emit each child node in the list
  */
 const node_expat_1 = __importDefault(require("node-expat"));
-;
 function createEmptyNode(tag, attrs, parent) {
     return {
         tag,
@@ -28,7 +27,7 @@ function createEmptyNode(tag, attrs, parent) {
             return this._attrs || {};
         },
         get text() {
-            return this._text || '';
+            return this._text || "";
         },
     };
 }
@@ -53,7 +52,7 @@ class XMLParser extends node_expat_1.default.Parser {
     handleEndElement() {
         const node = this.stack.pop();
         // we have reached the root node!
-        if (typeof node === 'undefined' || !node.parent) {
+        if (typeof node === "undefined" || !node.parent) {
             return this.emit("end");
         }
         // emit all nodes on the first level
