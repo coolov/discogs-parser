@@ -29,6 +29,14 @@ function createEmptyNode(tag, attrs, parent) {
         get text() {
             return this._text || "";
         },
+        appendText(txt) {
+            if (this._text === undefined) {
+                this._text = txt;
+            }
+            else {
+                this._text += txt;
+            }
+        },
     };
 }
 function peek(stack) {
@@ -64,18 +72,9 @@ class XMLParser extends node_expat_1.default.Parser {
     }
     handleText(txt) {
         const node = peek(this.stack);
-        if (node) {
-            if (node._text === undefined) {
-                node._text = txt;
-            }
-            else {
-                node._text += txt;
-            }
+        if (node && !node.isRoot) {
+            node.appendText(txt);
         }
-    }
-    resume() {
-        super.resume();
-        this.emit("resume");
     }
 }
 exports.XMLParser = XMLParser;

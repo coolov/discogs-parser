@@ -67,7 +67,7 @@ function newReleaseArtist(node: XmlNode): ReleaseArtist {
 
 function newBaseRelease(fields: XMLNodeMap): BaseRelease {
   return {
-    data_quality: fields.data_quality?.text || "",
+    dataQuality: fields.data_quality?.text || "",
     images: mapChildren(fields.images, newImage),
     notes: fields.notes?.text || "",
     title: fields.title?.text || "",
@@ -87,11 +87,11 @@ function newBaseRelease(fields: XMLNodeMap): BaseRelease {
 export function newMaster(node: XmlNode): Master {
   const fields = childrenToObject(node.children);
   return {
-    ...newBaseRelease(fields),
     id: node.attrs.id || "", // todo: fail if missing
     type: "master",
     main_release: fields.main_release?.text || "",
     year: fields.year?.text || "",
+    ...newBaseRelease(fields),
   };
 }
 
@@ -101,12 +101,12 @@ export function newRelease(node: XmlNode): Release {
     throw new Error("Id is missing!");
   }
   return {
-    ...newBaseRelease(fields),
     id: node.attrs.id || "", // todo: fail if missing
     type: "release",
     country: fields.country?.text || "",
-    master_id: fields.master_id?.text || "",
+    masterId: fields.master_id?.text || "",
     released: fields.released?.text || "",
+    ...newBaseRelease(fields),
     companies: mapChildren(fields.companies, (node, fields) => ({
       id: fields.id?.text || "",
       name: fields.name?.text || "",
@@ -152,7 +152,7 @@ export function newArtist(node: XmlNode): Artist {
   return {
     id: fields.id.text, // todo, fail if missing!
     type: "artist",
-    data_quality: fields.data_quality?.text || "",
+    dataQuality: fields.data_quality?.text || "",
     images: mapChildren(fields.images, newImage),
     name: fields.name?.text || "",
     profile: fields.profile?.text || "",
@@ -174,7 +174,7 @@ export function newLabel(node: XmlNode): Label {
   return {
     id: fields.id.text,
     type: "label",
-    data_quality: fields.data_quality?.text || "",
+    dataQuality: fields.data_quality?.text || "",
     images: mapChildren(fields.images, newImage),
     name: fields.name?.text || "",
     profile: fields.profile?.text || "",

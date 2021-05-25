@@ -1,6 +1,10 @@
 [
   {
-    "data_quality": "Correct",
+    "id": "113",
+    "type": "master",
+    "main_release": "116925",
+    "year": "2002",
+    "dataQuality": "Correct",
     "images": [
       {
         "type": "primary",
@@ -64,8 +68,13 @@
         "tracks": ""
       }
     ],
-    "genres": ["Electronic"],
-    "styles": ["Techno", "Tech House"],
+    "genres": [
+      "Electronic"
+    ],
+    "styles": [
+      "Techno",
+      "Tech House"
+    ],
     "videos": [
       {
         "src": "https://www.youtube.com/watch?v=9Vm2AcMdSoA",
@@ -158,14 +167,14 @@
         "title": "Vince Watson - A New Day [Ibadan Records, IRC046-2_11]",
         "description": "Title :: A New Day\nArtist :: Vince Watson\nCat. No :: IRC046-4_11\nLabel :: Ibadan Records\nBuy :: \n\nMore info on Ibadan Records: \nwww.music.ibadanrecords.com\nwww.facebook.com/ibadanrecords\nwww.instagram.com/ibadanrecords\nwww.soundcloud.com/ibadan\n\n© Ibadan"
       }
-    ],
-    "id": "113",
-    "type": "master",
-    "main_release": "116925",
-    "year": "2002"
+    ]
   },
   {
-    "data_quality": "Correct",
+    "id": "114",
+    "type": "master",
+    "main_release": "42056",
+    "year": "1999",
+    "dataQuality": "Correct",
     "images": [
       {
         "type": "primary",
@@ -229,8 +238,14 @@
         "tracks": ""
       }
     ],
-    "genres": ["Electronic"],
-    "styles": ["Deep House", "Tech House", "Techno"],
+    "genres": [
+      "Electronic"
+    ],
+    "styles": [
+      "Deep House",
+      "Tech House",
+      "Techno"
+    ],
     "videos": [
       {
         "src": "https://www.youtube.com/watch?v=ysZL7WrbYpE",
@@ -316,14 +331,14 @@
         "title": "Vince Watson - Astral Gruve",
         "description": "https://www.discogs.com/Vince-Watson-Biologique/master/114"
       }
-    ],
-    "id": "114",
-    "type": "master",
-    "main_release": "42056",
-    "year": "1999"
+    ]
   },
   {
-    "data_quality": "Correct",
+    "id": "115",
+    "type": "master",
+    "main_release": "336873",
+    "year": "2004",
+    "dataQuality": "Correct",
     "images": [
       {
         "type": "primary",
@@ -345,16 +360,21 @@
         "tracks": ""
       }
     ],
-    "genres": ["Electronic"],
-    "styles": ["IDM", "Electro"],
-    "videos": [],
-    "id": "115",
-    "type": "master",
-    "main_release": "336873",
-    "year": "2004"
+    "genres": [
+      "Electronic"
+    ],
+    "styles": [
+      "IDM",
+      "Electro"
+    ],
+    "videos": []
   },
   {
-    "data_quality": "Correct",
+    "id": "116",
+    "type": "master",
+    "main_release": "5415",
+    "year": "1997",
+    "dataQuality": "Correct",
     "images": [
       {
         "type": "secondary",
@@ -383,8 +403,12 @@
         "tracks": ""
       }
     ],
-    "genres": ["Electronic"],
-    "styles": ["Techno"],
+    "genres": [
+      "Electronic"
+    ],
+    "styles": [
+      "Techno"
+    ],
     "videos": [
       {
         "src": "https://www.youtube.com/watch?v=lmYrZZ97w58",
@@ -407,14 +431,14 @@
         "title": "Blue Arsed Fly - Big Ron (B2)",
         "description": "Blue Arsed Fly ‎– Knackered EP\nLabel: Tresor ‎– Tresor 60\nFormat: Vinyl, 12, EP, 33 ⅓ RPM \nCountry: Germany\nReleased: 13 Jan 1997\nGenre: Electronic\nStyle: Techno\n\nhttps://www.discogs.com/Blue-Arsed-Fly-Knackered-EP/release/5415"
       }
-    ],
-    "id": "116",
-    "type": "master",
-    "main_release": "5415",
-    "year": "1997"
+    ]
   },
   {
-    "data_quality": "Correct",
+    "id": "117",
+    "type": "master",
+    "main_release": "91899",
+    "year": "1999",
+    "dataQuality": "Correct",
     "images": [
       {
         "type": "primary",
@@ -464,8 +488,12 @@
         "tracks": ""
       }
     ],
-    "genres": ["Electronic"],
-    "styles": ["Progressive Trance"],
+    "genres": [
+      "Electronic"
+    ],
+    "styles": [
+      "Progressive Trance"
+    ],
     "videos": [
       {
         "src": "https://www.youtube.com/watch?v=vUCdm1W6RSc",
@@ -509,10 +537,6 @@
         "title": "Origin -- 'Wide Eyed Angel' (Club Wav Unico 9;33 Remix)",
         "description": "dirigido y producido por Roberto Cano Barcellos & Club Wav para Origin -2015 Remixes- 'Wide Eyed Angel' EP. bs-as - ARG\nMekanik Estudio\nMalfusion Records\nMFS25-03-2015\n\n01._: Origin - 'Wide Eyed Angel' (Roberto Cano Remix)  11:33\n02._: Origin - 'Wide Eyed"
       }
-    ],
-    "id": "117",
-    "type": "master",
-    "main_release": "91899",
-    "year": "1999"
+    ]
   }
 ]

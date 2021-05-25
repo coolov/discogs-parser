@@ -2,7 +2,7 @@
   {
     "id": "1",
     "type": "artist",
-    "data_quality": "Needs Vote",
+    "dataQuality": "Needs Vote",
     "images": [
       {
         "type": "primary",
@@ -21,7 +21,9 @@
     ],
     "name": "The Persuader",
     "profile": "",
-    "urls": ["https://en.wikipedia.org/wiki/Jesper_Dahlbäck"],
+    "urls": [
+      "https://en.wikipedia.org/wiki/Jesper_Dahlbäck"
+    ],
     "aliases": [
       "Jesper Dahlbäck",
       "Groove Machine",
@@ -32,13 +34,16 @@
       "The Pinguin Man"
     ],
     "groups": [],
-    "namevariations": ["Persuader", "The Presuader"],
+    "namevariations": [
+      "Persuader",
+      "The Presuader"
+    ],
     "realname": "Jesper Dahlbäck"
   },
   {
     "id": "2",
     "type": "artist",
-    "data_quality": "Correct",
+    "dataQuality": "Correct",
     "images": [],
     "name": "Mr. James Barth & A.D.",
     "profile": "",
@@ -62,7 +67,7 @@
   {
     "id": "3",
     "type": "artist",
-    "data_quality": "Needs Vote",
+    "dataQuality": "Needs Vote",
     "images": [
       {
         "type": "primary",
@@ -153,7 +158,13 @@
       "http://www.whosampled.com/Josh-Wink",
       "http://www.youtube.com/user/JoshWinkVEVO"
     ],
-    "aliases": ["Size 9", "The Crusher", "Dinky Dog", "Accent (3)", "J. Dawg"],
+    "aliases": [
+      "Size 9",
+      "The Crusher",
+      "Dinky Dog",
+      "Accent (3)",
+      "J. Dawg"
+    ],
     "groups": [
       "E-Culture",
       "Abundance Of Cups",
@@ -198,7 +209,7 @@
   {
     "id": "4",
     "type": "artist",
-    "data_quality": "Needs Vote",
+    "dataQuality": "Needs Vote",
     "images": [
       {
         "type": "primary",
@@ -293,7 +304,7 @@
   {
     "id": "5",
     "type": "artist",
-    "data_quality": "Needs Vote",
+    "dataQuality": "Needs Vote",
     "images": [
       {
         "type": "primary",
@@ -346,7 +357,13 @@
       "http://www.soundcloud.com/heikolaux",
       "http://www.myspace.com/heikolaux"
     ],
-    "aliases": ["Goldwave", "Apathism", "Toko", "X-Rated Angels", "HLX"],
+    "aliases": [
+      "Goldwave",
+      "Apathism",
+      "Toko",
+      "X-Rated Angels",
+      "HLX"
+    ],
     "groups": [
       "Orange 25",
       "Total Planet Refreshment",
@@ -360,7 +377,13 @@
       "Offshore Funk",
       "4K (3)"
     ],
-    "namevariations": ["220", "H. Laux", "H.Laux", "Heiko", "Laux"],
+    "namevariations": [
+      "220",
+      "H. Laux",
+      "H.Laux",
+      "Heiko",
+      "Laux"
+    ],
     "realname": "Heiko Laux"
   }
 ]

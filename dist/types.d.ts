@@ -14,7 +14,7 @@ export interface ReleaseArtist {
     tracks: string;
 }
 export interface BaseRelease {
-    data_quality: string;
+    dataQuality: string;
     images: Image[];
     notes: string;
     title: string;
@@ -38,10 +38,10 @@ export interface Master extends BaseRelease {
 export interface Release extends BaseRelease {
     id: string;
     type: string;
-    data_quality: string;
+    dataQuality: string;
     images: Image[];
     country: string;
-    master_id: string;
+    masterId: string;
     released: string;
     extraartists: ReleaseArtist[];
     companies: {
@@ -79,7 +79,7 @@ export interface Release extends BaseRelease {
 export interface Artist {
     id: string;
     type: string;
-    data_quality: string;
+    dataQuality: string;
     images: Image[];
     name: string;
     profile: string;
@@ -92,7 +92,7 @@ export interface Artist {
 export interface Label {
     id: string;
     type: string;
-    data_quality: string;
+    dataQuality: string;
     images: Image[];
     name: string;
     profile: string;

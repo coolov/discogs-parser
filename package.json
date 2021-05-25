@@ -13,7 +13,7 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "example": "tsc && node example.js",
+    "example": "tsc && 0x -o example.js",
     "build": "tsc"
   }
 }

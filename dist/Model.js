@@ -41,7 +41,7 @@ function newReleaseArtist(node) {
 }
 function newBaseRelease(fields) {
     return {
-        data_quality: fields.data_quality?.text || "",
+        dataQuality: fields.data_quality?.text || "",
         images: mapChildren(fields.images, newImage),
         notes: fields.notes?.text || "",
         title: fields.title?.text || "",
@@ -60,11 +60,11 @@ function newBaseRelease(fields) {
 function newMaster(node) {
     const fields = childrenToObject(node.children);
     return {
-        ...newBaseRelease(fields),
         id: node.attrs.id || "",
         type: "master",
         main_release: fields.main_release?.text || "",
         year: fields.year?.text || "",
+        ...newBaseRelease(fields),
     };
 }
 exports.newMaster = newMaster;
@@ -74,12 +74,12 @@ function newRelease(node) {
         throw new Error("Id is missing!");
     }
     return {
-        ...newBaseRelease(fields),
         id: node.attrs.id || "",
         type: "release",
         country: fields.country?.text || "",
-        master_id: fields.master_id?.text || "",
+        masterId: fields.master_id?.text || "",
         released: fields.released?.text || "",
+        ...newBaseRelease(fields),
         companies: mapChildren(fields.companies, (node, fields) => ({
             id: fields.id?.text || "",
             name: fields.name?.text || "",
@@ -123,7 +123,7 @@ function newArtist(node) {
     return {
         id: fields.id.text,
         type: "artist",
-        data_quality: fields.data_quality?.text || "",
+        dataQuality: fields.data_quality?.text || "",
         images: mapChildren(fields.images, newImage),
         name: fields.name?.text || "",
         profile: fields.profile?.text || "",
@@ -145,7 +145,7 @@ function newLabel(node) {
     return {
         id: fields.id.text,
         type: "label",
-        data_quality: fields.data_quality?.text || "",
+        dataQuality: fields.data_quality?.text || "",
         images: mapChildren(fields.images, newImage),
         name: fields.name?.text || "",
         profile: fields.profile?.text || "",

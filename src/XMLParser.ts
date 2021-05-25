@@ -22,6 +22,7 @@ export interface XmlNode {
   attrs: keyval;
   text: string;
   isRoot: Boolean;
+  appendText: (str: string) => void;
 }
 
 function createEmptyNode(
@@ -42,6 +43,13 @@ function createEmptyNode(
     },
     get text() {
       return this._text || "";
+    },
+    appendText(txt) {
+      if (this._text === undefined) {
+        this._text = txt;
+      } else {
+        this._text += txt;
+      }
     },
   };
 }
@@ -86,17 +94,9 @@ export class XMLParser extends expat.Parser {
 
   handleText(txt: string) {
     const node = peek(this.stack);
-    if (node) {
-      if (node._text === undefined) {
-        node._text = txt;
-      } else {
-        node._text += txt;
-      }
-    }
-  }
 
-  resume() {
-    super.resume();
-    this.emit("resume");
+    if (node && !node.isRoot) {
+      node.appendText(txt);
+    }
   }
 }
