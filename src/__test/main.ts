@@ -3,8 +3,11 @@ import path from "path";
 import https from "https";
 import { IncomingMessage } from "http";
 import zlib from "zlib";
+import assert from "assert";
 
-import { Label, DiscogsParser } from "../main";
+import { Label, Record, createDiscogsParser } from "../main";
+
+const STUBS_DIR = path.join(__dirname, "../../stubs/");
 
 function get(url: string): Promise<IncomingMessage> {
   return new Promise((resolve, reject) => {
@@ -15,54 +18,65 @@ function get(url: string): Promise<IncomingMessage> {
 }
 
 async function fromDisk() {
-  const xmlFile = path.join(__dirname, "../../stubs/labels.xml");
+  const xmlFile = path.join(STUBS_DIR, "labels.xml");
 
-  const discogsParser = new DiscogsParser<Label>();
-  const stream = fs.createReadStream(xmlFile).pipe(discogsParser);
+  const discogsStream = createDiscogsParser<Label>(
+    fs.createReadStream(xmlFile)
+  );
 
-  for await (const label of stream) {
-    try {
-      console.log(label);
-    } catch (err) {
-      console.log(err);
-    }
+  for await (const label of discogsStream) {
+    return;
   }
 }
 
-async function fiveFromNetwork(type: string) {
+async function takeFromNetwork<T extends Record>(type: string, count: number) {
   const httpStream = await get(
     `https://discogs-data.s3-us-west-2.amazonaws.com/data/2021/discogs_20210501_${type}.xml.gz`
   );
+  const readStream = httpStream.pipe(zlib.createGunzip());
+  const discogsStream = createDiscogsParser<T>(readStream);
 
-  const discogsParser = new DiscogsParser<Label>();
-  const unzip = zlib.createGunzip();
-  const stream = httpStream.pipe(unzip).pipe(discogsParser);
-
-  // console.log("push");
+  const items: T[] = [];
   let i = 0;
-  const list = [];
-  for await (const label of stream) {
-    try {
-      list.push(label);
-      if (i++ > 5) {
-        stream.destroy();
-      }
-    } catch (err) {
-      console.log(err);
+  for await (const chunk of discogsStream) {
+    items.push(chunk);
+    if (++i === count) {
+      break;
     }
   }
 
-  return list;
+  // fs.writeFileSync(
+  //   path.join(STUBS_DIR, `5-${type}.json`),
+  //   JSON.stringify(items)
+  // );
+
+  const snapshot = fs
+    .readFileSync(path.join(STUBS_DIR, `5-${type}.json`))
+    .toString();
+
+  JSON.parse(snapshot).forEach((snap: Record, i: number) => {
+    const item: Record = items[i];
+    try {
+      console.log("Comparing snapshots for type: " + type);
+      assert.deepStrictEqual(item, snap);
+    } catch (err) {
+      console.log("snapshots do not match for: " + type);
+      console.log(err);
+    }
+  });
+
+  return items;
 }
 
 async function main() {
-  // fromDisk();
-  try {
-    const res = await fiveFromNetwork("labels");
-    console.log("bang");
-    console.log(res);
-  } catch (err) {
-    console.log("ming");
+  let t = new Date().getTime();
+  for (let i = 0; i < 10; i++) {
+    await Promise.all([
+      takeFromNetwork("labels", 5),
+      takeFromNetwork("artists", 5),
+      takeFromNetwork("masters", 5),
+      takeFromNetwork("releases", 5),
+    ]);
   }
 }
 

@@ -87,7 +87,11 @@ export class XMLParser extends expat.Parser {
   handleText(txt: string) {
     const node = peek(this.stack);
     if (node) {
-      node._text = txt;
+      if (node._text === undefined) {
+        node._text = txt;
+      } else {
+        node._text += txt;
+      }
     }
   }
 

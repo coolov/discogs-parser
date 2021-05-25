@@ -1,0 +1,214 @@
+[
+  {
+    "id": "1",
+    "type": "label",
+    "data_quality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "132",
+        "height": "24"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "587",
+        "height": "126"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "196"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "275",
+        "height": "121"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "382",
+        "height": "720"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "398"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "189"
+      }
+    ],
+    "name": "Planet E",
+    "profile": "[a=Carl Craig]'s classic techno label founded in 1991.\r\n\r\nOn at least 1 release, Planet E is listed as publisher.",
+    "urls": [
+      "http://planet-e.net",
+      "http://planetecommunications.bandcamp.com",
+      "http://www.facebook.com/planetedetroit",
+      "http://www.flickr.com/photos/planetedetroit",
+      "http://plus.google.com/100841702106447505236",
+      "http://www.instagram.com/carlcraignet",
+      "http://myspace.com/planetecom",
+      "http://myspace.com/planetedetroit",
+      "http://soundcloud.com/planetedetroit",
+      "http://twitter.com/planetedetroit",
+      "http://vimeo.com/user1265384",
+      "http://en.wikipedia.org/wiki/Planet_E_Communications",
+      "http://www.youtube.com/user/planetedetroit"
+    ],
+    "contactinfo": "Planet E Communications\r\nP.O. Box 27218\r\nDetroit, Michigan, MI 48227\r\nUSA\r\n\r\nPhone: +1 313 874 8729\r\nFax: +1 313 874 8732\r\nEmail: info@Planet-e.net",
+    "parentLabelId": "",
+    "parentLabelName": "",
+    "sublabels": [
+      { "id": "86537", "name": "Antidote (4)" },
+      { "id": "41841", "name": "Community Projects" },
+      { "id": "153760", "name": "Guilty Pleasures" },
+      { "id": "31405", "name": "I Ner Zon Sounds" },
+      { "id": "277579", "name": "Planet E Communications" },
+      { "id": "294738", "name": "Planet E Communications, Inc." },
+      { "id": "1560615", "name": "Planet E Productions" },
+      { "id": "488315", "name": "TWPENTY" }
+    ]
+  },
+  {
+    "id": "2",
+    "type": "label",
+    "data_quality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "567",
+        "height": "575"
+      }
+    ],
+    "name": "Earthtones Recordings",
+    "profile": "California deep house label founded by [a=Jamie Thinnes]. Now defunct and continued as [l=Seasons Recordings].",
+    "urls": ["http://www.seasonsrecordings.com/"],
+    "contactinfo": "Seasons Recordings\r\n2236 Pacific Avenue\r\nSuite D\r\nCosta Mesa, CA  92627\r\n\r\ntel: +1.949.574.5255\r\nfax: +1.949.574.0255\r\n\r\nemail: jthinnes@seasonsrecordings.com\r\n",
+    "parentLabelId": "",
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": "3",
+    "type": "label",
+    "data_quality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "152"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "152"
+      }
+    ],
+    "name": "Seasons Recordings",
+    "profile": "California deep-house label founded by [a=Jamie Thinnes]. \r\nThe first ten records were released on [l=Earthtones Recordings].\r\n",
+    "urls": ["http://www.seasonsrecordings.com"],
+    "contactinfo": "Seasons Recordings\r\nCosta Mesa, CA 92627\r\n\r\nOwner / Jamie Thinnes\r\n\r\nTel 714-206-6146\r\n\r\njthinnes@seasonsrecordings.com\r\ninfo@seasonsrecordings.com\r\n",
+    "parentLabelId": "",
+    "parentLabelName": "",
+    "sublabels": [
+      { "id": "297127", "name": "Seasons Classics" },
+      { "id": "66542", "name": "Seasons Limited" }
+    ]
+  },
+  {
+    "id": "4",
+    "type": "label",
+    "data_quality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "280",
+        "height": "128"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "277",
+        "height": "40"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "233",
+        "height": "344"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "500"
+      }
+    ],
+    "name": "Siesta Music",
+    "profile": "",
+    "urls": [
+      "www.siestarecords.com",
+      "http://www.facebook.com/pages/Siesta-Records-Gear/154910143836?sk=app_167097993346860",
+      "http://soundcloud.com/siestarecords",
+      "https://twitter.com/siestarecords",
+      "http://www.myspace.com/siestarecords"
+    ],
+    "contactinfo": "Siesta Records\r\n1913 Via Encantadoras\r\nSan Diego, CA 92173\r\n\r\nphone 619.789.7793\r\n\r\ninfo@siestarecords.com\r\n",
+    "parentLabelId": "",
+    "parentLabelName": "",
+    "sublabels": [
+      { "id": "20284", "name": "Bella Recordings" },
+      { "id": "3545", "name": "Bluem Recordings" },
+      { "id": "4786", "name": "Moezee Muzik" },
+      { "id": "615201", "name": "Siesta Records (2)" }
+    ]
+  },
+  {
+    "id": "5",
+    "type": "label",
+    "data_quality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "337"
+      }
+    ],
+    "name": "Svek",
+    "profile": "",
+    "urls": [],
+    "contactinfo": "Svek office \r\nStephan Grieder \r\nFax: +46 (8) 50621292 \r\n   \r\nAddress: Stephan Grieder, Lodgatan 2, 114 30 Stockholm, Sweden\n",
+    "parentLabelId": "4711",
+    "parentLabelName": "Goldhead Music",
+    "sublabels": [{ "id": "2437", "name": "Birdy" }]
+  }
+]

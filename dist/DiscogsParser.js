@@ -33,9 +33,6 @@ class DiscogsParser extends stream_1.Duplex {
         });
         this.parser.on("error", (err) => this.emit("error", err));
         this.once("finish", () => this.parser.end());
-        this.on("error", () => {
-            console.log("KLOSE");
-        });
         // handle end of stream
         this.parser.on("end", () => {
             // send null record to terminate the read stream
@@ -55,7 +52,6 @@ class DiscogsParser extends stream_1.Duplex {
         }
     }
     _destroy(err) {
-        console.log("DESTROY");
         this.parser.destroy();
     }
     _read() {
