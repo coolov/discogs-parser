@@ -54,10 +54,10 @@ async function takeFromNetwork<T extends Record>(type: string, count: number) {
     .readFileSync(path.join(STUBS_DIR, `5-${type}.json`))
     .toString();
 
+  console.log("Comparing snapshots for type: " + type);
   JSON.parse(snapshot).forEach((snap: Record, i: number) => {
     const item: Record = items[i];
     try {
-      console.log("Comparing snapshots for type: " + type);
       assert.deepStrictEqual(item, snap);
     } catch (err) {
       console.log("snapshots do not match for: " + type);
@@ -69,15 +69,12 @@ async function takeFromNetwork<T extends Record>(type: string, count: number) {
 }
 
 async function main() {
-  let t = new Date().getTime();
-  for (let i = 0; i < 10; i++) {
-    await Promise.all([
-      takeFromNetwork("labels", 5),
-      takeFromNetwork("artists", 5),
-      takeFromNetwork("masters", 5),
-      takeFromNetwork("releases", 5),
-    ]);
-  }
+  await Promise.all([
+    takeFromNetwork("labels", 5),
+    takeFromNetwork("artists", 5),
+    takeFromNetwork("masters", 5),
+    takeFromNetwork("releases", 5),
+  ]);
 }
 
 main().catch((err) => {

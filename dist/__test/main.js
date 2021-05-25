@@ -43,10 +43,10 @@ async function takeFromNetwork(type, count) {
     const snapshot = fs_1.default
         .readFileSync(path_1.default.join(STUBS_DIR, `5-${type}.json`))
         .toString();
+    console.log("Comparing snapshots for type: " + type);
     JSON.parse(snapshot).forEach((snap, i) => {
         const item = items[i];
         try {
-            console.log("Comparing snapshots for type: " + type);
             assert_1.default.deepStrictEqual(item, snap);
         }
         catch (err) {
@@ -57,15 +57,12 @@ async function takeFromNetwork(type, count) {
     return items;
 }
 async function main() {
-    let t = new Date().getTime();
-    for (let i = 0; i < 10; i++) {
-        await Promise.all([
-            takeFromNetwork("labels", 5),
-            takeFromNetwork("artists", 5),
-            takeFromNetwork("masters", 5),
-            takeFromNetwork("releases", 5),
-        ]);
-    }
+    await Promise.all([
+        takeFromNetwork("labels", 5),
+        takeFromNetwork("artists", 5),
+        takeFromNetwork("masters", 5),
+        takeFromNetwork("releases", 5),
+    ]);
 }
 main().catch((err) => {
     console.error(err);
