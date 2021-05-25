@@ -1,6 +1,6 @@
 # discogs-parser
 
-The streaming parser implements a [Duplex interface](https://nodejs.org/api/stream.html#stream_duplex_and_transform_streams). Combine it with a pipe and the zlib module to read a compressed [data dump](http://data.discogs.com/) from disk or over the http:
+The streaming parser takes a read stream and returns an async iterator
 
 ```javascript
 const zlib = require("zlib");
