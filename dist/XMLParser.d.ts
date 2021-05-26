@@ -11,6 +11,7 @@ export interface XmlNode {
     attrs: keyval;
     text: string;
     isRoot: Boolean;
+    appendText: (str: string) => void;
 }
 export declare class XMLParser extends expat.Parser {
     stack: XmlNode[];
@@ -18,6 +19,5 @@ export declare class XMLParser extends expat.Parser {
     handleStartElement(name: string, attrs: any): void;
     handleEndElement(): boolean | undefined;
     handleText(txt: string): void;
-    resume(): void;
 }
 export {};

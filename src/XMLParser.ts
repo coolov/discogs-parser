@@ -1,10 +1,8 @@
 /*
- * Code based on node-big-xml
- * https://github.com/jahewson/node-big-xml
- *
  * 1) node-expat does a depth first traversal of the XML-tree
  * 2) the assumption is that the xml file has a single root node,
- *    containing one long homegenous list of nodes
+ *    containing one long homegenous list of child nodes
+ *    (e.g. artist, release, label, master)
  * 3) the streaming parser will emit each child node in the list
  */
 import expat from "node-expat";
@@ -22,6 +20,7 @@ export interface XmlNode {
   attrs: keyval;
   text: string;
   isRoot: Boolean;
+  appendText: (str: string) => void;
 }
 
 function createEmptyNode(
@@ -42,6 +41,13 @@ function createEmptyNode(
     },
     get text() {
       return this._text || "";
+    },
+    appendText(txt) {
+      if (this._text === undefined) {
+        this._text = txt;
+      } else {
+        this._text += txt;
+      }
     },
   };
 }
@@ -80,19 +86,20 @@ export class XMLParser extends expat.Parser {
       return this.emit("record", node);
     }
 
+    // remove unnescessary whitespace from text node
+    if (typeof node._text === "string") {
+      node._text = node._text.trim();
+    }
+
     // push children to the parent node
     node.parent.children.push(node);
   }
 
   handleText(txt: string) {
     const node = peek(this.stack);
-    if (node) {
-      node._text = txt;
-    }
-  }
 
-  resume() {
-    super.resume();
-    this.emit("resume");
+    if (node && !node.isRoot) {
+      node.appendText(txt);
+    }
   }
 }

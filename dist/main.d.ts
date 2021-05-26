@@ -1,2 +1,2 @@
-export { Record, Release, Artist, Master, Label } from './Model';
-export { DiscogsParser } from './DiscogsParser';
+export { Record, Release, Artist, Master, Label } from "./types";
+export { createDiscogsParser } from "./createDiscogsParser";
