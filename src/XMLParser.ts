@@ -88,6 +88,11 @@ export class XMLParser extends expat.Parser {
       return this.emit("record", node);
     }
 
+    // remove unnescessary whitespace from text node
+    if (typeof node._text === "string") {
+      node._text = node._text.trim();
+    }
+
     // push children to the parent node
     node.parent.children.push(node);
   }

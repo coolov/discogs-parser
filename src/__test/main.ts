@@ -45,10 +45,11 @@ async function takeFromNetwork<T extends Record>(type: string, count: number) {
     }
   }
 
-  fs.writeFileSync(
-    path.join(STUBS_DIR, `snap-${type}.json`),
-    JSON.stringify(items, null, 2)
-  );
+  // uncomment to update snapshot
+  // fs.writeFileSync(
+  //   path.join(STUBS_DIR, `snap-${type}.json`),
+  //   JSON.stringify(items, null, 2)
+  // );
 
   const snapshot = fs
     .readFileSync(path.join(STUBS_DIR, `snap-${type}.json`))

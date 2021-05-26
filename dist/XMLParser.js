@@ -67,6 +67,10 @@ class XMLParser extends node_expat_1.default.Parser {
         if (node.parent.isRoot) {
             return this.emit("record", node);
         }
+        // remove unnescessary whitespace from text node
+        if (typeof node._text === "string") {
+            node._text = node._text.trim();
+        }
         // push children to the parent node
         node.parent.children.push(node);
     }

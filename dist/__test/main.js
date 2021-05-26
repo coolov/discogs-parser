@@ -36,7 +36,11 @@ async function takeFromNetwork(type, count) {
             break;
         }
     }
-    fs_1.default.writeFileSync(path_1.default.join(STUBS_DIR, `snap-${type}.json`), JSON.stringify(items, null, 2));
+    // uncomment to update snapshot
+    // fs.writeFileSync(
+    //   path.join(STUBS_DIR, `snap-${type}.json`),
+    //   JSON.stringify(items, null, 2)
+    // );
     const snapshot = fs_1.default
         .readFileSync(path_1.default.join(STUBS_DIR, `snap-${type}.json`))
         .toString();
