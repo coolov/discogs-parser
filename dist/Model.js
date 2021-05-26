@@ -50,8 +50,8 @@ function newBaseRelease(fields) {
         styles: mapChildren(fields.styles, (node) => node.text),
         videos: mapChildren(fields.videos, (node, fields) => ({
             src: node.attrs.src || "",
-            duration: node.attrs.duration || "",
-            embed: node.attrs.embed || "",
+            duration: node.attrs.duration ? parseInt(node.attrs.duration) : null,
+            embed: node.attrs.embed === "true",
             title: fields.title?.text || "",
             description: fields.description?.text || "",
         })),

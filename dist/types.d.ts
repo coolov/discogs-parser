@@ -23,8 +23,8 @@ export interface BaseRelease {
     styles: string[];
     videos: {
         src: string;
-        duration: string;
-        embed: string;
+        duration: number | null;
+        embed: boolean;
         title: string;
         description: string;
     }[];
