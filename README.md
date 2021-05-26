@@ -23,7 +23,7 @@ https.get(DISCOGS_DATA_URL, async (response) => {
 });
 ```
 
-You can also read the data dump from disk using fs module (and use TypeScript):
+You can also read the data dump from disk using fs module (and TypeScript):
 
 ```typescript
 import fs from "fs";
