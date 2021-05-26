@@ -113,4 +113,4 @@ export interface Label {
   }[];
 }
 
-export type Record = Release | Master | Artist | Label;
+export type DiscogsItem = Release | Master | Artist | Label;

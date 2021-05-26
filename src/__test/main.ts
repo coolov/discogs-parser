@@ -5,7 +5,7 @@ import { IncomingMessage } from "http";
 import zlib from "zlib";
 import assert from "assert";
 
-import { Label, Record, createDiscogsParser } from "../main";
+import { Label, DiscogsItem, createDiscogsParser } from "../main";
 
 const STUBS_DIR = path.join(__dirname, "../../stubs/");
 
@@ -29,7 +29,10 @@ async function fromDisk() {
   }
 }
 
-async function takeFromNetwork<T extends Record>(type: string, count: number) {
+async function takeFromNetwork<T extends DiscogsItem>(
+  type: string,
+  count: number
+) {
   const httpStream = await get(
     `https://discogs-data.s3-us-west-2.amazonaws.com/data/2021/discogs_20210501_${type}.xml.gz`
   );
@@ -56,8 +59,8 @@ async function takeFromNetwork<T extends Record>(type: string, count: number) {
     .toString();
 
   console.log("Comparing snapshots for type: " + type);
-  JSON.parse(snapshot).forEach((snap: Record, i: number) => {
-    const item: Record = items[i];
+  JSON.parse(snapshot).forEach((snap: DiscogsItem, i: number) => {
+    const item: DiscogsItem = items[i];
     try {
       assert.deepStrictEqual(item, snap);
     } catch (err) {

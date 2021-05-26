@@ -4,7 +4,7 @@ import {
   Label,
   Release,
   Master,
-  Record,
+  DiscogsItem,
   Image,
   ReleaseArtist,
   BaseRelease,
@@ -203,7 +203,7 @@ export function newLabel(node: XmlNode): Label {
   };
 }
 
-export function nodeToType(node: XmlNode): Record {
+export function nodeToType(node: XmlNode): DiscogsItem {
   switch (node.tag) {
     case "label":
       return newLabel(node);

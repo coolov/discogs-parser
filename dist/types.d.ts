@@ -105,4 +105,4 @@ export interface Label {
         labelName: string;
     }[];
 }
-export declare type Record = Release | Master | Artist | Label;
+export declare type DiscogsItem = Release | Master | Artist | Label;

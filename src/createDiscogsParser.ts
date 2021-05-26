@@ -1,9 +1,9 @@
 import { XMLParser, XmlNode } from "./XMLParser";
 import { Readable } from "stream";
-import { Record } from "./types";
+import { DiscogsItem } from "./types";
 import { nodeToType } from "./nodeToType";
 
-export async function* createDiscogsParser<T extends Record>(
+export async function* createDiscogsParser<T extends DiscogsItem>(
   readStream: Readable
 ) {
   const parser = new XMLParser();
