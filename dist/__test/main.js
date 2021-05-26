@@ -36,9 +36,9 @@ async function takeFromNetwork(type, count) {
             break;
         }
     }
-    fs_1.default.writeFileSync(path_1.default.join(STUBS_DIR, `5-${type}.json`), JSON.stringify(items, null, 2));
+    fs_1.default.writeFileSync(path_1.default.join(STUBS_DIR, `snap-${type}.json`), JSON.stringify(items, null, 2));
     const snapshot = fs_1.default
-        .readFileSync(path_1.default.join(STUBS_DIR, `5-${type}.json`))
+        .readFileSync(path_1.default.join(STUBS_DIR, `snap-${type}.json`))
         .toString();
     console.log("Comparing snapshots for type: " + type);
     JSON.parse(snapshot).forEach((snap, i) => {
@@ -55,10 +55,10 @@ async function takeFromNetwork(type, count) {
 }
 async function main() {
     await Promise.all([
-        takeFromNetwork("labels", 5),
-        takeFromNetwork("artists", 5),
-        takeFromNetwork("masters", 5),
-        takeFromNetwork("releases", 5),
+        takeFromNetwork("labels", 100),
+        takeFromNetwork("artists", 100),
+        takeFromNetwork("masters", 100),
+        takeFromNetwork("releases", 100),
     ]);
 }
 main().catch((err) => {

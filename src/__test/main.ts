@@ -46,12 +46,12 @@ async function takeFromNetwork<T extends Record>(type: string, count: number) {
   }
 
   fs.writeFileSync(
-    path.join(STUBS_DIR, `5-${type}.json`),
+    path.join(STUBS_DIR, `snap-${type}.json`),
     JSON.stringify(items, null, 2)
   );
 
   const snapshot = fs
-    .readFileSync(path.join(STUBS_DIR, `5-${type}.json`))
+    .readFileSync(path.join(STUBS_DIR, `snap-${type}.json`))
     .toString();
 
   console.log("Comparing snapshots for type: " + type);
@@ -70,10 +70,10 @@ async function takeFromNetwork<T extends Record>(type: string, count: number) {
 
 async function main() {
   await Promise.all([
-    takeFromNetwork("labels", 5),
-    takeFromNetwork("artists", 5),
-    takeFromNetwork("masters", 5),
-    takeFromNetwork("releases", 5),
+    takeFromNetwork("labels", 100),
+    takeFromNetwork("artists", 100),
+    takeFromNetwork("masters", 100),
+    takeFromNetwork("releases", 100),
   ]);
 }
 

@@ -1,0 +1,4369 @@
+[
+  {
+    "id": 1,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "132",
+        "height": "24"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "587",
+        "height": "126"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "196"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "275",
+        "height": "121"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "382",
+        "height": "720"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "398"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "189"
+      }
+    ],
+    "name": "Planet E",
+    "profile": "[a=Carl Craig]'s classic techno label founded in 1991.\r\n\r\nOn at least 1 release, Planet E is listed as publisher.",
+    "urls": [
+      "http://planet-e.net",
+      "http://planetecommunications.bandcamp.com",
+      "http://www.facebook.com/planetedetroit",
+      "http://www.flickr.com/photos/planetedetroit",
+      "http://plus.google.com/100841702106447505236",
+      "http://www.instagram.com/carlcraignet",
+      "http://myspace.com/planetecom",
+      "http://myspace.com/planetedetroit",
+      "http://soundcloud.com/planetedetroit",
+      "http://twitter.com/planetedetroit",
+      "http://vimeo.com/user1265384",
+      "http://en.wikipedia.org/wiki/Planet_E_Communications",
+      "http://www.youtube.com/user/planetedetroit"
+    ],
+    "contactInfo": "Planet E Communications\r\nP.O. Box 27218\r\nDetroit, Michigan, MI 48227\r\nUSA\r\n\r\nPhone: +1 313 874 8729\r\nFax: +1 313 874 8732\r\nEmail: info@Planet-e.net",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 86537,
+        "labelName": "Antidote (4)"
+      },
+      {
+        "labelId": 41841,
+        "labelName": "Community Projects"
+      },
+      {
+        "labelId": 153760,
+        "labelName": "Guilty Pleasures"
+      },
+      {
+        "labelId": 31405,
+        "labelName": "I Ner Zon Sounds"
+      },
+      {
+        "labelId": 277579,
+        "labelName": "Planet E Communications"
+      },
+      {
+        "labelId": 294738,
+        "labelName": "Planet E Communications, Inc."
+      },
+      {
+        "labelId": 1560615,
+        "labelName": "Planet E Productions"
+      },
+      {
+        "labelId": 488315,
+        "labelName": "TWPENTY"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "567",
+        "height": "575"
+      }
+    ],
+    "name": "Earthtones Recordings",
+    "profile": "California deep house label founded by [a=Jamie Thinnes]. Now defunct and continued as [l=Seasons Recordings].",
+    "urls": [
+      "http://www.seasonsrecordings.com/"
+    ],
+    "contactInfo": "Seasons Recordings\r\n2236 Pacific Avenue\r\nSuite D\r\nCosta Mesa, CA  92627\r\n\r\ntel: +1.949.574.5255\r\nfax: +1.949.574.0255\r\n\r\nemail: jthinnes@seasonsrecordings.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 3,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "152"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "152"
+      }
+    ],
+    "name": "Seasons Recordings",
+    "profile": "California deep-house label founded by [a=Jamie Thinnes]. \r\nThe first ten records were released on [l=Earthtones Recordings].\r\n",
+    "urls": [
+      "http://www.seasonsrecordings.com"
+    ],
+    "contactInfo": "Seasons Recordings\r\nCosta Mesa, CA 92627\r\n\r\nOwner / Jamie Thinnes\r\n\r\nTel 714-206-6146\r\n\r\njthinnes@seasonsrecordings.com\r\ninfo@seasonsrecordings.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 297127,
+        "labelName": "Seasons Classics"
+      },
+      {
+        "labelId": 66542,
+        "labelName": "Seasons Limited"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "280",
+        "height": "128"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "277",
+        "height": "40"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "233",
+        "height": "344"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "500"
+      }
+    ],
+    "name": "Siesta Music",
+    "profile": "",
+    "urls": [
+      "www.siestarecords.com",
+      "http://www.facebook.com/pages/Siesta-Records-Gear/154910143836?sk=app_167097993346860",
+      "http://soundcloud.com/siestarecords",
+      "https://twitter.com/siestarecords",
+      "http://www.myspace.com/siestarecords"
+    ],
+    "contactInfo": "Siesta Records\r\n1913 Via Encantadoras\r\nSan Diego, CA 92173\r\n\r\nphone 619.789.7793\r\n\r\ninfo@siestarecords.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 20284,
+        "labelName": "Bella Recordings"
+      },
+      {
+        "labelId": 3545,
+        "labelName": "Bluem Recordings"
+      },
+      {
+        "labelId": 4786,
+        "labelName": "Moezee Muzik"
+      },
+      {
+        "labelId": 615201,
+        "labelName": "Siesta Records (2)"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "337"
+      }
+    ],
+    "name": "Svek",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "Svek office \r\nStephan Grieder \r\nFax: +46 (8) 50621292 \r\n   \r\nAddress: Stephan Grieder, Lodgatan 2, 114 30 Stockholm, Sweden\n",
+    "parentLabelId": 4711,
+    "parentLabelName": "Goldhead Music",
+    "sublabels": [
+      {
+        "labelId": 2437,
+        "labelName": "Birdy"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "469",
+        "height": "503"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "352",
+        "height": "413"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "250",
+        "height": "169"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "150"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "548",
+        "height": "79"
+      }
+    ],
+    "name": "Ruffhouse Records",
+    "profile": "Founded in 1989 by Chris Schwartz and Philadelphia hip-hop engineer and producer Joe \"The Butcher\" Nicolo as a joint venture with Columbia Records. Early releases were marketed by [l=Enigma Records (3)]. Artists included Cypress Hill, Kriss Kross, The Fugees and Lauryn Hill.\r\n\r\nIn 1999, Schwartz and Nicolo stopped the label. Schwartz and Kevon Glickman continued with RuffNation Records; Nicolo continued with Judgement Records. The label was relaunched in July 2012.\r\n\r\n",
+    "urls": [
+      "https://en.wikipedia.org/wiki/Ruffhouse_Records"
+    ],
+    "contactInfo": "",
+    "parentLabelId": 1866,
+    "parentLabelName": "Columbia",
+    "sublabels": [
+      {
+        "labelId": 13738,
+        "labelName": "Rufflife UK Ltd."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "201",
+        "height": "64"
+      }
+    ],
+    "name": "F-111 Records",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "75 Rockerfeller Plaza\r\nNew York, NY 10019-6908\r\nUSA\r\n",
+    "parentLabelId": 1000,
+    "parentLabelName": "Warner Bros. Records",
+    "sublabels": [
+      {
+        "labelId": 3864,
+        "labelName": "Higher Education"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "97"
+      }
+    ],
+    "name": "Rather Interesting",
+    "profile": "R.I. was founded in 1994 by [a=Uwe Schmidt].\r\n\r\nIn a 2002 [url=http://www.barcodezine.com/Peter%20Namlook%20Interview.html]interview[/url] with FAX founder [a=Pete Namlook] he stated \"Rather Interesting is and always was a sub-label of FAX\".\r\n\r\n[a=Uwe Schmidt] announced in 2012 that Rather Interesting would no longer continue due to the untimely passing of [a=Pete Namlook].\r\n\r\nLabelcode [b]LC 6269[/b]\r\n",
+    "urls": [
+      "http://music.hyperreal.org/labels/rather_interesting/",
+      "http://www.atom-tm.com"
+    ],
+    "contactInfo": "",
+    "parentLabelId": 60,
+    "parentLabelName": "Fax +49-69/450464",
+    "sublabels": [
+      {
+        "labelId": 307275,
+        "labelName": "Rather Interesting Classics"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "342",
+        "height": "295"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "212",
+        "height": "300"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "390",
+        "height": "333"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "366",
+        "height": "294"
+      }
+    ],
+    "name": "Deep4Life",
+    "profile": "Electronic music with emphasis on deep house label from Chicago, USA. Started in October 1998 by [a=Chris Gray] with the first release arriving in Spring 1999.",
+    "urls": [
+      "http://www.deep4life.com"
+    ],
+    "contactInfo": "Deep4Life Recordings\r\nP.O. Box 10146, Chicago Il 60610.\r\nPhone / Fax: (773) 878-5260 \r\nE-mail: deep4life@deep4life.com ",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 10,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "109"
+      }
+    ],
+    "name": "Naked Music Recordings",
+    "profile": "Run by [a=Jay Denes] & [a=David Boonshoft].",
+    "urls": [
+      "http://www.naked-music.com",
+      "http://www.facebook.com/Naked-Music-240513752731765",
+      "http://www.myspace.com/nakedmusicsf",
+      "http://www.youtube.com/channel/UCUODSYtgdAtbb_h-bCD5vaw"
+    ],
+    "contactInfo": "Naked Music NYC Recordings \r\n4663 18th Street\r\nSan Francisco, CA, 94114\r\n\r\nbruno@naked-music.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 793832,
+        "labelName": "Naked Music Classics"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "337"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "397",
+        "height": "261"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "92"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "289",
+        "height": "141"
+      }
+    ],
+    "name": "Large Records",
+    "profile": "Chicago house label founded in 1993 by [a=Jeff Craven] with [a=Gregg Dickson] who also initially founded [l=8th Bar] and [l=Swing Street]. The first incarnation of the Large logo, with the upturned A, was designed by [a=Lil' John Coleman], then buyer at Loop Records in Chicago and the producer responsible for the label's initial release. The label is owned by Jeff Craven and based in Chicago.\r\nLabel rebranded as [l=Large Music] in the 2000s.",
+    "urls": [
+      "http://www.largemusicglobal.com",
+      "http://www.largemusic.com/~largemus/cgi-bin/cart.cgi/index.html",
+      "http://largemusic.bandcamp.com",
+      "http://www.facebook.com/largemusic",
+      "http://www.instagram.com/largemusic",
+      "http://largemusic.podomatic.com",
+      "http://www.soundcloud.com/large-music",
+      "http://twitter.com/largemusic",
+      "http://www.youtube.com/user/LargeMusicChicago"
+    ],
+    "contactInfo": "2519 N California Ave\r\nChicago, IL 60647 \r\nUnited States (USA)\r\n\r\n[b]Phone:[/b] +1 (773) 862-0073\r\n[b]Fax:[/b] +1 (773) 862-0589\r\n\r\n[url=mailto:info@largemusic.com]info@largemusic.com[/url]",
+    "parentLabelId": 380335,
+    "parentLabelName": "Large Music, LLC",
+    "sublabels": [
+      {
+        "labelId": 597655,
+        "labelName": "8th Bar"
+      },
+      {
+        "labelId": 143550,
+        "labelName": "Swing Street"
+      },
+      {
+        "labelId": 1828,
+        "labelName": "Vista Recordings"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      }
+    ],
+    "name": "Glasgow Underground",
+    "profile": "Glasgow Underground was set up in 1997 by [a=Kevin McKay]. He began the label releasing his own music and collaborations with friends and other Glasgow-based artists ([url=https://www.discogs.com/artist/2046-16B?filter_anv=1&anv=Omid+16B]Omid 16B[/url], [a441], [a447], [a4054]). Through his DJing and work for various music magazines (Muzik, Jockey Slut, Mixmag Update) he met some of his favourite producers of the time ([a2583], [a77], [a170413], et al) and convinced some of them to join him releasing on GU. \r\n\r\nIn the early 2000s, Kevin met [a=Mylo] and set up the [l=Breastfed Recordings] label. The global success of the \"[m53063]\" release, meant Glasgow Underground was put on hold. After leaving the Breastfed label in 2011, Kevin re-started Glasgow Underground and since then the label has gone on to re-invigorate Romanthony's catalogue with remixes from the likes of [a4492], [a970905], [a3221], [a1095], [a408185], [a2432212], [a506574], [a2605338], [a3513068], [a50620], [a52501], and [a2293268]. \r\n\r\nThe label has also introduced producers like [a2836171], [a1137042], [a1921483], and [a4482463] as well has releasing established and rising stars such as [a1547806], [a1254764], and [a1100914]. ",
+    "urls": [
+      "http://www.glasgowunderground.com",
+      "http://www.facebook.com/glasgowunderground",
+      "http://www.instagram.com/glasgowunderground",
+      "http://soundcloud.com/glasgowunderground",
+      "http://twitter.com/kevinmckay",
+      "http://www.youtube.com/glasgowunderground"
+    ],
+    "contactInfo": "contact@glasgowunderground.com \r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 318209,
+        "labelName": "Glasgow Underground Music"
+      },
+      {
+        "labelId": 282060,
+        "labelName": "Glasgow Underground Recordings"
+      },
+      {
+        "labelId": 4200,
+        "labelName": "Muzique Tropique"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "342",
+        "height": "296"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "66",
+        "height": "46"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "157",
+        "height": "142"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "512",
+        "height": "380"
+      }
+    ],
+    "name": "F Communications",
+    "profile": "French techno label, founded in 1994 by [a=Eric Morand] and [a=Laurent Garnier] as a successor of [l=Fnac Music Dance Division], 'After E comes F'\r\n\r\n[b]Label Code: LC 01347[/b]\r\n",
+    "urls": [
+      "https://web.archive.org/web/*/http://www.fcom.fr",
+      "http://fr.fcom25.fr",
+      "http://www.dailymotion.com/fcom",
+      "http://www.instagram.com/fcom25/",
+      "http://www.myspace.com/fcom",
+      "http://soundcloud.com/fcommunications",
+      "http://www.youtube.com/user/fcommunications"
+    ],
+    "contactInfo": "F Communications \r\n8, rue André Messager\r\n75018 Paris - France\r\n\r\nPhone: +33 1 47 707 808 \r\nFax: +33 1 47 707 606 \r\nE-mail: info@fcom.fr\r\n\r\n[reference only; valid in 1998]\r\n11, rue de Clichy\r\n75009 Paris\r\n\r\nPhone 33 1 49 706 707\r\nFax 33 1 44 630 717\r\nMobile (33) 607 62 85 62\r\n\r\n[reference only; valid in 1999]\r\n20/22 rue Richer\r\n75009 Paris\r\n\r\nE-Mail: fcom@wanadoo.fr\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 1815920,
+        "labelName": "F Communications 25 Years"
+      },
+      {
+        "labelId": 33023,
+        "labelName": "F... U! FCOM"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "300"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "150"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "250",
+        "height": "44"
+      }
+    ],
+    "name": "20:20 Vision",
+    "profile": "20/20 Vision \r\n\r\nAn eclectic selection of electronic music \r\n\r\nfounder - Ralph Lawson\r\nlocation - Leeds, UK\r\n\r\nOn some releases the label appears as 2020Vision or 20:20 Vision or 2020 Vision Recordings ",
+    "urls": [
+      "http://www.2020recordings.com",
+      "https://2020vision.bandcamp.com",
+      "http://www.facebook.com/2020VisionRecordings",
+      "http://www.instagram.com/2020vision_recordings",
+      "http://www.myspace.com/2020soundsystem",
+      "http://soundcloud.com/2020visionrecordings",
+      "http://2020visiontour.tumblr.com",
+      "http://twitter.com/2020Visionlabel",
+      "http://www.youtube.com/user/2020recordings"
+    ],
+    "contactInfo": "General enquiries: info@2020recordings.com\r\nLicensing enquiries: info@2020recordings.com\r\n\r\n\r\n",
+    "parentLabelId": 396938,
+    "parentLabelName": "2020Vision Recordings Ltd.",
+    "sublabels": [
+      {
+        "labelId": 34355,
+        "labelName": ".dotbleep"
+      },
+      {
+        "labelId": 877,
+        "labelName": "20:20 D Vision"
+      },
+      {
+        "labelId": 42848,
+        "labelName": "20:20 Vintage Visions"
+      },
+      {
+        "labelId": 1554782,
+        "labelName": "20:20 Vision Limited Series"
+      },
+      {
+        "labelId": 1500231,
+        "labelName": "20:20 Vision Recordings"
+      },
+      {
+        "labelId": 416207,
+        "labelName": "2020 Midnight Visions"
+      },
+      {
+        "labelId": 30709,
+        "labelName": "Doublevision (2)"
+      },
+      {
+        "labelId": 44463,
+        "labelName": "Infant Records"
+      },
+      {
+        "labelId": 29641,
+        "labelName": "Nono Records (2)"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "196",
+        "height": "196"
+      }
+    ],
+    "name": "Sepia",
+    "profile": "Run by Johnny Dankworth and Cleo Laine as the label for their company Repertoire Records Ltd.\r\n\r\nFor reissues of remastered musicals etc please use [l=Sepia Records (2)]",
+    "urls": [],
+    "contactInfo": "3 Stockwell Lane, Wavendon, Milton Keynes (Renowned live music venue \"The Stables\" is at this address)",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 18,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "583"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "591",
+        "height": "592"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "599"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "405",
+        "height": "399"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "250",
+        "height": "251"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "320",
+        "height": "320"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "154",
+        "height": "138"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "502"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "568"
+      }
+    ],
+    "name": "Soma Quality Recordings",
+    "profile": "Founded in 1991 by [a=Dave Clarke (7)] & [a=Slam] Soma Quality Recordings is a successful UK electronic label which has been releasing tracks in the house/tech-house/techno vein; [a=Daft Punk]'s debut releases were on Soma and the label roster includes artists like Slam, Funk D'Void, H-Foundation, Percy X and many more.\r\nThe company behind the label is [l270709].\r\nThe publishing entities are [l295038], and, since 2002, [l=SPG Publishing UK Ltd]\r\nLC 12668\r\n\r\nName variations as found on this profile:\r\n- Soma Quality Recordings\r\n- Soma Records\r\n- Soma Recordings - England\r\n",
+    "urls": [
+      "http://www.somarecords.com/",
+      "http://www.facebook.com/SomaRecords",
+      "http://plus.google.com/u/0/+OfficialSomaRecords",
+      "http://www.myspace.com/somarecords",
+      "http://soundcloud.com/soma",
+      "http://twitter.com/SomaRecords",
+      "http://www.youtube.com/user/OfficialSomaRecords",
+      "https://soma-records.bandcamp.com"
+    ],
+    "contactInfo": "Soma Quality Recordings Ltd,\r\n2nd Floor,\r\n342 Argyle Street,\r\nGlasgow\r\nG2 8LY\r\n\r\nTel: +44 (0) 141 229 6220\r\nFax: +44 (0) 141 226 4383\r\nEmail: info@somarecords.com",
+    "parentLabelId": 270709,
+    "parentLabelName": "Soma Recordings Ltd.",
+    "sublabels": [
+      {
+        "labelId": 646,
+        "labelName": "Fenetik Music"
+      },
+      {
+        "labelId": 4133,
+        "labelName": "Fifth Freedom"
+      },
+      {
+        "labelId": 127392,
+        "labelName": "Paragraph"
+      },
+      {
+        "labelId": 57766,
+        "labelName": "Pnuma"
+      },
+      {
+        "labelId": 995826,
+        "labelName": "Soma Track Series"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "260",
+        "height": "60"
+      },
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "115",
+        "height": "35"
+      }
+    ],
+    "name": "Track Mode",
+    "profile": "American house label, based in Brooklyn, New York City, New York, USA. \r\n",
+    "urls": [],
+    "contactInfo": "Track Mode Recordings \r\n1170 Union Street \r\nBrooklyn \r\nNew York City \r\nNew York 11225 \r\nUSA \r\n\r\ntel: +1 718-771-9413 \r\nfax: +1 718-771-9415 \r\nbrett@trackmode.com \r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 379236,
+        "labelName": "TMR Classics"
+      },
+      {
+        "labelId": 417286,
+        "labelName": "TMR Essentials"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "130",
+        "height": "130"
+      }
+    ],
+    "name": "Moody Recordings",
+    "profile": "Moody Recordings",
+    "urls": [
+      "http://www.mixconnection.com",
+      "http://www.facebook.com/pages/Moody-Recordings/150030428496885?ref=stream"
+    ],
+    "contactInfo": "",
+    "parentLabelId": 4146,
+    "parentLabelName": "Mix Connection Multimedia",
+    "sublabels": []
+  },
+  {
+    "id": 21,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "389",
+        "height": "403"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "108",
+        "height": "89"
+      }
+    ],
+    "name": "Drop Music",
+    "profile": "UK based house label, home to The Inland Knights.",
+    "urls": [
+      "http://www.dropmusic.co.uk/"
+    ],
+    "contactInfo": "Tel.: +44 (0) 115 8770 658\r\nFax:  +44 (0) 786 645 8436\r\n\r\ninfo@dropmusic.co.uk\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 87408,
+        "labelName": "Raise Recordings"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "200"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "353",
+        "height": "166"
+      }
+    ],
+    "name": "Dope Dragon",
+    "profile": "Drum n Bass, Jungle label based in Bristol, UK.\r\nYears active 1995-2006, now defunct.\n",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": 119,
+    "parentLabelName": "Full Cycle Records",
+    "sublabels": []
+  },
+  {
+    "id": 23,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "325",
+        "height": "150"
+      }
+    ],
+    "name": "Grayhound Recordings",
+    "profile": "Grayhound Recordings was a pioneering dance label, whose unique vision was to fuse elements of House, Dub, Techno and Psychedelic Funk. The first five releases in 1998 were co-productions from DJ Garth of San Francisco's  Wicked Crew who owns and runs the imprint. Grayhound was an off-shoot of the short-lived Wicked Records project whose memorable hit was DJ Garth & ETI's 'Twenty Minutes of Disco Glory' from 1996.\r\n\r\nThe label went on to expand it's roster including a stable of like-minded artists: Rocket (Garth & Eric James), DJ Garth & ETI, Crosstown Traffic (Garth & Rob Doten), Michoacan, Garth & Markie Mark, Jeno, DJ Harvey, Stranger (Ben Cook), Nectar, DJ Rasoul, Doc Martin, Dano & Joeski, Rob Paine, Defenders of the Faith, Mirror Boys (Thomas Bullock), Perry Farrell, Community Recordings, EBE, Audio Soul Project, Nick Chacona, Joshua Collins, Patrick Turner, Charles Spencer, Succulent & Mayaku. \r\n\r\nOver a ten year period Grayhound released 54 vinyl singles. There were three compilation CDs culled from the catalogue and mixed by Garth.\r\n\r\nVinyl was mastered by George Horn at Fantasy Studios in Berkeley, CA with artwork from James Bates at Atom Design in London.\r\n\r\nGarth's tracks have been featured in two films: Sony Music's 'Groove' and Gus Van Sant's 'Speedway Junky'. Grayhound songs have been licensed in dozens of high profile DJ compilation mix CDs.\r\n",
+    "urls": [],
+    "contactInfo": "Grayhound Recordings\r\n\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 24,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      }
+    ],
+    "name": "Immigrant",
+    "profile": "Immigrant Records was founded in 1998 in California by British DJ/Producer [a=Robin Porter] and has since released 40+ releases from 75+ international artists on vinyl, CD and digital formats. The label now operates from Manchester, UK. The sound of the label was shaped in the early 90's by established artists such as John Tejada, Casey Hogan, Alexi Delano and Kenneth Graham and Jamie Anderson, who laid the foundation for new talent to emerge - artists such as Subb-an, Jamie Jones  Maetrik, Lucas Rodenbush, Noah Pred, John Dahlback, Todd Bodine, Franklin De Costa, Jens Bond, Felipe Venegas, Jay Bliss, Mihai Popoviciu and Santos Resiak to name a few.",
+    "urls": [
+      "http://www.weareimmigrant.com",
+      "http://www.beatport.com/label/immigrant-records/604",
+      "http://www.facebook.com/pages/Immigrant-Records/36685556008",
+      "https://soundcloud.com/weareimmigrant",
+      "https://twitter.com/weareimmigrant",
+      "http://www.residentadvisor.net/record-label.aspx?id=904",
+      "http://instagram.com/weareimmigrant",
+      "https://www.youtube.com/channel/UCMB91KcDX8tQyyP1lFYZDKQ",
+      "https://uk.pinterest.com/immigrant0267/",
+      "https://www.mixcloud.com/weareimmigrant/"
+    ],
+    "contactInfo": "info@iweareimmigrant.com",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 72187,
+        "labelName": "Immigrant Digital"
+      },
+      {
+        "labelId": 10186,
+        "labelName": "Shva Muzik"
+      },
+      {
+        "labelId": 21705,
+        "labelName": "Traxstars"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "257"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "298",
+        "height": "108"
+      }
+    ],
+    "name": "Mixer",
+    "profile": "Mixer (The Future Sound Of America). \r\n\r\nUS-based electronic music magazine, run by UK parent company, [l=DMC], who also release the similar \"[l=Mixmag]\" magazine in the UK. \r\n",
+    "urls": [
+      "http://www.mixermag.com"
+    ],
+    "contactInfo": "Mixer Presents\r\n213 West 35th Street, Suite 402\r\nNew York, NY 10001\r\nUSA",
+    "parentLabelId": 4243,
+    "parentLabelName": "DMC",
+    "sublabels": []
+  },
+  {
+    "id": 26,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "167"
+      }
+    ],
+    "name": "Intrinsic Design",
+    "profile": "Now part of [l=Rhythmic] Distribution",
+    "urls": [
+      "http://www.rhythmicnyc.com"
+    ],
+    "contactInfo": "Rhythmic Distribution \r\n40 Exchange Pl. Suite 1718 \r\nNew York, NY 10005 \r\n(p) 212.232.6066 \r\n(f) 212.232.6068 \r\nmike@rhythmicnyc.com\r\n",
+    "parentLabelId": 11598,
+    "parentLabelName": "UCMG New York",
+    "sublabels": []
+  },
+  {
+    "id": 27,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "225",
+        "height": "225"
+      }
+    ],
+    "name": "Leaf Recordings",
+    "profile": "Founded in 1996 by [a=DJ Buck], along with Little T and Graham Boothby.",
+    "urls": [
+      "http://www.techno.ca/leafrecordings/"
+    ],
+    "contactInfo": "125a-1030 Denman St.\r\nVancouver, BC\r\nCANADA\r\nV6G 2M6\r\n\r\nPhone: 604-878-1640\r\nFax: 604-687-7445\r\nEmail: contact@leafrecordings.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 11026,
+        "labelName": "Village Sound"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "588",
+        "height": "276"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "594",
+        "height": "293"
+      }
+    ],
+    "name": "Deep Vision Records",
+    "profile": "",
+    "urls": [
+      "http://www.facebook.com/deepvisionz",
+      "http://www.youtube.com/channel/UClgf9c6MO0d9A4zvwxXnthA"
+    ],
+    "contactInfo": "1639 Mountain Ave Scotch Plains\r\nNJ 07076\r\nFax 908.490.0196\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 13604,
+        "labelName": "Aurei Records"
+      },
+      {
+        "labelId": 899981,
+        "labelName": "Deep Visionz Recordings Inc"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "75"
+      }
+    ],
+    "name": "Recline",
+    "profile": "Deep tech-house label owned by DJ/producer [a=Pete Moss] in Philadelphia, US.\r\n\r\nFor publishing, please use [l=Recline Music]\r\nFor recording, engineering, etc., please use [l=The Recline Center]",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 30,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "460",
+        "height": "63"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "271",
+        "height": "116"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "281",
+        "height": "133"
+      }
+    ],
+    "name": "Palette Recordings",
+    "profile": "California (USA) Palette Recordings was started by [a=John Tejada] in the fall of 1996. It was set up as an outlet to release his own work. Many years later it has become the primary label to release Tejada's work.",
+    "urls": [
+      "http://www.paletterecordings.com"
+    ],
+    "contactInfo": "[url=mailto:info@paletterecordings.com]info@paletterecordings.com[/url]\r\nTel. : +1 818 892 1354",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 314115,
+        "labelName": "Parallax Muzik"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "347"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "347"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "191",
+        "height": "73"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "170",
+        "height": "63"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "130",
+        "height": "130"
+      }
+    ],
+    "name": "Mosaic",
+    "profile": "founded and run by [a=Steve O'Sullivan]",
+    "urls": [
+      "https://steveosullivan-mosaicrecords.bandcamp.com/",
+      "https://soundcloud.com/stephenos1",
+      "https://www.facebook.com/wisecaucasian"
+    ],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 3351,
+        "labelName": "Bluespirit"
+      },
+      {
+        "labelId": 3383,
+        "labelName": "Bluetrain"
+      },
+      {
+        "labelId": 5773,
+        "labelName": "Echo Motif"
+      },
+      {
+        "labelId": 7417,
+        "labelName": "Green/As It Is"
+      },
+      {
+        "labelId": 2018634,
+        "labelName": "Mosaic DTL"
+      },
+      {
+        "labelId": 390786,
+        "labelName": "Red Label (5)"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "225"
+      }
+    ],
+    "name": "Worship Recordings",
+    "profile": "Worship Recordings was established in the summer of 1998 in Philadelphia by Rob Paine. The concept was simple at first: they just wanted to put out their own music their own way. After the first few releases it became clear that they had dropped in on a genre of house music that has slowly but surely come to fruition, now being labeled by the massive as \"dub house\". They knew they were not the first to use the influence of Jamaican reggae music as a foundation for their house productions, but they definitely wanted to continue to push it to new heights in both the house community and progressive reggae scene. \r\n\r\nWhat started out as an in-house production label, Worship soon started to sign like- minded artists such as: Garth, Chris Udoh, Pete Moss, Solomonic Sound, Hakan Lidbo, Jay Tripwire and Grant Dell- just to name a few. Some Worship releases are more dub than house and vice versa - but all releases are pure quality. From the music’s production quality to the legendary KLH art work and right down to the packaging, Worship Recordings is never slacking. They continue to explore new methods of using reggae and house music side by side to reach lovers of both sounds and to unite them in the dance hall as ONE.",
+    "urls": [
+      "http://www.worshiprecs.com"
+    ],
+    "contactInfo": "Worship Recordings\r\nPhiladelphia, PA\r\n\r\nPhone: 215.971.4554\r\n\r\nE-mail: info@worshiprecs.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 51594,
+        "labelName": "Shakedown Recordings"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "type": "label",
+    "dataQuality": "Complete and Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "166"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "360",
+        "height": "104"
+      }
+    ],
+    "name": "Statra Recordings",
+    "profile": "Statra Recordings is the well-respected independent record label founded by Brooklyn native Dave Tomaselli back in April of 1999. The label was created to help distinguish electronic music in full-length album form from its short-lived often-unrecognized cousin the 12 club record. Statra is one of those always present but under the radar record labels that focuses on quality over quantity. \r\n\r\nStatra quickly set the benchmark for electronic labels in the US with its unconventional A&R style and the infamous compilation series Harry The Bastard Presents - Club H. A succession of innovative and highly coveted albums from artist like Jeff Sharel, Denver McCarthy, Charles Webster, and the 2000 label compilation Statras Paradigm Shift quickly propelled Statra onto the international stage. The labels releases were often referred to as timeless, future classic, and even brilliant. \r\n\r\nWith the creation of the vinyl only sub-labels STATRA TWELVES (Deep & Tech House), STATRAVEL (Leftfield & Down-Tempo), and STATRAX, the collaboration label formed with world-renowned DJ & producer Victor Calderone, Statra continues to find success both on and off the dance floor. \r\n\r\nStatras catalog is distributed in the US by A.D.A., Fusion 3 in Canada, Amato in UK, and is available online at most digital download retailers via IODA. \r\n\r\nStatra artists include: Harry The Bastard, Jeff Sharel, Lypid, Denver McCarthy, Nu Mood Orchestra, Chris J, Charles Webster, Astrid Suryanto, J.Axel, Mr. Velcro Fastener, Victor Calderone, Stacy Burket, Alexi Delano, Nick Chacona, Jussi Pekka, and James Geche. \r\n\r\nStatra Recordings: Commercially Unmolested Since April 1999.\n",
+    "urls": [
+      "http://www.statra.com"
+    ],
+    "contactInfo": "Statra Recordings\r\n8225 5th Ave # 441\r\nBrooklyn, New York 11209\r\n\r\nt: 718.858.5858 f.718.858.2280\r\nf: 718.858.2280\r\ne: music@statra.com\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 20416,
+        "labelName": "Pool Party"
+      },
+      {
+        "labelId": 335913,
+        "labelName": "Statra Chewins"
+      },
+      {
+        "labelId": 731645,
+        "labelName": "Statra Inc."
+      },
+      {
+        "labelId": 427093,
+        "labelName": "Statra, Inc."
+      },
+      {
+        "labelId": 50678,
+        "labelName": "Statravel"
+      },
+      {
+        "labelId": 12810,
+        "labelName": "Statrax"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "83",
+        "height": "84"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "164",
+        "height": "56"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "362",
+        "height": "157"
+      }
+    ],
+    "name": "Ovum Recordings",
+    "profile": "House label from Philadelphia, PA, USA. Founded in 1994 by [a=Josh Wink] and [a=King Britt]. [a=Matt Brookman] was in charge of A&R. \r\n\r\nLabel signed a worldwide distribution deal with [l=Sony] in 1996.",
+    "urls": [
+      "http://www.ovum-rec.com",
+      "http://www.ovumrecordings.com",
+      "http://ovumrecordings.bandcamp.com",
+      "http://www.facebook.com/OvumRecordings",
+      "http://www.flickr.com/photos/ovumrecordings",
+      "http://instagram.com/ovumrecordings",
+      "http://www.last.fm/label/Ovum+Recordings",
+      "http://myspace.com/ovumrecordings",
+      "http://soundcloud.com/ovumrecordings",
+      "http://twitter.com/ovumrecordings",
+      "http://en.wikipedia.org/wiki/Ovum_Recordings",
+      "http://www.youtube.com/user/ovumrecordings"
+    ],
+    "contactInfo": "Ovum Recordings,\r\n1528 Walnut St.\r\n#202\r\nPhila, PA. 19102 USA\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 365662,
+        "labelName": "Ovum Music Publishing"
+      },
+      {
+        "labelId": 671864,
+        "labelName": "Ovum Recordings Inc."
+      },
+      {
+        "labelId": 318551,
+        "labelName": "Ovum Sound Studios"
+      },
+      {
+        "labelId": 295039,
+        "labelName": "Ovum Studios"
+      },
+      {
+        "labelId": 457333,
+        "labelName": "Ovum Studios North"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "160",
+        "height": "81"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "472"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "382"
+      }
+    ],
+    "name": "End Recordings",
+    "profile": "From December 1995 The End flew the flag for underground dance music in London. It has had unparalleled growth over three years with residencies from the worlds finest DJ's in all musical genres. Founded by Mr C and Layo Paskin, The End was also the birthplace of End Recordings. The labels' output can be broadly defined as representing the new hybrid sounds, which mould together techno, house and breakbeat. The End closed the doors for one last time on 24th January 2009.\r\n\r\nIt’s was The End of The End as we know it… \n",
+    "urls": [
+      "http://www.endclub.com",
+      "http://www.endrecordings.co.uk"
+    ],
+    "contactInfo": "End Recordings\r\n18 West Central Street\r\nLondon WC1A 1JJ UK\r\n\r\nTel: +44 (0)20 7419 9199 \r\nFax: +44 (0)20 7419 9099 \r\nE-mail: ryan@endclub.com\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 37,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "250",
+        "height": "250"
+      }
+    ],
+    "name": "Zebra Recordings",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 38,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      }
+    ],
+    "name": "Metro Trax Records",
+    "profile": "",
+    "urls": [
+      "http://www.facebook.com/metrotrax",
+      "http://www.mixcloud.com/metrotrax",
+      "http://soundcloud.com/metrotrax",
+      "http://twitter.com/metrotrax",
+      "http://www.youtube.com/channel/UCEwrPElHlV47XA2lpBSctLw"
+    ],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 39,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "359"
+      }
+    ],
+    "name": "i! Records",
+    "profile": "[b] I Records | irecords | I! Records[/b]\r\nHouse and Garage label from Newark, New Jersey (US).\r\nFounded in 1993 by [a=George Calle] and [a=Joseph Ventola].",
+    "urls": [
+      "http://www.irecordings.com",
+      "http://www.facebook.com/theirecordsmusic",
+      "http://myspace.com/irecordingsusa",
+      "http://soundcloud.com/irecordings",
+      "http://twitter.com/IRecords",
+      "http://www.youtube.com/user/IRecordingsUSA"
+    ],
+    "contactInfo": "P.O. Box 1231\r\nClifton\r\nNJ 07012\r\nUSA\r\n\r\nTel: 973-837-9840\r\nFax: 973-837-9841\r\nEmail: info@irecordings.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 39671,
+        "labelName": "6-4"
+      },
+      {
+        "labelId": 78464,
+        "labelName": "Cronic Records"
+      },
+      {
+        "labelId": 14198,
+        "labelName": "Evenup"
+      },
+      {
+        "labelId": 20547,
+        "labelName": "FNS Records"
+      },
+      {
+        "labelId": 676147,
+        "labelName": "i! Black Label"
+      },
+      {
+        "labelId": 1100915,
+        "labelName": "i! Records Classics"
+      },
+      {
+        "labelId": 58634,
+        "labelName": "i2 Records"
+      },
+      {
+        "labelId": 10195,
+        "labelName": "Plate"
+      },
+      {
+        "labelId": 35150,
+        "labelName": "Yield"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "33"
+      }
+    ],
+    "name": "Loaded Records",
+    "profile": "Started by DJs and club promoters [a=Tim Jeffery] & [a=JC Reid] in 1990, the philosphy of the label was that, as in life, variety is the spice. It quickly established itself as one of the leading UK house labels with classic tracks by Plez, Wildchild, Luke Slater and Ramp.\r\n\r\n[a=Andy Mac] was the label manager.\r\n\r\nSuccess in the mid Nineties came with artists like Pizzaman and Slacker, more recently they have consolidated themselves as one of the most consistent UK house labels with releases from Soul Grabber, Annie, Laid, Hakan and Tribalation.\r\n\r\nLoaded was acquired by BMG Rights Management in 2014.\r\n",
+    "urls": [
+      "http://www.loadedrecords.com"
+    ],
+    "contactInfo": "[b]Loaded Records[/b]\r\nP.O.Box 174\r\nBrighton\r\nBN1 4BA\r\nUK\r\n\r\nTel: 44-1273-738527\r\nFax: 44-1273-208766\r\nmail@loadedrecords.com\r\n",
+    "parentLabelId": 408323,
+    "parentLabelName": "BMG Rights Management (UK) Limited",
+    "sublabels": [
+      {
+        "labelId": 302987,
+        "labelName": "Loaded Studios"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "231"
+      }
+    ],
+    "name": "Fathom",
+    "profile": "Fathom is an ambient sub-label of Hearts Of Space Records featuring releases by [a=Steve Roach], [a=Robert Rich], and others.\r\nIt was created in 1994.",
+    "urls": [
+      "https://www.hos.com"
+    ],
+    "contactInfo": "",
+    "parentLabelId": 72919,
+    "parentLabelName": "Hearts Of Space Records",
+    "sublabels": []
+  },
+  {
+    "id": 42,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "312",
+        "height": "210"
+      }
+    ],
+    "name": "Viva!",
+    "profile": "Quality House Music From Seattle, WA USA\r\n\r\nFounded in early 1998, the goal was to consistently put out records that would be loved and played by many in the house music community. Viva Recordings found success with its first debut from Johnny Fiasco and the with Rick Preston's Altruism EP, which gained notoriety when \"Spring Fling\" was featured on Mark Farina's San Francisco Sessions Vol.1. From these early releases the road was paved for Viva Recordings' success. Over the last few years we have been working on personal projects but now have decided to bring the label back and take the Viva name back. If you feel your music fits in the scope of our label please send demos to our A&R/Label Manager Chad Neiro at his email.",
+    "urls": [
+      "http://www.viva-recordings.com/",
+      "http://www.myspace.com/vivarecordings",
+      "http://twitter.com/vivarecordings",
+      "http://facebook.com/vivarecordings",
+      "http://soundcloud.com/viva-recordings"
+    ],
+    "contactInfo": "Email: c.neiro@viva-recordings.com \r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 4160,
+        "labelName": "squid:records"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "338"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "160",
+        "height": "169"
+      }
+    ],
+    "name": "Axis",
+    "profile": "American techno label established in 1991 in Chicago, operated by producer and owner, [a=Jeff Mills]. \r\n\r\nThe label releases most of Mills' own work. \r\n",
+    "urls": [
+      "http://www.axisrecords.com",
+      "https://www.axisrecords.com/axis-shop/",
+      "https://axisrecords.bigwax.fr/",
+      "http://twitter.com/AxisRecords",
+      "http://www.youtube.com/user/AxisRecords1"
+    ],
+    "contactInfo": "Axis Records\r\nP.O. Box 416600\r\nMiami Beach, FL 33141 USA\r\nTel: +1 786 953 4176\r\n\r\nEarly contact address:\r\nAxis Records\r\n180 North Wabash Avenue \r\nSuite 315\r\nChicago, Illinois 60601\r\nUSA \r\n\r\ntel/fax: +1 1-312-917-0800\r\ninfo@axisrecords.com / mills@axisrecords.com",
+    "parentLabelId": 1175241,
+    "parentLabelName": "Axis Records (10)",
+    "sublabels": [
+      {
+        "labelId": 15681,
+        "labelName": "6277"
+      },
+      {
+        "labelId": 1829087,
+        "labelName": "Every Dog Has Its Day"
+      },
+      {
+        "labelId": 4504,
+        "labelName": "Luxury Records"
+      },
+      {
+        "labelId": 46,
+        "labelName": "Purpose Maker"
+      },
+      {
+        "labelId": 176113,
+        "labelName": "Something In The Sky"
+      },
+      {
+        "labelId": 1575700,
+        "labelName": "Str Mrkd"
+      },
+      {
+        "labelId": 349357,
+        "labelName": "Taken"
+      },
+      {
+        "labelId": 333,
+        "labelName": "Tomorrow"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "29"
+      }
+    ],
+    "name": "Nordic Trax",
+    "profile": "Nordic Trax originally began as a sub-label of Vancouver acid jazz label Mo Funk in 1997. After one release it became a separate entity, it's only release (NT001) was sold to the newly formed Nordic Trax and the label has been run by owner/operator Luke McKeehan from Vancouver ever since.",
+    "urls": [
+      "http://www.nordictrax.com",
+      "http://www.discogs.com/user/lukenordictrax",
+      "http://www.facebook.com/NordicTrax",
+      "http://instagram.com/nordictrax",
+      "http://soundcloud.com/nordic-trax",
+      "http://www.twitter.com/NordicTrax"
+    ],
+    "contactInfo": "Nordic Trax\r\n142 - 757 West Hastings St\r\nVancouver BC\r\nV6C 1A1\r\nCanada\r\n\r\n[url=mailto:info@nordictrax.com]info@nordictrax.com[/url] \r\n\r\nTel. (604) 512-6344\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 45,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "288",
+        "height": "123"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "427"
+      }
+    ],
+    "name": "Groovin' Records",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 46,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "449"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "173",
+        "height": "128"
+      }
+    ],
+    "name": "Purpose Maker",
+    "profile": "Purpose Maker is run by [a=Jeff Mills].",
+    "urls": [
+      "http://www.axisrecords.com"
+    ],
+    "contactInfo": "Axis Records\r\n180 North Wabash Avenue \r\nSuite 315\r\nChicago, Illinois 60601\r\nPhone/Fax 1-312-917-0800\r\n\r\nemail: info@axisrecords.com \r\nemail: mills@axisrecords.com",
+    "parentLabelId": 43,
+    "parentLabelName": "Axis",
+    "sublabels": []
+  },
+  {
+    "id": 47,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "286",
+        "height": "170"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "329"
+      }
+    ],
+    "name": "IntelliNET",
+    "profile": "Distribution company (and occasionally a record label) owned and operated by Richie Hawtin & John Acquaviva. Distributed all the in-house labels under the Plus 8 umbrella (Plus 8, Probe, Definitive, etc.) as well as labels from other artists (Intangible, Acacia, Bomb, etc.).",
+    "urls": [],
+    "contactInfo": "PH 519.641.7059\r\nFX 519.641.1399\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 48,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "472",
+        "height": "356"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "518"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "120",
+        "height": "96"
+      }
+    ],
+    "name": "Wave Music",
+    "profile": "Founded in 1995 by its owner [a=François Kevorkian] as a means to release cutting-edge but timeless music that doesn't necessarily fit the norm of what most people come to expect of a New York 'dance' indie label. Rather than concentrating on a specific style, the label's mission has been to bring out an eclectic and musically varied selection of music.",
+    "urls": [
+      "http://www.wavemusic.com",
+      "http://www.facebook.com/pages/Wave-Music/37739821435",
+      "http://www.myspace.com/wavemusicnyc"
+    ],
+    "contactInfo": "Wave Music\r\n244 West 54th Street, Suite #800\r\nNew York City, NY 10019\r\nUSA\r\n\r\nPhone: +1 212 757 8466\r\nFax: +1 212 757 4684",
+    "parentLabelId": 425694,
+    "parentLabelName": "Wave Entertainment Group, Inc.",
+    "sublabels": [
+      {
+        "labelId": 4004,
+        "labelName": "Clicktracks"
+      },
+      {
+        "labelId": 28546,
+        "labelName": "Deep Space Media"
+      },
+      {
+        "labelId": 28997,
+        "labelName": "Streetwave Music"
+      },
+      {
+        "labelId": 127783,
+        "labelName": "Wave Classics"
+      },
+      {
+        "labelId": 29438,
+        "labelName": "WaveTec"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "75",
+        "height": "21"
+      }
+    ],
+    "name": "Cytrax",
+    "profile": "Cutting edge minimal techno label.\r\nOperated by [url=http://www.discogs.com/artist/Jasper]John Mendez[/url], [url=http://www.discogs.com/artist/Steve+Tang]Steve Tang[/url] and [url=http://www.discogs.com/artist/Kit+Clayton]Kit Clayton[/url].\n",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 4256,
+        "labelName": "Delay"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "69"
+      }
+    ],
+    "name": "Fair Park",
+    "profile": "US house label. For copyrights see [l=Fair Park Records].",
+    "urls": [],
+    "contactInfo": "mike.constantino@gmail.com",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 51,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "307",
+        "height": "307"
+      }
+    ],
+    "name": "Electrik Soul",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "Electrik Soul Records \r\n47-10 Vernon Blvd\r\nLong Island City, NY 11101\r\n718.541.1565\r\n718.504.6196\r\n\r\ninfo@electriksoul.com\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 52,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "265"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "425",
+        "height": "424"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "173"
+      }
+    ],
+    "name": "Low Pressings",
+    "profile": "UK Breakbeat/House/Techno label started in 1997.\r\n\r\nRun by [a=Chas Burns] (UK) & [a=Hernan Cerbello] (Argentina) since 2008.\r\n\r\nDigital distribution by [l=INgrooves].\n",
+    "urls": [
+      "http://www.lowpressings.com/",
+      "http://www.myspace.com/lowpressings",
+      "http://soundcloud.com/lowpressings"
+    ],
+    "contactInfo": "Email: info@lowpressings.com\r\nChas Burns: chas@lowpressings.com\r\nHernan Cerbello: hernan@lowpressings.com\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 19465,
+        "labelName": "Beat Code"
+      },
+      {
+        "labelId": 27751,
+        "labelName": "Boxa Records"
+      },
+      {
+        "labelId": 43580,
+        "labelName": "Low Pressings Limited"
+      },
+      {
+        "labelId": 21471,
+        "labelName": "More Devotion"
+      },
+      {
+        "labelId": 12250,
+        "labelName": "Room 4 Recordings"
+      },
+      {
+        "labelId": 32394,
+        "labelName": "Tight Records"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "527",
+        "height": "237"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "500"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "268",
+        "height": "142"
+      }
+    ],
+    "name": "Camouflage Recordings",
+    "profile": "",
+    "urls": [
+      ""
+    ],
+    "contactInfo": "83 West Records\r\n2 College Street West\r\nSuite 206\r\nToronto, Ontario\r\nM5G 1K3\r\nCanada\r\n",
+    "parentLabelId": 82,
+    "parentLabelName": "83 West Records",
+    "sublabels": []
+  },
+  {
+    "id": 54,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "680"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "520",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "170",
+        "height": "135"
+      }
+    ],
+    "name": "Cross Section Records",
+    "profile": "Head of Music - [a=Chris Simmonds].\r\nFounded by Lorraine Burrell in 1994 to promote the works and dj skills of Chris Simmonds, Magoo aka Private Funk, Brian Royer, Ray Gibbons, Tim Deluxe, Mark Dolly Rockers Jones (Shuffle) Mike Huckaby, Matt Jones, Arturo Garces and Jade Cox to name a few as the Cross Section Collective. \r\n",
+    "urls": [
+      "http://www.crosssectionmusic.com",
+      "http://www.facebook.com/CrossSectionRecords",
+      "http://plus.google.com/107250187209647971890",
+      "http://www.instagram.com/chris_simmonds2016",
+      "http://www.myspace.com/crosssectionmusic",
+      "http://twitter.com/crossxsection",
+      "http://www.youtube.com/channel/UCl9bWJo3enI8f7VUBz7RY1w"
+    ],
+    "contactInfo": "General Enquiries\r\ninfo@crosssectionmusic.com\r\n-----------------------------------------------------\r\nDJ Bookings/PA's - Admin \r\ninfo@crosssectionmusic.com\r\n-----------------------------------------------------\r\nLabel Manager - Jeff Shush\r\njeff@crosssectionmusic.com\r\n-----------------------------------------------------\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 55,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "148",
+        "height": "70"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "329",
+        "height": "109"
+      }
+    ],
+    "name": "Transport Recordings",
+    "profile": "Dedicated to the true deep house heads all over the world, Transport Recordings is located in the heart of San Francisco. Formed in December of 1998 by producer [a34], [a524519] (aka [a28891]) and [a74994], the label came about as an outlet to release deep, timely, West Coast based house music.\r\n\r\n\r\n",
+    "urls": [
+      "http://www.transportrecordings.com",
+      "http://www.facebook.com/TransportRecordings",
+      "http://www.facebook.com/ON-AIR-with-DJ-MFR-401023759976170",
+      "http://soundcloud.com/dj-mfr",
+      "http://twitter.com/djmfr"
+    ],
+    "contactInfo": "E-mail: info@transportrecordings.com",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 56,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "540",
+        "height": "434"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "545",
+        "height": "205"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "512",
+        "height": "510"
+      }
+    ],
+    "name": "Rising High Records",
+    "profile": "Label founded in London UK in February 1991 by [a=Caspar Pound]. Had sister labels [l=Ascension Records] (for dance music), [l=Sapho] (for more avant-garde experimental releases) and [l=Rising High USA] (in America). Rising High Productions Ltd is a dead company but the labels are not defunct - they are owned by Caspar's daughter Sapho. The music is being reissued to digital over 2015, some remastered.\r\n\r\nSee also [r=524424] on Freakin' Australia, [r=90935] on Sony Japan and several releases licensed to [l=Instinct Records].\r\n\r\nThe missing RSN 47 is the [r=27120] released on the sublabel [l=Sapho] where \"RSN 47\" appears etched in the runout groove.\r\n\r\nThe missing RSN 58 is the [r=80684] released on the sublabel [l=Ascension Records] where \"RSN 58\" appears etched in the runout groove.",
+    "urls": [
+      "http://www.facebook.com/RisingHighRecords",
+      "http://soundcloud.com/rising-high-records",
+      "http://twitter.com/RisingHighRecs",
+      "http://en.wikipedia.org/wiki/Rising_High_Records"
+    ],
+    "contactInfo": "risinghighrecords@gmail.com",
+    "parentLabelId": 319988,
+    "parentLabelName": "Rising High Productions Ltd.",
+    "sublabels": [
+      {
+        "labelId": 3101,
+        "labelName": "Ascension Records"
+      },
+      {
+        "labelId": 55784,
+        "labelName": "Blue Angel Records"
+      },
+      {
+        "labelId": 320568,
+        "labelName": "Harthouse U.K."
+      },
+      {
+        "labelId": 15496,
+        "labelName": "Rising High USA"
+      },
+      {
+        "labelId": 2885,
+        "labelName": "Sapho"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "210",
+        "height": "95"
+      }
+    ],
+    "name": "Distance",
+    "profile": "French label founded in 1995 by [a=Jean Karakos], specialised in dance music ranging from Ambient, Techno, Goa Trance and House\r\n\r\nThe label ceased releasing records in 2003 but re-surfaced in 2011 with a series of re-issues.\r\n\r\nSee [l=Distance Records (3)] for company credits.",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 357403,
+        "labelName": "Distance Music"
+      },
+      {
+        "labelId": 712110,
+        "labelName": "Melting Pop"
+      },
+      {
+        "labelId": 712898,
+        "labelName": "Polyester Records (3)"
+      },
+      {
+        "labelId": 18116,
+        "labelName": "Question Mark ?ecords"
+      },
+      {
+        "labelId": 939,
+        "labelName": "Substance"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "148"
+      }
+    ],
+    "name": "A13",
+    "profile": "Mid-90s techno label based in Essex, UK. Now defunct.",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 59,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "795"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "598",
+        "height": "393"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "450"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "416",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "189",
+        "height": "253"
+      }
+    ],
+    "name": "Tresor",
+    "profile": "Berlin based techno label started in July 1991 by [a=Dimitri Hegemann], taking its name from the techno club set up in an underground vault following the fall of the Berlin Wall.\r\n\r\n1. Label Code: [b]LC 7572 / LC 07572[/b] (1991 - 2002)\r\n2. Label Code: [b]LC 3702 / LC 03702[/b] (2002 - xxxx)\r\n",
+    "urls": [
+      "http://www.tresorberlin.com",
+      "http://www.facebook.com/tresorberlin",
+      "http://www.flickr.com/photos/tresorberlin",
+      "http://plus.google.com/115278117771259598521",
+      "http://www.issuu.com/tresorberlin",
+      "http://www.myspace.com/tresorberlin",
+      "http://soundcloud.com/tresorberlin",
+      "http://twitter.com/TresorBerlin",
+      "http://youtube.com/user/tresorberlin",
+      "http://en.wikipedia.org/wiki/Tresor"
+    ],
+    "contactInfo": "Tresor Records, \r\nA division of Interfisch Records.\r\n\r\nTresor Records\r\nP.O. Box 36 04 28\r\nD-10999 Berlin\r\nGermany",
+    "parentLabelId": 539935,
+    "parentLabelName": "Interfisch Records",
+    "sublabels": [
+      {
+        "labelId": 1921015,
+        "labelName": "Annex (4)"
+      },
+      {
+        "labelId": 508992,
+        "labelName": "Archiv (3)"
+      },
+      {
+        "labelId": 459262,
+        "labelName": "Globus Mix"
+      },
+      {
+        "labelId": 571401,
+        "labelName": "Kern"
+      },
+      {
+        "labelId": 5772,
+        "labelName": "Supremat"
+      },
+      {
+        "labelId": 1920718,
+        "labelName": "Tresor Compilation"
+      },
+      {
+        "labelId": 271891,
+        "labelName": "Tresor Records"
+      },
+      {
+        "labelId": 452342,
+        "labelName": "Tresor Records GmbH"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "543",
+        "height": "397"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "450",
+        "height": "68"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "150"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "207",
+        "height": "203"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "227",
+        "height": "223"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "227",
+        "height": "225"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "227",
+        "height": "223"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "429"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "846"
+      }
+    ],
+    "name": "Fax +49-69/450464",
+    "profile": "Fax +49-69/450464 was founded in late 1992 by [a=Peter Kuhlmann]. \r\n[b]Label Code: LC 6269[/b].\r\nIt was distributed via Neuton.\r\n\r\nFAX's own releases are distinguished by the catalogue numbers.\r\nCatalog numbers starting with PK (Peter Kuhlmann) feature work by [a=Pete Namlook] (= Peter Kuhlmann), either solo or in collaboration with other artists.\r\nCatalog numbers starting with PS (Peter's Sublabel) are for releases by other artists, without Namlook's involvement. \r\nCatalog numbers starting with PW (Peter's Worldlabel) indicate collaborations of a more international character than the above (PK and PS releases are mainly, although not exclusively, German artists). The \"World\" sublabel should not be confused with the [l=Ambient World] sublabel.\r\nThe FAX releases are strictly limited, depending on the project. Most released are produced in editions of 500, 1000, 2000 or 3000 copies.\r\nSome specific titles were licensed out to other labels ([l=Music Man Records], [l=R & S Records] and [l=Rising High Records] to name the most common licensees) for unlimited distribution in FAX's early days. Due to problems with distribution and licensing, the in-house Ambient World sublabel was founded to handle re-releases of out-of-print Fax titles.\r\nAmbient World is a sublabel of FAX, catalog numbers starting with AW. AW only publishes re-releases with unlimited distribution, but with a different cover design (and occasionally different tracks or edits).\r\nThere are a few other special catalog numbers: FAX Musical Postcards were issued in very limited quantities as part of the Season's Greetings series and have the SEA catalog numbers. Yesterday And Tomorrow releases are used for an ambient/classical fusion and recieve the YT catalog numbers. The PKPWPS catalog numbers are used for compilations.\r\nMost people are confused by the artist naming. The project names of collaborations are the artist name.\r\n",
+    "urls": [
+      "http://music.hyperreal.org/labels/fax/",
+      "http://web.archive.org/web/20121218084928/http://www.namlook.de/",
+      "http://web.archive.org/web/20170107215511/http://www.2350.org/",
+      "https://www.posterogs.com/subject/4395-fax-49-69-450464"
+    ],
+    "contactInfo": "Eulengasse 62\r\n60385 Frankfurt a.M.\r\nGermany\r\n\r\nFon: +49-69/467452\r\nFax: +49-69/450464",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 2651,
+        "labelName": "Ambient World"
+      },
+      {
+        "labelId": 8,
+        "labelName": "Rather Interesting"
+      },
+      {
+        "labelId": 951847,
+        "labelName": "Seasons Greetings"
+      },
+      {
+        "labelId": 6191,
+        "labelName": "Yesterday & Tomorrow"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "200"
+      }
+    ],
+    "name": "Instinct Ambient",
+    "profile": "Instinct Ambient was a sub-label of Instinct active from 1995 through 1997. Initially focusing on pure ambient works, the later releases on the label also featured trip-hop and downtempo drum'n'bass sounds.\r\n\r\nSome titles were also released in Europe on a [l=KK Records] sub-label called [l=Instinct Ambient Europe].\r\n\r\nInstinct has released some titles under the [l359548] banner after 1997, but they no longer use the Instinct Ambient label, and instead release them on the main label.\r\n",
+    "urls": [
+      "http://www.instinctrecords.com"
+    ],
+    "contactInfo": "contact@instinctrecords.com",
+    "parentLabelId": 63,
+    "parentLabelName": "Instinct Records",
+    "sublabels": [
+      {
+        "labelId": 359548,
+        "labelName": "Ambient Systems"
+      },
+      {
+        "labelId": 1187152,
+        "labelName": "Chillout (2)"
+      },
+      {
+        "labelId": 833073,
+        "labelName": "Instinct Ambient Monthly Series"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "129"
+      }
+    ],
+    "name": "Eukahouse",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "Eukatech LTD\r\n49 Endell Street\r\nCovent Garden\r\nLondon, WC2H 9AJ\r\nUnited Kingdom.\r\nTel: +44 (0) 20 7240 8060\r\nFax: +44 (0) 20 7379 4939\r\nEmail: hq@eukatechrecords.com\r\n",
+    "parentLabelId": 924,
+    "parentLabelName": "Eukatech",
+    "sublabels": []
+  },
+  {
+    "id": 63,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "149",
+        "height": "65"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "175",
+        "height": "180"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "152",
+        "height": "65"
+      }
+    ],
+    "name": "Instinct Records",
+    "profile": "Founded as a dance label in a Greenwich Village living room, Instinct Records gained prominence in the early 1990s by releasing compilations of [l=Acid Jazz]-label material in the US. The simultaneous success of the label's first signing, electronic musician [a=Moby], was built on by licensing and releasing seminal recordings from [l=Rising High Records], [l=Kickin Records], and [l=Antler-Subway], as well as releasing music by local techno-oriented ambient musicians signed to the label. Instinct was purchased by [l=Knitting Factory Records] in 2003.\r\n\r\nFor company credits, please use [l=Instinct Records, Inc.] if credited with \"Inc\".",
+    "urls": [
+      "http://www.instinctrecords.com/"
+    ],
+    "contactInfo": "[not current; original address (from 1990)]\r\n222 West 14th Street, Suite 8B\r\nNew York, NY 10011\r\n\r\n[not current; valid in 1998]\r\n26 W. 17th St. #502\r\nNew York, NY 10011\r\nVox: 212.727.1360\r\nFax: 212.366.5979\r\nEmail: John@Instinct-online.com or DRead@Instinct-online.com\r\n\r\n[not current]\r\n81 Franklin Street, 3rd Floor\r\nNew York, NY 10013\r\n",
+    "parentLabelId": 145466,
+    "parentLabelName": "Knitting Factory Records",
+    "sublabels": [
+      {
+        "labelId": 8114,
+        "labelName": "Earth Recordings"
+      },
+      {
+        "labelId": 585039,
+        "labelName": "Evolver (2)"
+      },
+      {
+        "labelId": 854027,
+        "labelName": "FAX USA"
+      },
+      {
+        "labelId": 61,
+        "labelName": "Instinct Ambient"
+      },
+      {
+        "labelId": 1117117,
+        "labelName": "Instinct Electronica"
+      },
+      {
+        "labelId": 45265,
+        "labelName": "Instinct Jazz"
+      },
+      {
+        "labelId": 63307,
+        "labelName": "Kickin Records USA"
+      },
+      {
+        "labelId": 381,
+        "labelName": "Liquid Music"
+      },
+      {
+        "labelId": 789378,
+        "labelName": "Plug In + Turn On"
+      },
+      {
+        "labelId": 204,
+        "labelName": "Shadow Records"
+      },
+      {
+        "labelId": 2078,
+        "labelName": "Sonic Records"
+      },
+      {
+        "labelId": 1166717,
+        "labelName": "The Future Sound Of Jazz"
+      },
+      {
+        "labelId": 379741,
+        "labelName": "This Is Acid Jazz"
+      },
+      {
+        "labelId": 987127,
+        "labelName": "Trance Atlantic Records"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [],
+    "name": "Ritual Recordings",
+    "profile": "Boston-based label run by Mike Walsh, Matthew Sordillo, and [a=Francis Englehardt].",
+    "urls": [
+      "http://www.ritualrecordings.com"
+    ],
+    "contactInfo": "Phone: (617) 306-0554.\r\nAddress: 38 Pomeroy Street, Allston, MA 02134\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 65,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "248",
+        "height": "248"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "240"
+      }
+    ],
+    "name": "Airtight",
+    "profile": "Sublabel of Hooj Choons.",
+    "urls": [
+      "http://www.airtight-recordings.com/",
+      "https://myspace.com/airtightrecordings",
+      "https://www.facebook.com/airtightrecordings/",
+      "https://twitter.com/AirtightRecords",
+      "https://soundcloud.com/airtight-recordings"
+    ],
+    "contactInfo": "email: info@airtightrecordings.com",
+    "parentLabelId": 238,
+    "parentLabelName": "Hooj Choons",
+    "sublabels": []
+  },
+  {
+    "id": 66,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "596"
+      }
+    ],
+    "name": "Pagan",
+    "profile": "House label from London, UK. May appear as Pagan United Kingdom, American branch is [l=Pagan America].",
+    "urls": [
+      "http://web.archive.org/web/20040413022131/http://www.paganrecords.com/",
+      "http://web.archive.org/web/20000816092701/www.ark21.com/pagan/"
+    ],
+    "contactInfo": "Pagan Records\r\n1 Water Lane\r\nCamden Town\r\nLondon, UK\r\nNW1 8NZ\r\nTel: 44 (0) 171 267 1101\r\nFax: 44 (0) 171 267 7466\r\nE-mail: paganrecs@aol.com\r\n",
+    "parentLabelId": 1725605,
+    "parentLabelName": "Pagan Records (9)",
+    "sublabels": []
+  },
+  {
+    "id": 67,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "525",
+        "height": "467"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "178"
+      }
+    ],
+    "name": "MAW Records",
+    "profile": "[a=Masters At Work]'s label, established in 1995 and active to 2007.\r\nThe label was relaunched in April 2021.",
+    "urls": [
+      "https://mastersatwork.bandcamp.com/"
+    ],
+    "contactInfo": "513 36th Street, Suite 2\r\nUnion City\r\nNJ 07087\r\nUSA",
+    "parentLabelId": 308269,
+    "parentLabelName": "MAW Records, Inc.",
+    "sublabels": [
+      {
+        "labelId": 15131,
+        "labelName": "Kenlou Records"
+      },
+      {
+        "labelId": 23993,
+        "labelName": "MAW Classic"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "209",
+        "height": "50"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "232",
+        "height": "323"
+      }
+    ],
+    "name": "Residual Recordings",
+    "profile": "Titonton Duvante's label\r\nFounded: Fall 1998\r\nLocation: Columbus, Ohio\r\nGenre: Electronic\r\n",
+    "urls": [
+      "https://www.facebook.com/residualrek",
+      "https://www.residentadvisor.net/record-label.aspx?id=11231",
+      "https://twitter.com/_Residual_",
+      "https://soundcloud.com/residual-recordings"
+    ],
+    "contactInfo": "P.O. Box 82408\r\nColumbus, Ohio 43202 USA\r\n614.294.4119 fax\r\nrezrekv2.0@gmail.com\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 1285384,
+        "labelName": "Residual Classic"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "386",
+        "height": "386"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "67",
+        "height": "70"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "296"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "246",
+        "height": "276"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "376",
+        "height": "276"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "467",
+        "height": "108"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "221",
+        "height": "221"
+      }
+    ],
+    "name": "Yoshitoshi Recordings",
+    "profile": "Washington, D.C. based label founded in 1994 by [a=Deep Dish].\r\n\r\nLabel Code: LC 48435",
+    "urls": [
+      "http://www.yoshitoshi.com",
+      "http://yoshitoshi.bandcamp.com",
+      "http://www.facebook.com/pages/Yoshitoshi-Recordings/47614331223",
+      "http://instagram.com/yoshitoshirecs",
+      "http://www.myspace.com/yoshitoshirecordings",
+      "http://soundcloud.com/yoshitoshi",
+      "http://twitter.com/Yoshitoshi",
+      "http://www.youtube.com/YoshitoshiRecordings"
+    ],
+    "contactInfo": "Phone: +1 202 338-3474\r\nEmail: info@yoshitoshi.com",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 1419,
+        "labelName": "Shinichi"
+      },
+      {
+        "labelId": 354403,
+        "labelName": "Yo! Recordings"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "598",
+        "height": "588"
+      },
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "344",
+        "height": "338"
+      }
+    ],
+    "name": "7th City",
+    "profile": "[b]Established:[/b] 1992\r\n[b]Country:[/b] USA\r\n[b]City:[/b] Detroit\r\n[b]Founder:[/b] [a=Daniel Bell]\r\n7th City was created as a sublabel of [l=430 West].\r\nDistributed by [l=Accelerate] and [l=7th City Distribution].\r\nManufactured by [l=accelerate (2)].",
+    "urls": [
+      "http://www.myspace.com/seventhcityrecords"
+    ],
+    "contactInfo": "",
+    "parentLabelId": 1596042,
+    "parentLabelName": "Seventh City Records",
+    "sublabels": []
+  },
+  {
+    "id": 71,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "596",
+        "height": "605"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "366",
+        "height": "160"
+      }
+    ],
+    "name": "Kool Groove Records",
+    "profile": "House & Dance Label run by [a=Reynald Deschamps]\r\n\r\nIn 1987-88, Reynald formed his own distribution company [l=M.T.I.] (comprising [l=Kool Groove Records], [l=REY-D Records] and later USA ([l=United Sounds of America]). Distribution deal with [l=Apexton Records] which included the label called [l=Underworld Records]\r\n",
+    "urls": [],
+    "contactInfo": "Manufactured and Distributed by:\r\n\r\nM.T.I\r\n37-20 30th Street\r\nLong Island City. NY 11101\r\n(718) 786-8473\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 72,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "450",
+        "height": "164"
+      }
+    ],
+    "name": "Dufflebag Recordings",
+    "profile": "Dufflebag Recordings was founded in 1997 by [a258]. It has become a long time staple in underground house music community. Releasing music on its own schedule, Dufflebag has always favoured the quality of music over the quantity of releases.",
+    "urls": [
+      "https://www.facebook.com/dufflebagrecords/",
+      "https://myspace.com/dufflebagrecordings"
+    ],
+    "contactInfo": "Email: wally@dufflebagrecords.com",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 73,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "175",
+        "height": "92"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "278",
+        "height": "231"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "400",
+        "height": "400"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "167"
+      }
+    ],
+    "name": "Ferox Records",
+    "profile": "Ferox Records or shorter just [b]Ferox[/b] is the label of producer and DJ Russ Gabriel. Running since 1993, Ferox took an immediate stance at the forefront of U.K. techno. The label went into hiatus end of 1999. It was restarted briefly between 2007 and 2008. After a long break, the label started releasing vinyl again in 2014.",
+    "urls": [
+      "http://www.feroxrecords.com",
+      "http://www.funkybarberfilms.com",
+      "http://plus.google.com/117759470083717051792",
+      "http://www.myspace.com/feroxrecords",
+      "http://www.residentadvisor.net/record-label.aspx?id=2570",
+      "http://soundcloud.com/russ-gabriel",
+      "http://twitter.com/ferox_records",
+      "http://twitter.com/FB_Films",
+      "http://www.youtube.com/user/FunkyBarberFilms"
+    ],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 8794,
+        "labelName": "Berlin Records (2)"
+      },
+      {
+        "labelId": 14566,
+        "labelName": "Inertia Records (2)"
+      },
+      {
+        "labelId": 3377,
+        "labelName": "Soul On Wax"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "161"
+      }
+    ],
+    "name": "Pschent",
+    "profile": "French house music label, founded in 1994 by the late [a=Eric Hauville]. \r\n\r\nThe label name \"Pschent\", is taken from the double crown worn by ancient Egyptian kings (hence the label logo), symbolic of dominion over Upper and Lower Egypt, which had previously been separate kingdoms. \r\n",
+    "urls": [
+      "http://www.pschent.fr",
+      "http://www.soblondemanagement.com",
+      "http://www.facebook.com/pschentmusic",
+      "http://www.facebook.com/so.mgt",
+      "http://linktr.ee/Pschent",
+      "http://pinterest.com/pschentmusic",
+      "http://www.songkick.com/Pschent_Music",
+      "http://soundcloud.com/pschent",
+      "http://pschentmusic.tumblr.com",
+      "http://twitter.com/pschent",
+      "http://twitter.com/soblondemgt",
+      "http://www.youtube.com/PschentOfficial"
+    ],
+    "contactInfo": "Overground House\r\n3 Cité de L'ameublement \r\n75011 Paris \r\nFrance \r\n\r\ntel (general): +33 01 43 72 01 15 \r\ntel (infoline): +33 01 43 72 85 85 \r\nfax: +33 01 43 72 01 16 \r\npschent@pschent.fr (label) \r\ninfo@soblondemanagement.com (So Blonde Management) \r\n",
+    "parentLabelId": 267079,
+    "parentLabelName": "Wagram Music S.A.",
+    "sublabels": [
+      {
+        "labelId": 2011830,
+        "labelName": "Paradise Garage (4)"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "109",
+        "height": "60"
+      }
+    ],
+    "name": "Tweekin Records",
+    "profile": "House label from San Francisco, CA, USA.",
+    "urls": [
+      "http://www.tweekin.com",
+      "http://www.beatport.com/label/tweekin-records/716/releases?perPage=150"
+    ],
+    "contactInfo": "TWEEKIN RECORDS \r\n593 Haight St.\r\nSan Francisco CA 94117\r\nUSA\r\n\r\nphone: (415)626-6995\r\nfax: (415)626-5206\r\nemail: info@tweekin.com \r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 16305,
+        "labelName": "Next Of Kin"
+      },
+      {
+        "labelId": 18209,
+        "labelName": "Synergize Communications"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "500"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "222"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "39"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "500"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "548"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "254",
+        "height": "125"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "384",
+        "height": "136"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "318",
+        "height": "134"
+      }
+    ],
+    "name": "Kaos Records",
+    "profile": "",
+    "urls": [
+      "http://www.facebook.com/KaosRecordsPortugal",
+      "http://www.myspace.com/kaosrecordsportugal",
+      "http://soundcloud.com/kaosrecordsportugal",
+      "http://www.youtube.com/channel/UC3ovkFIu8SdXRr1RSkUryYA"
+    ],
+    "contactInfo": "Avenida dos Bombeiros Voluntários\r\n1675 Pontinha - Portugal\r\npromo@kaosrecords.pt\r\nTel: +351 214789371 Fax: +351 214789370\r\n",
+    "parentLabelId": 5102,
+    "parentLabelName": "Vidisco",
+    "sublabels": [
+      {
+        "labelId": 23065,
+        "labelName": "Free Recordings"
+      },
+      {
+        "labelId": 119178,
+        "labelName": "Fuga Records (2)"
+      },
+      {
+        "labelId": 1420,
+        "labelName": "Funktástica Records"
+      },
+      {
+        "labelId": 18775,
+        "labelName": "Plastika (2)"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "599"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "357",
+        "height": "350"
+      }
+    ],
+    "name": "Elypsia",
+    "profile": "Elypsia Records, a Brussels-based record label founded in 1995 which focusses on bringing innovative, groundbreaking electronic dance music.\r\n\r\nRelated to:\r\n- [l=Elypsia Records]\r\n- [l=Elypsia Music]\r\n- [l=Elypsia Music Publishing]\r\n- [l=Elypsia Studios]",
+    "urls": [
+      "http://www.elypsiarecords.com",
+      "http://www.facebook.com/elypsiarecords",
+      "http://www.instagram.com/elypsiarecords",
+      "http://www.soundcloud.com/elypsiarecords",
+      "http://twitter.com/elypsiarecords",
+      "http://en.wikipedia.org/wiki/Elypsia_Records"
+    ],
+    "contactInfo": "Elypsia Records - 1030 Brussels - Belgium\r\n\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 78,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [],
+    "name": "Obsession Music",
+    "profile": "Deep-House label from the 90’s, set up in Marseille, France (UE), by [b][url=https://www.discogs.com/artist/211334-DJ-Paul-4]DJ Paul[/url][/b] and friends.",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 61166,
+        "labelName": "Distrix Records"
+      },
+      {
+        "labelId": 10976,
+        "labelName": "Mesclum Records"
+      },
+      {
+        "labelId": 33201,
+        "labelName": "Virgo Music"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [],
+    "name": "V2 Records, Inc.",
+    "profile": "US subsidiary run by Holly Neiweem as CEO.\r\nIncorporation date: January 23, 1997\r\nCompany status: active\r\n\r\n[b]Note:[/b] For the label please use > [l=V2] or [l=V2 Records] depending on the logo shown on the release.",
+    "urls": [
+      "http://web.archive.org/web/20040810085820/http://us.v2music.com/site/",
+      "http://web.archive.org/web/20090106113308/http://us.v2music.com/",
+      "https://myspace.com/v2records"
+    ],
+    "contactInfo": "14 East 4th Street\r\nNew York, NY 10012\r\nUSA\r\n\r\n130 Fifth Avenue, 7th Floor\r\nNew York, NY 10011\r\nUSA\r\n\r\nPhone: +1 212 433 1800\r\nEmail: replyus@v2music.com",
+    "parentLabelId": 79792,
+    "parentLabelName": "V2 Music Ltd.",
+    "sublabels": [
+      {
+        "labelId": 8229,
+        "labelName": "MTA"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "357",
+        "height": "242"
+      }
+    ],
+    "name": "Lumi Records",
+    "profile": "Lumi Records was founded in 1993 by [a=Jori Hulkkonen], [a=Jukka Hautamäki], and [a=Ari Ruokamo] (aka [a=Ari Jukka]). Between 1993-1995 they released three infamous vinyl compilations, including tracks from various local Finnish artists. The label was put on hold, after a period of time, until 1999 when Ari restarted the label. \r\n",
+    "urls": [
+      "http://www.lumirecords.com"
+    ],
+    "contactInfo": "Lumi Records \r\nTarkk'ampujankatu 10 A29 \r\nFI-00150 Helsinki \r\nFinland \r\n\r\nphone/fax: +358 9 622 1003\r\ninfo@lumirecords.com \r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 81,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "200"
+      }
+    ],
+    "name": "Mother Tongue",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "djhush@growroomrecords.com",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 82,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "444",
+        "height": "369"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "431",
+        "height": "132"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "491",
+        "height": "152"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "394",
+        "height": "148"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "455",
+        "height": "337"
+      }
+    ],
+    "name": "83 West Records",
+    "profile": "Aka [b]Eighty Three West Records[/b].\r\nHouse, Deep House label from Toronto, Canada.\r\n\r\nLabel managed by [a=Peter Primiani] & [a=Tyrone Solomon].",
+    "urls": [
+      "http://www.myspace.com/83west"
+    ],
+    "contactInfo": "83 West Records / Camouflage Recordings\r\n2 College Street, Ste.206\r\nToronto, Ontario\r\nM5G 1K3\r\nCANADA\r\n",
+    "parentLabelId": 471114,
+    "parentLabelName": "83 West Records Ltd.",
+    "sublabels": [
+      {
+        "labelId": 53,
+        "labelName": "Camouflage Recordings"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      }
+    ],
+    "name": "SuperBra",
+    "profile": "Label from Switzerland (EU), SuperBra covers the more tech-house side of music and is the sisterlabel of [l=Phont Music] (both distributed worldwide by [l=prime distribution], London, sometimes by [l=neuton], for Germany).\r\nThe label was managed by [a=Stefan Riesen].\r\n",
+    "urls": [],
+    "contactInfo": "SuperBra\r\nc/o Riesen, Stefan & Vicky\r\nGantrischstrasse 10\r\nCH-3006 Bern / Switzerland\r\n\r\nPhone / Fax: +41 (0)31 351 99 92\r\ne-mail: phont@bluewin.ch\r\nurl: http://mypage.bluewin.ch/PHONT-PAGE/ [i](obsolete)[/i]",
+    "parentLabelId": 348,
+    "parentLabelName": "Phont Music",
+    "sublabels": []
+  },
+  {
+    "id": 84,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [],
+    "name": "Strive",
+    "profile": "",
+    "urls": [
+      "http://www.strivemusic.com"
+    ],
+    "contactInfo": "Defunct?\r\n\r\nFax: +46-8-165872\r\nE-mail: info@strivemusic.com\n",
+    "parentLabelId": 570,
+    "parentLabelName": "Tronic",
+    "sublabels": []
+  },
+  {
+    "id": 85,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "100",
+        "height": "100"
+      }
+    ],
+    "name": "Earth",
+    "profile": "A division of LTJ Bukem's Good Looking stable.",
+    "urls": [
+      "https://web.archive.org/web/20091006045042/http://www.goodlooking.org/",
+      "https://web.archive.org/web/20090917070308/http://www.goodlooking.org/old.php"
+    ],
+    "contactInfo": "The Good Looking Organisation, \r\n84 Queens Road, \r\nWatford, \r\nHerts WD17 2LA \r\nUK \r\n\r\nPhone: +44(0) 1923 690 700\r\n",
+    "parentLabelId": 124,
+    "parentLabelName": "Good Looking Records",
+    "sublabels": []
+  },
+  {
+    "id": 86,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "464",
+        "height": "60"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "147"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "598",
+        "height": "600"
+      }
+    ],
+    "name": "Compost Records",
+    "profile": "German electronic label, based in Munich, and founded by DJ [a=Michael Reinboth] in 1994. \r\nLabel Code: LC 2518 / LC 02518\r\n\r\nElectronic artists such as [a=Moodymann], [a=Carl Craig], [a=Laurent Garnier], [a=Masters At Work], [a=Âme], [a=Dixon], [a=Henrik Schwarz], [a=Kruder & Dorfmeister] have either contributed tracks of their own, remixes, or both.",
+    "urls": [
+      "http://www.compost-rec.com",
+      "http://compostrecords.bandcamp.com/music",
+      "http://www.facebook.com/compostrecords",
+      "http://www.mixcloud.com/Compost",
+      "http://myspace.com/compostrecords",
+      "http://soundcloud.com/compost",
+      "http://twitter.com/CompostRecords",
+      "http://vimeo.com/compostrecords",
+      "http://en.wikipedia.org/wiki/Compost_Records",
+      "http://www.youtube.com/user/compostrecords",
+      "http://www.instagram.com/compostrecords"
+    ],
+    "contactInfo": "Compost Records\r\nHaager Str. 9\r\n81671 München\r\nGermany \r\n\r\nphone: +49 89 65 11 48 00 / +49 89 65 11 48 01 \r\nfax: +49 89 65 11 48 02 \r\nemail: info@compost-rec.com ",
+    "parentLabelId": 338104,
+    "parentLabelName": "Compost Medien GmbH & Co. KG",
+    "sublabels": [
+      {
+        "labelId": 30803,
+        "labelName": "Angora Steel"
+      },
+      {
+        "labelId": 6193,
+        "labelName": "Compose Records"
+      },
+      {
+        "labelId": 73171,
+        "labelName": "Compost Black Label"
+      },
+      {
+        "labelId": 200435,
+        "labelName": "Compost Disco"
+      },
+      {
+        "labelId": 26767,
+        "labelName": "Compute"
+      },
+      {
+        "labelId": 239656,
+        "labelName": "Derwin Recordings"
+      },
+      {
+        "labelId": 69765,
+        "labelName": "Drumpoet Community"
+      },
+      {
+        "labelId": 962052,
+        "labelName": "Ennio Morricone Remixes"
+      },
+      {
+        "labelId": 1625844,
+        "labelName": "Freshly Composted"
+      },
+      {
+        "labelId": 339065,
+        "labelName": "Fueled For The Future"
+      },
+      {
+        "labelId": 396237,
+        "labelName": "Future Sounds Of Jazz"
+      },
+      {
+        "labelId": 428434,
+        "labelName": "Rumpelmusig"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "424"
+      }
+    ],
+    "name": "Freerange Records",
+    "profile": "[b]LC 12831[/b]\r\nLondon based Deep House label. Founded by Jamie Odell ([a=Jimpster]) and Tom Roberts.",
+    "urls": [
+      "http://www.freerangerecords.co.uk",
+      "http://freerangerecords.bandcamp.com",
+      "http://www.facebook.com/FreerangeRecords",
+      "http://freerangerecords.podomatic.com",
+      "http://soundcloud.com/freerangerecords",
+      "http://twitter.com/FreerangeRec",
+      "http://www.youtube.com/user/freerangeuk"
+    ],
+    "contactInfo": "Email: info@freerangerecords.co.uk",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 355235,
+        "labelName": "Freerange Records Colour Series"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "359",
+        "height": "109"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "587",
+        "height": "255"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "41"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "291",
+        "height": "82"
+      }
+    ],
+    "name": "Nite Grooves",
+    "profile": "House label established in 1994 by [a=Hisa Ishioka]. Sister label to [l=King Street Sounds].",
+    "urls": [
+      "http://www.kingstreetsounds.com/"
+    ],
+    "contactInfo": "BPM King Street Sounds / Nite Grooves\r\n115 W. 30th Street  Suite 306\r\nNew York, N.Y.  10001\r\nUSA\r\n\r\nPhone: (212) 594-3737\r\nFax: (212) 594-3636\r\nEmail: info@kingstreetsounds.com",
+    "parentLabelId": 545424,
+    "parentLabelName": "Hi's Production USA, Inc.",
+    "sublabels": []
+  },
+  {
+    "id": 89,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "194"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "150"
+      }
+    ],
+    "name": "Under The Counter",
+    "profile": "Label owned by [a444].",
+    "urls": [],
+    "contactInfo": "The Angel Building, \r\nGlasgow, G51 1LE. UK\r\ninfo@underthecounter.co.uk\r\nPhone: +44(0)141 420 2046 \r\nFax: +44(0)141 420 3386\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 91,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "231",
+        "height": "59"
+      }
+    ],
+    "name": "Panhandle Records",
+    "profile": "San Jose / San Francisco-based house label. Now defunct.",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 92,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "200",
+        "height": "73"
+      }
+    ],
+    "name": "Taka",
+    "profile": "Subdivision techno tribe of the french label Chronobrain.",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": 1433,
+    "parentLabelName": "Chronobrain",
+    "sublabels": []
+  },
+  {
+    "id": 93,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "62"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "275",
+        "height": "205"
+      }
+    ],
+    "name": "Alola",
+    "profile": "Alola records was created by Omid \" [a=16B]\" Nourizadeh, as a musical journey throughout the years, going as far back as 1994 when Omid started it from his bedroom studio still living at his parents at only 19 years old. \r\nFrom the range of records Omid made himself through to multiple artists, alola has become an expression of love for proper HOUSE music..\r\nRegular Home to artists like Charles webster, Kevin McKay, Demi, Nav, Mr C, Pete Moss, Vince Watson, Echomen, Anthony Teasdale, Amin Edge, Trevor Loveys, Idjut Boys, DJ Q, Sultan & Ned Shepard, Pop Out And Play, House of 909, Nacho Marco, Remote Control, YMC, Kevin Beber, Mode 2 and Omid himself.\r\nAlola has been releasing its own blend of Lush, Deep and Hypnotic House music ever since with a little break over the years ...x\r\n",
+    "urls": [
+      "http://alola.co.uk",
+      "http://www.twitter.com/AlolaRecords",
+      "https://www.facebook.com/pg/AlolaRecords/"
+    ],
+    "contactInfo": "Info@alola.co.uk\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 272756,
+        "labelName": "Alola Music"
+      },
+      {
+        "labelId": 277440,
+        "labelName": "Alola Studios"
+      },
+      {
+        "labelId": 2435,
+        "labelName": "Disclosure"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      }
+    ],
+    "name": "Fiji Recordings",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": 11598,
+    "parentLabelName": "UCMG New York",
+    "sublabels": []
+  },
+  {
+    "id": 95,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "259",
+        "height": "37"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "150",
+        "height": "100"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "235",
+        "height": "55"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "300"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "212",
+        "height": "107"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "337",
+        "height": "180"
+      }
+    ],
+    "name": "Guidance Recordings",
+    "profile": "Electronic label set up by [a=Spencer Kincy], [a=Ivan Pavlovich], and [a=Rob Kouchoukos], based in Chicago, Illinois, USA.\r\nActive from 1996 til 2004.\r\nOccasionally listed as Guidance Records on some releases. \r\n",
+    "urls": [
+      "http://www.33rpm.com",
+      "http://www.facebook.com/pages/Guidance-Recordings/232792126842077",
+      "https://en.wikipedia.org/wiki/Guidance_Recordings"
+    ],
+    "contactInfo": "[i](mailing address)[/i] \r\nGuidance Recordings, Inc. \r\n160 N. Halsted 2nd Floor \r\nChicago, IL 60661 \r\nUSA \r\n\r\ntel: +1 312 226 8387 \r\nfax: +1 312 226 1343 \r\n\r\nIvan - ivanp@33rpm.com - licensing requests. \r\nRob - robk@33rpm.com - submission of any demo material, distribution questions. \r\nGary - garyguy@33rpm.com - retail promotions. \r\nTobias - tobias@33rpm.com - where and how to buy records. \r\nSid - sid@33rpm.com - other questions. \r\n",
+    "parentLabelId": 284155,
+    "parentLabelName": "Guidance Recordings, Inc.",
+    "sublabels": [
+      {
+        "labelId": 284154,
+        "labelName": "33rpm"
+      },
+      {
+        "labelId": 2521,
+        "labelName": "Chord 44 Records"
+      },
+      {
+        "labelId": 219,
+        "labelName": "Crucial Sounds"
+      },
+      {
+        "labelId": 676,
+        "labelName": "Subtitled Records"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "161"
+      }
+    ],
+    "name": "Stickman Records",
+    "profile": "Canadian House-label.",
+    "urls": [
+      "http://www.stickmanrecords.com",
+      "http://www.premiermuzik.com"
+    ],
+    "contactInfo": "Stickman Records\r\n8272A Pascal Gagnon\r\nMontreal, Quebec \r\nH1P 1Y4, Canada\r\nT: + 514.327.7669\r\nF: + 514.327.8800\r\nE: info@premiermuzik.com\n",
+    "parentLabelId": 40296,
+    "parentLabelName": "Premier Muzik International Corp.",
+    "sublabels": [
+      {
+        "labelId": 17889,
+        "labelName": "Placebo Recordings"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "349",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "409",
+        "height": "600"
+      }
+    ],
+    "name": "Moods & Grooves",
+    "profile": "American deep house, tech-house, and techno label, from Detroit, Michigan, USA, and run by [a=Mike Grant]. \r\n",
+    "urls": [
+      "http://www.big50entertainment.com/moods-and-grooves/about/",
+      "http://www.facebook.com/pages/Moods-Grooves-Records/54465188899",
+      "http://www.myspace.com/moodsngrooves"
+    ],
+    "contactInfo": "PO Box 47366\r\nOak Park \r\nMichigan 48237\r\nUSA \r\n\r\ntel: +1 313-444-0050 \r\ninfo@moodsandgrooves.com\r\ndemos@moodsandgrooves.com\r\n",
+    "parentLabelId": 527426,
+    "parentLabelName": "Big 50 Entertainment",
+    "sublabels": []
+  },
+  {
+    "id": 98,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "209"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "491",
+        "height": "520"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "130",
+        "height": "130"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "125",
+        "height": "47"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "300"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "248",
+        "height": "97"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "600"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "208"
+      }
+    ],
+    "name": "Defected",
+    "profile": "British electronic label. \r\n\r\nDefected is a British record label influenced by US house. It was established by [a=Simon Dunmore] (previously the manager of the [l=AM:PM] label) and Janet Bell in 1999. Having released records from the likes of [a=Ministers De La Funk], [a=Hatiras], and [a=Bob Sinclar], Defected gained worldwide recognition for its dedication to the house and garage music industry. \r\n",
+    "urls": [
+      "http://defected.com",
+      "http://defected.bandcamp.com",
+      "http://www.facebook.com/DefectedRecords",
+      "http://www.mixcloud.com/Defectedrecords",
+      "http://soundcloud.com/defectedrecords",
+      "http://twitter.com/DefectedRecords",
+      "http://www.youtube.com/user/DefectedMusic"
+    ],
+    "contactInfo": "Defected Records \r\n23 Curtain Road\r\nLondon\r\nEC2A 3LT\r\nUK \r\n\r\ntel: +44 (0)20 7426 5485",
+    "parentLabelId": 272745,
+    "parentLabelName": "Defected Records Ltd.",
+    "sublabels": [
+      {
+        "labelId": 1195686,
+        "labelName": "4 To The Floor (2)"
+      },
+      {
+        "labelId": 3830,
+        "labelName": "4th Floor Records"
+      },
+      {
+        "labelId": 113724,
+        "labelName": "Bargrooves"
+      },
+      {
+        "labelId": 281782,
+        "labelName": "Classic Music Company"
+      },
+      {
+        "labelId": 728758,
+        "labelName": "Connected (4)"
+      },
+      {
+        "labelId": 50862,
+        "labelName": "Cyphon"
+      },
+      {
+        "labelId": 1977915,
+        "labelName": "D4 D4NCE"
+      },
+      {
+        "labelId": 656850,
+        "labelName": "Defected Accapellas"
+      },
+      {
+        "labelId": 1928524,
+        "labelName": "Defected D-fused"
+      },
+      {
+        "labelId": 1912560,
+        "labelName": "Defected D-fused & Digital"
+      },
+      {
+        "labelId": 841559,
+        "labelName": "Defected In The House"
+      },
+      {
+        "labelId": 782910,
+        "labelName": "Defected Presents"
+      },
+      {
+        "labelId": 555650,
+        "labelName": "DFTD"
+      },
+      {
+        "labelId": 2151664,
+        "labelName": "Faith (18)"
+      },
+      {
+        "labelId": 1793,
+        "labelName": "Fluential"
+      },
+      {
+        "labelId": 954868,
+        "labelName": "Glitterbox"
+      },
+      {
+        "labelId": 206317,
+        "labelName": "House Masters"
+      },
+      {
+        "labelId": 25167,
+        "labelName": "ITH Records"
+      },
+      {
+        "labelId": 22129,
+        "labelName": "M (4)"
+      },
+      {
+        "labelId": 239561,
+        "labelName": "Phazing Records"
+      },
+      {
+        "labelId": 1483260,
+        "labelName": "Slip'N'Slide Records"
+      },
+      {
+        "labelId": 6060,
+        "labelName": "Spectrum Records"
+      },
+      {
+        "labelId": 93694,
+        "labelName": "The Sound Of Defected"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "186",
+        "height": "190"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "544",
+        "height": "203"
+      }
+    ],
+    "name": "Swayzak Recordings",
+    "profile": "",
+    "urls": [
+      "http://www.swayzak.com",
+      "http://www.myspace.com/swayzakrecordings"
+    ],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 100,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "500",
+        "height": "500"
+      }
+    ],
+    "name": "Distant Music",
+    "profile": "",
+    "urls": [
+      "http://www.distantusa.com",
+      "http://www.facebook.com/jon.cutler1",
+      "http://www.instagram.com/distant2020",
+      "http://www.myspace.com/joncutlerdistantmusic",
+      "http://soundcloud.com/joncutler",
+      "http://twitter.com/DistantMusic",
+      "http://www.youtube.com/user/distantusa"
+    ],
+    "contactInfo": "208 W.29th St.\r\nSuite 501\r\nNew York\r\nNY 10001\r\nUSA\r\n\r\nTel: 1-212-868-2998\r\nFax: 1-212-868-1073\r\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 18145,
+        "labelName": "Faze Recordz"
+      },
+      {
+        "labelId": 10928,
+        "labelName": "Midnite Recordings"
+      },
+      {
+        "labelId": 1485,
+        "labelName": "Remedie"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "321",
+        "height": "90"
+      }
+    ],
+    "name": "Shaboom Records",
+    "profile": "Blackpool's Internationally Acclaimed House Label. Filtered, Funk, Disco House Vibe. Sub-labels include [l=Blaktrax] and [l=Shaboom America].",
+    "urls": [],
+    "contactInfo": "Shaboom Records, \r\nPO BOX 38, \r\nSouth Shore, \r\nBlackpool, \r\nFY1 6GH\r\nTEL 0044 1253 620039\r\nFAX 0044 1253 620756\n",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": [
+      {
+        "labelId": 7981,
+        "labelName": "Blaktrax"
+      },
+      {
+        "labelId": 17172,
+        "labelName": "Shaboom America"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "type": "label",
+    "dataQuality": "Needs Vote",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "571",
+        "height": "645"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "285",
+        "height": "198"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "158",
+        "height": "191"
+      }
+    ],
+    "name": "Spymania",
+    "profile": "In 1995 a crack commando unit was sent to Brighton by an arbitrary court for an EP they didn't release. These men promptly escaped from a maximum security stockade to the Essex underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a demo, if no-one else can help, and if you can find them, maybe you can hire Spymania",
+    "urls": [
+      "http://www.spymania.com",
+      "https://spymania.bandcamp.com/"
+    ],
+    "contactInfo": "",
+    "parentLabelId": 3373,
+    "parentLabelName": "Zoom Records (2)",
+    "sublabels": [
+      {
+        "labelId": 5821,
+        "labelName": "Barry's Bootlegs"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [],
+    "name": "Nothings Clear",
+    "profile": "",
+    "urls": [],
+    "contactInfo": "",
+    "parentLabelId": null,
+    "parentLabelName": "",
+    "sublabels": []
+  },
+  {
+    "id": 105,
+    "type": "label",
+    "dataQuality": "Correct",
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "148"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "300",
+        "height": "65"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "230"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "550",
+        "height": "320"
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "uri150": "",
+        "width": "600",
+        "height": "363"
+      }
+    ],
+    "name": "Skam",
+    "profile": "Label established by [a=Andy Maddocks], based in Manchester, UK.",
+    "urls": [
+      "http://www.skam.co.uk",
+      "http://www.facebook.com/SkamRecords",
+      "http://twitter.com/Skamrecords",
+      "http://myspace.com/skamrecordsofficial",
+      "http://myspace.com/skamsmak",
+      "https://skamrecords.bandcamp.com/",
+      "http://www.bhatoptics.com",
+      "http://en.wikipedia.org/wiki/Skam_Records",
+      "http://soundcloud.com/skam",
+      "http://www.youtube.com/user/SkamRecords",
+      "http://skam.bleepstores.com"
+    ],
+    "contactInfo": "SKAM RECORDS\r\npo box 76\r\nManchester, m45 7xw. \r\nUK.\r\nskam(at)skam.co.uk\r\n",
+    "parentLabelId": 344610,
+    "parentLabelName": "Skam Records",
+    "sublabels": [
+      {
+        "labelId": 7815,
+        "labelName": "30mil Recordings"
+      },
+      {
+        "labelId": 8705,
+        "labelName": "33"
+      },
+      {
+        "labelId": 480345,
+        "labelName": "AMKS"
+      },
+      {
+        "labelId": 835972,
+        "labelName": "Kasm"
+      },
+      {
+        "labelId": 419869,
+        "labelName": "MASK (6)"
+      },
+      {
+        "labelId": 22847,
+        "labelName": "Skullsnap Records"
+      },
+      {
+        "labelId": 420042,
+        "labelName": "SMAK"
+      }
+    ]
+  }
+]
