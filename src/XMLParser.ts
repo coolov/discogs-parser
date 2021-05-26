@@ -1,10 +1,8 @@
 /*
- * Code based on node-big-xml
- * https://github.com/jahewson/node-big-xml
- *
  * 1) node-expat does a depth first traversal of the XML-tree
  * 2) the assumption is that the xml file has a single root node,
- *    containing one long homegenous list of nodes
+ *    containing one long homegenous list of child nodes
+ *    (e.g. artist, release, label, master)
  * 3) the streaming parser will emit each child node in the list
  */
 import expat from "node-expat";

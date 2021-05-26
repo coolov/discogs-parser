@@ -2,12 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createDiscogsParser = void 0;
 const XMLParser_1 = require("./XMLParser");
-const Model_1 = require("./Model");
+const nodeToType_1 = require("./nodeToType");
 async function* createDiscogsParser(readStream) {
     const parser = new XMLParser_1.XMLParser();
     const records = [];
     parser.on("record", (xmlNode) => {
-        const record = Model_1.nodeToType(xmlNode);
+        const record = nodeToType_1.nodeToType(xmlNode);
         records.push(record);
     });
     for await (const chunk of readStream) {

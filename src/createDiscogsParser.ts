@@ -1,7 +1,7 @@
 import { XMLParser, XmlNode } from "./XMLParser";
 import { Readable } from "stream";
-import { nodeToType } from "./Model";
 import { Record } from "./types";
+import { nodeToType } from "./nodeToType";
 
 export async function* createDiscogsParser<T extends Record>(
   readStream: Readable
@@ -9,7 +9,7 @@ export async function* createDiscogsParser<T extends Record>(
   const parser = new XMLParser();
   const records: T[] = [];
 
-  parser.on("record", (xmlNode) => {
+  parser.on("record", (xmlNode: XmlNode) => {
     const record: T = nodeToType(xmlNode) as T;
     records.push(record);
   });

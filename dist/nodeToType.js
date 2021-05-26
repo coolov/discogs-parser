@@ -189,4 +189,4 @@ function nodeToType(node) {
     }
 }
 exports.nodeToType = nodeToType;
-//# sourceMappingURL=Model.js.map
+//# sourceMappingURL=nodeToType.js.map
