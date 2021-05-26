@@ -54,7 +54,7 @@ function newReleaseArtist(node: XmlNode): ReleaseArtist {
     throw new Error("Id is missing!");
   }
   return {
-    id: fields.id.text,
+    id: parseInt(fields.id.text, 10),
     name: fields.name?.text || "",
     anv: fields.anv?.text || "",
     role: fields.role?.text || "",
@@ -86,10 +86,15 @@ function newBaseRelease(fields: XMLNodeMap): BaseRelease {
 
 export function newMaster(node: XmlNode): Master {
   const fields = childrenToObject(node.children);
+  if (!node.attrs.id) {
+    throw new Error("Id is missing!");
+  }
   return {
-    id: node.attrs.id || "", // todo: fail if missing
+    id: parseInt(node.attrs.id, 10),
     type: "master",
-    main_release: fields.main_release?.text || "",
+    mainReleaseId: fields.main_release?.text
+      ? parseInt(fields.main_release?.text, 10)
+      : null,
     year: fields.year?.text || "",
     ...newBaseRelease(fields),
   };
@@ -101,21 +106,23 @@ export function newRelease(node: XmlNode): Release {
     throw new Error("Id is missing!");
   }
   return {
-    id: node.attrs.id || "", // todo: fail if missing
+    id: parseInt(node.attrs.id),
     type: "release",
     country: fields.country?.text || "",
-    masterId: fields.master_id?.text || "",
+    masterId: fields.master_id?.text
+      ? parseInt(fields.master_id?.text, 10)
+      : null,
     released: fields.released?.text || "",
     ...newBaseRelease(fields),
     companies: mapChildren(fields.companies, (node, fields) => ({
       id: fields.id?.text || "",
       name: fields.name?.text || "",
-      catno: fields.catno?.text || "",
-      entity_type: fields.entity_type?.text || "",
-      entity_type_name: fields.entity_type_name?.text || "",
-      resource_url: fields.resource_url?.text || "",
+      catNo: fields.catno?.text || "",
+      entityType: fields.entity_type?.text || "",
+      entityTypeName: fields.entity_type_name?.text || "",
+      resourceUrl: fields.resource_url?.text || "",
     })),
-    extraartists: mapChildren(fields.extraartists, newReleaseArtist),
+    extraArtists: mapChildren(fields.extraartists, newReleaseArtist),
     formats: mapChildren(fields.formats, (node, fields) => ({
       name: node.attrs.name || "",
       qty: node.attrs.qty || "",
@@ -132,14 +139,14 @@ export function newRelease(node: XmlNode): Release {
     labels: mapChildren(fields.labels, (node) => ({
       id: node.attrs.id || "",
       name: node.attrs.name || "",
-      catno: node.attrs.catno || "",
+      catNo: node.attrs.catno || "",
     })),
     tracklist: mapChildren(fields.tracklist, (node, fields) => ({
       position: fields.position?.text || "",
       title: fields.title?.text || "",
       duration: fields.duration?.text || "",
       artists: mapChildren(fields.artists, newReleaseArtist),
-      extraartists: mapChildren(fields.extraartists, newReleaseArtist),
+      extraArtists: mapChildren(fields.extraartists, newReleaseArtist),
     })),
   };
 }
@@ -150,7 +157,7 @@ export function newArtist(node: XmlNode): Artist {
     throw new Error("Id is missing!");
   }
   return {
-    id: fields.id.text, // todo, fail if missing!
+    id: parseInt(fields.id.text, 10), // todo, fail if missing!
     type: "artist",
     dataQuality: fields.data_quality?.text || "",
     images: mapChildren(fields.images, newImage),
@@ -161,8 +168,8 @@ export function newArtist(node: XmlNode): Artist {
     groups: (fields.groups?.children || []).map((n) => n.text),
     // todo: this is a weird mixed array... figure out how to implement it
     // members: fields.members?.children || [],
-    namevariations: (fields.namevariations?.children || []).map((n) => n.text),
-    realname: fields.realname?.text || "",
+    nameVariations: (fields.namevariations?.children || []).map((n) => n.text),
+    realName: fields.realname?.text || "",
   };
 }
 
@@ -172,14 +179,14 @@ export function newLabel(node: XmlNode): Label {
     throw new Error("Id is missing!");
   }
   return {
-    id: fields.id.text,
+    id: parseInt(fields.id.text, 10),
     type: "label",
     dataQuality: fields.data_quality?.text || "",
     images: mapChildren(fields.images, newImage),
     name: fields.name?.text || "",
     profile: fields.profile?.text || "",
     urls: mapChildren(fields.urls, (node) => node.text),
-    contactinfo: fields.contactinfo?.text || "",
+    contactInfo: fields.contactinfo?.text || "",
     parentLabelId: fields.parentLabel?.attrs.id || "",
     parentLabelName: fields.parentLabel?.text || "",
     sublabels: mapChildren(fields.sublabels, (node) => ({

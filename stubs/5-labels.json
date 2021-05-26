@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "type": "label",
     "dataQuality": "Correct",
     "images": [
@@ -71,7 +71,7 @@
       "http://en.wikipedia.org/wiki/Planet_E_Communications",
       "http://www.youtube.com/user/planetedetroit"
     ],
-    "contactinfo": "Planet E Communications\r\nP.O. Box 27218\r\nDetroit, Michigan, MI 48227\r\nUSA\r\n\r\nPhone: +1 313 874 8729\r\nFax: +1 313 874 8732\r\nEmail: info@Planet-e.net",
+    "contactInfo": "Planet E Communications\r\nP.O. Box 27218\r\nDetroit, Michigan, MI 48227\r\nUSA\r\n\r\nPhone: +1 313 874 8729\r\nFax: +1 313 874 8732\r\nEmail: info@Planet-e.net",
     "parentLabelId": "",
     "parentLabelName": "",
     "sublabels": [
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": 2,
     "type": "label",
     "dataQuality": "Correct",
     "images": [
@@ -127,13 +127,13 @@
     "urls": [
       "http://www.seasonsrecordings.com/"
     ],
-    "contactinfo": "Seasons Recordings\r\n2236 Pacific Avenue\r\nSuite D\r\nCosta Mesa, CA  92627\r\n\r\ntel: +1.949.574.5255\r\nfax: +1.949.574.0255\r\n\r\nemail: jthinnes@seasonsrecordings.com\r\n",
+    "contactInfo": "Seasons Recordings\r\n2236 Pacific Avenue\r\nSuite D\r\nCosta Mesa, CA  92627\r\n\r\ntel: +1.949.574.5255\r\nfax: +1.949.574.0255\r\n\r\nemail: jthinnes@seasonsrecordings.com\r\n",
     "parentLabelId": "",
     "parentLabelName": "",
     "sublabels": []
   },
   {
-    "id": "3",
+    "id": 3,
     "type": "label",
     "dataQuality": "Correct",
     "images": [
@@ -157,7 +157,7 @@
     "urls": [
       "http://www.seasonsrecordings.com"
     ],
-    "contactinfo": "Seasons Recordings\r\nCosta Mesa, CA 92627\r\n\r\nOwner / Jamie Thinnes\r\n\r\nTel 714-206-6146\r\n\r\njthinnes@seasonsrecordings.com\r\ninfo@seasonsrecordings.com\r\n",
+    "contactInfo": "Seasons Recordings\r\nCosta Mesa, CA 92627\r\n\r\nOwner / Jamie Thinnes\r\n\r\nTel 714-206-6146\r\n\r\njthinnes@seasonsrecordings.com\r\ninfo@seasonsrecordings.com\r\n",
     "parentLabelId": "",
     "parentLabelName": "",
     "sublabels": [
@@ -172,7 +172,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": 4,
     "type": "label",
     "dataQuality": "Needs Vote",
     "images": [
@@ -214,7 +214,7 @@
       "https://twitter.com/siestarecords",
       "http://www.myspace.com/siestarecords"
     ],
-    "contactinfo": "Siesta Records\r\n1913 Via Encantadoras\r\nSan Diego, CA 92173\r\n\r\nphone 619.789.7793\r\n\r\ninfo@siestarecords.com\r\n",
+    "contactInfo": "Siesta Records\r\n1913 Via Encantadoras\r\nSan Diego, CA 92173\r\n\r\nphone 619.789.7793\r\n\r\ninfo@siestarecords.com\r\n",
     "parentLabelId": "",
     "parentLabelName": "",
     "sublabels": [
@@ -237,7 +237,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": 5,
     "type": "label",
     "dataQuality": "Correct",
     "images": [
@@ -252,7 +252,7 @@
     "name": "Svek",
     "profile": "",
     "urls": [],
-    "contactinfo": "Svek office \r\nStephan Grieder \r\nFax: +46 (8) 50621292 \r\n   \r\nAddress: Stephan Grieder, Lodgatan 2, 114 30 Stockholm, Sweden\n",
+    "contactInfo": "Svek office \r\nStephan Grieder \r\nFax: +46 (8) 50621292 \r\n   \r\nAddress: Stephan Grieder, Lodgatan 2, 114 30 Stockholm, Sweden\n",
     "parentLabelId": "4711",
     "parentLabelName": "Goldhead Music",
     "sublabels": [

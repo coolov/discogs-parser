@@ -1,8 +1,8 @@
 [
   {
-    "id": "113",
+    "id": 113,
     "type": "master",
-    "main_release": "116925",
+    "mainReleaseId": 116925,
     "year": "2002",
     "dataQuality": "Correct",
     "images": [
@@ -60,7 +60,7 @@
     "title": "Moments In Time",
     "artists": [
       {
-        "id": "3225",
+        "id": 3225,
         "name": "Vince Watson",
         "anv": "",
         "role": "",
@@ -170,9 +170,9 @@
     ]
   },
   {
-    "id": "114",
+    "id": 114,
     "type": "master",
-    "main_release": "42056",
+    "mainReleaseId": 42056,
     "year": "1999",
     "dataQuality": "Correct",
     "images": [
@@ -230,7 +230,7 @@
     "title": "Biologique",
     "artists": [
       {
-        "id": "3225",
+        "id": 3225,
         "name": "Vince Watson",
         "anv": "",
         "role": "",
@@ -334,9 +334,9 @@
     ]
   },
   {
-    "id": "115",
+    "id": 115,
     "type": "master",
-    "main_release": "336873",
+    "mainReleaseId": 336873,
     "year": "2004",
     "dataQuality": "Correct",
     "images": [
@@ -352,7 +352,7 @@
     "title": "Soleil",
     "artists": [
       {
-        "id": "233125",
+        "id": 233125,
         "name": "Soleil (2)",
         "anv": "",
         "role": "",
@@ -370,9 +370,9 @@
     "videos": []
   },
   {
-    "id": "116",
+    "id": 116,
     "type": "master",
-    "main_release": "5415",
+    "mainReleaseId": 5415,
     "year": "1997",
     "dataQuality": "Correct",
     "images": [
@@ -395,7 +395,7 @@
     "title": "Knackered EP",
     "artists": [
       {
-        "id": "1162",
+        "id": 1162,
         "name": "Blue Arsed Fly",
         "anv": "",
         "role": "",
@@ -434,9 +434,9 @@
     ]
   },
   {
-    "id": "117",
+    "id": 117,
     "type": "master",
-    "main_release": "91899",
+    "mainReleaseId": 91899,
     "year": "1999",
     "dataQuality": "Correct",
     "images": [
@@ -480,7 +480,7 @@
     "title": "Wide-Eyed Angel",
     "artists": [
       {
-        "id": "5508",
+        "id": 5508,
         "name": "Origin",
         "anv": "",
         "role": "",

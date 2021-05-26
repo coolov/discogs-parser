@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "type": "artist",
     "dataQuality": "Needs Vote",
     "images": [
@@ -34,14 +34,14 @@
       "The Pinguin Man"
     ],
     "groups": [],
-    "namevariations": [
+    "nameVariations": [
       "Persuader",
       "The Presuader"
     ],
-    "realname": "Jesper Dahlbäck"
+    "realName": "Jesper Dahlbäck"
   },
   {
-    "id": "2",
+    "id": 2,
     "type": "artist",
     "dataQuality": "Correct",
     "images": [],
@@ -56,16 +56,16 @@
       "Alexi Delano & Cari Lekebusch"
     ],
     "groups": [],
-    "namevariations": [
+    "nameVariations": [
       "Mr Barth & A.D.",
       "MR JAMES BARTH & A. D.",
       "Mr. Barth & A.D.",
       "Mr. James Barth & A. D."
     ],
-    "realname": "Cari Lekebusch & Alexi Delano"
+    "realName": "Cari Lekebusch & Alexi Delano"
   },
   {
-    "id": "3",
+    "id": 3,
     "type": "artist",
     "dataQuality": "Needs Vote",
     "images": [
@@ -172,7 +172,7 @@
       "Just King And Wink",
       "The Force (23)"
     ],
-    "namevariations": [
+    "nameVariations": [
       "DJ Josh Wink",
       "DJ Wink",
       "Dosh Wink",
@@ -204,10 +204,10 @@
       "Winx",
       "Winxs"
     ],
-    "realname": "Joshua Winkelman"
+    "realName": "Joshua Winkelman"
   },
   {
-    "id": "4",
+    "id": 4,
     "type": "artist",
     "dataQuality": "Needs Vote",
     "images": [
@@ -286,7 +286,7 @@
       "State Of Chaos",
       "Question Authority (2)"
     ],
-    "namevariations": [
+    "nameVariations": [
       "Heil",
       "Heil, Johannes",
       "Hell",
@@ -299,10 +299,10 @@
       "Johannas Heil",
       "Johannes Hell"
     ],
-    "realname": "Johannes Heil"
+    "realName": "Johannes Heil"
   },
   {
-    "id": "5",
+    "id": 5,
     "type": "artist",
     "dataQuality": "Needs Vote",
     "images": [
@@ -377,13 +377,13 @@
       "Offshore Funk",
       "4K (3)"
     ],
-    "namevariations": [
+    "nameVariations": [
       "220",
       "H. Laux",
       "H.Laux",
       "Heiko",
       "Laux"
     ],
-    "realname": "Heiko Laux"
+    "realName": "Heiko Laux"
   }
 ]

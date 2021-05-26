@@ -7,7 +7,7 @@ export interface Image {
 }
 
 export interface ReleaseArtist {
-  id: string;
+  id: number;
   name: string;
   anv: string;
   role: string;
@@ -33,28 +33,28 @@ export interface BaseRelease {
 }
 
 export interface Master extends BaseRelease {
-  id: string;
+  id: number;
   type: string;
-  main_release: string;
+  mainReleaseId: number | null;
   year: string;
 }
 
 export interface Release extends BaseRelease {
-  id: string;
+  id: number;
   type: string;
   dataQuality: string;
   images: Image[];
   country: string;
-  masterId: string;
+  masterId: number | null;
   released: string;
-  extraartists: ReleaseArtist[];
+  extraArtists: ReleaseArtist[];
   companies: {
     id: string;
     name: string;
-    catno: string;
-    entity_type: string;
-    entity_type_name: string;
-    resource_url: string;
+    catNo: string;
+    entityType: string;
+    entityTypeName: string;
+    resourceUrl: string;
   }[];
   formats: {
     name: string;
@@ -70,19 +70,19 @@ export interface Release extends BaseRelease {
   labels: {
     id: string;
     name: string;
-    catno: string;
+    catNo: string;
   }[];
   tracklist: {
     position: string;
     title: string;
     duration: string;
     artists: ReleaseArtist[];
-    extraartists: ReleaseArtist[];
+    extraArtists: ReleaseArtist[];
   }[];
 }
 
 export interface Artist {
-  id: string;
+  id: number;
   type: string;
   dataQuality: string;
   images: Image[];
@@ -92,19 +92,19 @@ export interface Artist {
   aliases: string[];
   groups: string[];
   // members: XmlNode[],
-  namevariations: string[];
-  realname: string;
+  nameVariations: string[];
+  realName: string;
 }
 
 export interface Label {
-  id: string;
+  id: number;
   type: string;
   dataQuality: string;
   images: Image[];
   name: string;
   profile: string;
   urls: string[];
-  contactinfo: string;
+  contactInfo: string;
   parentLabelId: string;
   parentLabelName: string;
   sublabels: {
