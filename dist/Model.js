@@ -30,8 +30,8 @@ function newReleaseArtist(node) {
         throw new Error("Id is missing!");
     }
     return {
-        id: parseInt(fields.id.text, 10),
-        name: fields.name?.text || "",
+        artistId: parseInt(fields.id.text, 10),
+        artistName: fields.name?.text || "",
         anv: fields.anv?.text || "",
         role: fields.role?.text || "",
         // todo: verify that these 2 fields actually exist, and are of type text
@@ -108,8 +108,8 @@ function newRelease(node) {
             value: node.attrs.value || "",
         })),
         labels: mapChildren(fields.labels, (node) => ({
-            id: node.attrs.id || "",
-            name: node.attrs.name || "",
+            labelId: node.attrs.id || "",
+            labelName: node.attrs.name || "",
             catNo: node.attrs.catno || "",
         })),
         tracklist: mapChildren(fields.tracklist, (node, fields) => ({
@@ -158,12 +158,19 @@ function newLabel(node) {
         profile: fields.profile?.text || "",
         urls: mapChildren(fields.urls, (node) => node.text),
         contactInfo: fields.contactinfo?.text || "",
-        parentLabelId: fields.parentLabel?.attrs.id || "",
+        parentLabelId: fields.parentLabel?.attrs.id
+            ? parseInt(fields.parentLabel?.attrs.id, 10)
+            : null,
         parentLabelName: fields.parentLabel?.text || "",
-        sublabels: mapChildren(fields.sublabels, (node) => ({
-            id: node.attrs.id || "",
-            name: node.text || "",
-        })),
+        sublabels: mapChildren(fields.sublabels, (node) => {
+            if (!node.attrs.id) {
+                throw new Error("Id is missing!");
+            }
+            return {
+                labelId: parseInt(node.attrs.id, 10),
+                labelName: node.text || "",
+            };
+        }),
     };
 }
 exports.newLabel = newLabel;

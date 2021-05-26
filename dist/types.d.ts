@@ -6,8 +6,8 @@ export interface Image {
     height: string;
 }
 export interface ReleaseArtist {
-    id: number;
-    name: string;
+    artistId: number;
+    artistName: string;
     anv: string;
     role: string;
     join: string;
@@ -64,8 +64,8 @@ export interface Release extends BaseRelease {
         value: string;
     }[];
     labels: {
-        id: string;
-        name: string;
+        labelId: string;
+        labelName: string;
         catNo: string;
     }[];
     tracklist: {
@@ -98,11 +98,11 @@ export interface Label {
     profile: string;
     urls: string[];
     contactInfo: string;
-    parentLabelId: string;
+    parentLabelId: number | null;
     parentLabelName: string;
     sublabels: {
-        id: string;
-        name: string;
+        labelId: number;
+        labelName: string;
     }[];
 }
 export declare type Record = Release | Master | Artist | Label;

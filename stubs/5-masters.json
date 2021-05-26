@@ -60,8 +60,8 @@
     "title": "Moments In Time",
     "artists": [
       {
-        "id": 3225,
-        "name": "Vince Watson",
+        "artistId": 3225,
+        "artistName": "Vince Watson",
         "anv": "",
         "role": "",
         "join": "",
@@ -230,8 +230,8 @@
     "title": "Biologique",
     "artists": [
       {
-        "id": 3225,
-        "name": "Vince Watson",
+        "artistId": 3225,
+        "artistName": "Vince Watson",
         "anv": "",
         "role": "",
         "join": "",
@@ -352,8 +352,8 @@
     "title": "Soleil",
     "artists": [
       {
-        "id": 233125,
-        "name": "Soleil (2)",
+        "artistId": 233125,
+        "artistName": "Soleil (2)",
         "anv": "",
         "role": "",
         "join": "",
@@ -395,8 +395,8 @@
     "title": "Knackered EP",
     "artists": [
       {
-        "id": 1162,
-        "name": "Blue Arsed Fly",
+        "artistId": 1162,
+        "artistName": "Blue Arsed Fly",
         "anv": "",
         "role": "",
         "join": "",
@@ -480,8 +480,8 @@
     "title": "Wide-Eyed Angel",
     "artists": [
       {
-        "id": 5508,
-        "name": "Origin",
+        "artistId": 5508,
+        "artistName": "Origin",
         "anv": "",
         "role": "",
         "join": "",

@@ -40,8 +40,8 @@
     "title": "Stockholm",
     "artists": [
       {
-        "id": 1,
-        "name": "The Persuader",
+        "artistId": 1,
+        "artistName": "The Persuader",
         "anv": "",
         "role": "",
         "join": "",
@@ -118,8 +118,8 @@
     ],
     "extraArtists": [
       {
-        "id": 239,
-        "name": "Jesper Dahlbäck",
+        "artistId": 239,
+        "artistName": "Jesper Dahlbäck",
         "anv": "",
         "role": "Music By [All Tracks By]",
         "join": "",
@@ -166,8 +166,8 @@
     ],
     "labels": [
       {
-        "id": "5",
-        "name": "Svek",
+        "labelId": "5",
+        "labelName": "Svek",
         "catNo": "SK032"
       }
     ],
@@ -250,8 +250,8 @@
     "title": "Knockin' Boots (Vol 2 Of 2)",
     "artists": [
       {
-        "id": 2,
-        "name": "Mr. James Barth & A.D.",
+        "artistId": 2,
+        "artistName": "Mr. James Barth & A.D.",
         "anv": "",
         "role": "",
         "join": "",
@@ -316,32 +316,32 @@
     ],
     "extraArtists": [
       {
-        "id": 26,
-        "name": "Alexi Delano",
+        "artistId": 26,
+        "artistName": "Alexi Delano",
         "anv": "",
         "role": "Producer, Recorded By",
         "join": "",
         "tracks": ""
       },
       {
-        "id": 27,
-        "name": "Cari Lekebusch",
+        "artistId": 27,
+        "artistName": "Cari Lekebusch",
         "anv": "",
         "role": "Producer, Recorded By",
         "join": "",
         "tracks": ""
       },
       {
-        "id": 26,
-        "name": "Alexi Delano",
+        "artistId": 26,
+        "artistName": "Alexi Delano",
         "anv": "A. Delano",
         "role": "Written-By",
         "join": "",
         "tracks": ""
       },
       {
-        "id": 27,
-        "name": "Cari Lekebusch",
+        "artistId": 27,
+        "artistName": "Cari Lekebusch",
         "anv": "C. Lekebusch",
         "role": "Written-By",
         "join": "",
@@ -373,13 +373,13 @@
     ],
     "labels": [
       {
-        "id": "5",
-        "name": "Svek",
+        "labelId": "5",
+        "labelName": "Svek",
         "catNo": "SK 026"
       },
       {
-        "id": "5",
-        "name": "Svek",
+        "labelId": "5",
+        "labelName": "Svek",
         "catNo": "SK026"
       }
     ],
@@ -455,8 +455,8 @@
     "title": "Profound Sounds Vol. 1",
     "artists": [
       {
-        "id": 3,
-        "name": "Josh Wink",
+        "artistId": 3,
+        "artistName": "Josh Wink",
         "anv": "",
         "role": "",
         "join": "",
@@ -506,8 +506,8 @@
     ],
     "extraArtists": [
       {
-        "id": 3,
-        "name": "Josh Wink",
+        "artistId": 3,
+        "artistName": "Josh Wink",
         "anv": "",
         "role": "DJ Mix",
         "join": "",
@@ -534,8 +534,8 @@
     ],
     "labels": [
       {
-        "id": "6",
-        "name": "Ruffhouse Records",
+        "labelId": "6",
+        "labelName": "Ruffhouse Records",
         "catNo": "CK 63628"
       }
     ],
@@ -546,16 +546,16 @@
         "duration": "7:00",
         "artists": [
           {
-            "id": 5,
-            "name": "Heiko Laux",
+            "artistId": 5,
+            "artistName": "Heiko Laux",
             "anv": "",
             "role": "",
             "join": "&",
             "tracks": ""
           },
           {
-            "id": 4,
-            "name": "Johannes Heil",
+            "artistId": 4,
+            "artistName": "Johannes Heil",
             "anv": "",
             "role": "",
             "join": "",
@@ -570,8 +570,8 @@
         "duration": "5:28",
         "artists": [
           {
-            "id": 15525,
-            "name": "Karl Axel Bissler",
+            "artistId": 15525,
+            "artistName": "Karl Axel Bissler",
             "anv": "K.A.B.",
             "role": "",
             "join": "",
@@ -586,8 +586,8 @@
         "duration": "5:25",
         "artists": [
           {
-            "id": 7,
-            "name": "Sylk 130",
+            "artistId": 7,
+            "artistName": "Sylk 130",
             "anv": "",
             "role": "",
             "join": "",
@@ -596,8 +596,8 @@
         ],
         "extraArtists": [
           {
-            "id": 8,
-            "name": "Mood II Swing",
+            "artistId": 8,
+            "artistName": "Mood II Swing",
             "anv": "",
             "role": "Remix",
             "join": "",
@@ -611,8 +611,8 @@
         "duration": "4:27",
         "artists": [
           {
-            "id": 1,
-            "name": "The Persuader",
+            "artistId": 1,
+            "artistName": "The Persuader",
             "anv": "",
             "role": "",
             "join": "",
@@ -627,8 +627,8 @@
         "duration": "5:36",
         "artists": [
           {
-            "id": 267132,
-            "name": "Care Company (2)",
+            "artistId": 267132,
+            "artistName": "Care Company (2)",
             "anv": "",
             "role": "",
             "join": "",
@@ -643,8 +643,8 @@
         "duration": "3:37",
         "artists": [
           {
-            "id": 6981,
-            "name": "Gez Varley",
+            "artistId": 6981,
+            "artistName": "Gez Varley",
             "anv": "",
             "role": "",
             "join": "",
@@ -659,8 +659,8 @@
         "duration": "5:03",
         "artists": [
           {
-            "id": 11,
-            "name": "DJ Dozia",
+            "artistId": 11,
+            "artistName": "DJ Dozia",
             "anv": "",
             "role": "",
             "join": "",
@@ -675,16 +675,16 @@
         "duration": "5:42",
         "artists": [
           {
-            "id": 10702,
-            "name": "Nerio's Dubwork",
+            "artistId": 10702,
+            "artistName": "Nerio's Dubwork",
             "anv": "",
             "role": "",
             "join": "Meets",
             "tracks": ""
           },
           {
-            "id": 233190,
-            "name": "Kathy Lee",
+            "artistId": 233190,
+            "artistName": "Kathy Lee",
             "anv": "",
             "role": "",
             "join": "",
@@ -693,8 +693,8 @@
         ],
         "extraArtists": [
           {
-            "id": 23,
-            "name": "Alex Hi-Fi",
+            "artistId": 23,
+            "artistName": "Alex Hi-Fi",
             "anv": "",
             "role": "Remix",
             "join": "",
@@ -708,8 +708,8 @@
         "duration": "5:47",
         "artists": [
           {
-            "id": 13,
-            "name": "Blaze",
+            "artistId": 13,
+            "artistName": "Blaze",
             "anv": "",
             "role": "",
             "join": "",
@@ -718,8 +718,8 @@
         ],
         "extraArtists": [
           {
-            "id": 14,
-            "name": "Eight Miles High",
+            "artistId": 14,
+            "artistName": "Eight Miles High",
             "anv": "",
             "role": "Remix",
             "join": "",
@@ -733,16 +733,16 @@
         "duration": "6:06",
         "artists": [
           {
-            "id": 67226,
-            "name": "Stacey Pullen",
+            "artistId": 67226,
+            "artistName": "Stacey Pullen",
             "anv": "",
             "role": "",
             "join": "Presents",
             "tracks": ""
           },
           {
-            "id": 7554,
-            "name": "Black Odyssey",
+            "artistId": 7554,
+            "artistName": "Black Odyssey",
             "anv": "",
             "role": "",
             "join": "",
@@ -751,8 +751,8 @@
         ],
         "extraArtists": [
           {
-            "id": 67226,
-            "name": "Stacey Pullen",
+            "artistId": 67226,
+            "artistName": "Stacey Pullen",
             "anv": "",
             "role": "Presenter",
             "join": "",
@@ -766,8 +766,8 @@
         "duration": "3:16",
         "artists": [
           {
-            "id": 3906,
-            "name": "Christian Smith & John Selway",
+            "artistId": 3906,
+            "artistName": "Christian Smith & John Selway",
             "anv": "",
             "role": "",
             "join": "",
@@ -782,8 +782,8 @@
         "duration": "2:46",
         "artists": [
           {
-            "id": 3,
-            "name": "Josh Wink",
+            "artistId": 3,
+            "artistName": "Josh Wink",
             "anv": "",
             "role": "",
             "join": "",
@@ -798,8 +798,8 @@
         "duration": "3:41",
         "artists": [
           {
-            "id": 19,
-            "name": "Sound Associates",
+            "artistId": 19,
+            "artistName": "Sound Associates",
             "anv": "",
             "role": "",
             "join": "",
@@ -814,8 +814,8 @@
         "duration": "3:39",
         "artists": [
           {
-            "id": 20,
-            "name": "Percy X",
+            "artistId": 20,
+            "artistName": "Percy X",
             "anv": "",
             "role": "",
             "join": "",
@@ -874,8 +874,8 @@
     "title": "Moving Cities",
     "artists": [
       {
-        "id": 21,
-        "name": "Faze Action",
+        "artistId": 21,
+        "artistName": "Faze Action",
         "anv": "",
         "role": "",
         "join": "",
@@ -940,8 +940,8 @@
     ],
     "labels": [
       {
-        "id": "7",
-        "name": "F-111 Records",
+        "labelId": "7",
+        "labelName": "F-111 Records",
         "catNo": "9 47555-2"
       }
     ],
@@ -1073,8 +1073,8 @@
     "title": "Flowerhead",
     "artists": [
       {
-        "id": 22,
-        "name": "Datacide",
+        "artistId": 22,
+        "artistName": "Datacide",
         "anv": "",
         "role": "",
         "join": "",
@@ -1168,32 +1168,32 @@
     ],
     "extraArtists": [
       {
-        "id": 539207,
-        "name": "Linger Decoree",
+        "artistId": 539207,
+        "artistName": "Linger Decoree",
         "anv": "",
         "role": "Cover, Design [Logo Designs]",
         "join": "",
         "tracks": ""
       },
       {
-        "id": 25,
-        "name": "Tetsu Inoue",
+        "artistId": 25,
+        "artistName": "Tetsu Inoue",
         "anv": "",
         "role": "Performer [Datacide Are]",
         "join": "",
         "tracks": ""
       },
       {
-        "id": 519207,
-        "name": "Uwe Schmidt",
+        "artistId": 519207,
+        "artistName": "Uwe Schmidt",
         "anv": "",
         "role": "Performer [Datacide Are]",
         "join": "",
         "tracks": ""
       },
       {
-        "id": 22,
-        "name": "Datacide",
+        "artistId": 22,
+        "artistName": "Datacide",
         "anv": "",
         "role": "Producer",
         "join": "",
@@ -1220,13 +1220,13 @@
     ],
     "labels": [
       {
-        "id": "8",
-        "name": "Rather Interesting",
+        "labelId": "8",
+        "labelName": "Rather Interesting",
         "catNo": "RI 026"
       },
       {
-        "id": "8",
-        "name": "Rather Interesting",
+        "labelId": "8",
+        "labelName": "Rather Interesting",
         "catNo": "RI026"
       }
     ],
@@ -1238,8 +1238,8 @@
         "artists": [],
         "extraArtists": [
           {
-            "id": 415403,
-            "name": "Ingrid Baier",
+            "artistId": 415403,
+            "artistName": "Ingrid Baier",
             "anv": "Ingrid",
             "role": "Voice",
             "join": "",
