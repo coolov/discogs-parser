@@ -35,7 +35,7 @@ function newReleaseArtist(node) {
         anv: fields.anv?.text || "",
         role: fields.role?.text || "",
         // todo: verify that these 2 fields actually exist, and are of type text
-        join: fields.join?.text || "",
+        connect: fields.join?.text || "",
         tracks: fields.tracks?.text || "",
     };
 }
@@ -88,7 +88,7 @@ function newRelease(node) {
         released: fields.released?.text || "",
         ...newBaseRelease(fields),
         companies: mapChildren(fields.companies, (node, fields) => ({
-            id: fields.id?.text || "",
+            companyId: fields.id?.text || "",
             name: fields.name?.text || "",
             catNo: fields.catno?.text || "",
             entityType: fields.entity_type?.text || "",

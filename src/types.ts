@@ -11,7 +11,7 @@ export interface ReleaseArtist {
   artistName: string;
   anv: string;
   role: string;
-  join: string;
+  connect: string;
   tracks: string;
 }
 
@@ -49,7 +49,7 @@ export interface Release extends BaseRelease {
   images: Image[];
   extraArtists: ReleaseArtist[];
   companies: {
-    id: string;
+    companyId: string;
     name: string;
     catNo: string;
     entityType: string;
