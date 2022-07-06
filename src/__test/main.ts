@@ -4,10 +4,12 @@ import https from "https";
 import { IncomingMessage } from "http";
 import zlib from "zlib";
 import assert from "assert";
+import { hrtime } from 'node:process';
 
 import { Label, DiscogsItem, createDiscogsParser } from "../main";
 
 const STUBS_DIR = path.join(__dirname, "../../stubs/");
+const BASE_URL = 'https://discogs-data-dumps.s3-us-west-2.amazonaws.com'
 
 function get(url: string): Promise<IncomingMessage> {
   return new Promise((resolve, reject) => {
@@ -33,9 +35,9 @@ async function takeFromNetwork<T extends DiscogsItem>(
   type: string,
   count: number
 ) {
-  const httpStream = await get(
-    `https://discogs-data.s3-us-west-2.amazonaws.com/data/2021/discogs_20210501_${type}.xml.gz`
-  );
+  const url = `${BASE_URL}/data/2021/discogs_20210501_${type}.xml.gz`
+  console.log(url)
+  const httpStream = await get(url);
   const readStream = httpStream.pipe(zlib.createGunzip());
   const discogsStream = createDiscogsParser<T>(readStream);
 
@@ -72,13 +74,25 @@ async function takeFromNetwork<T extends DiscogsItem>(
   return items;
 }
 
+function sleep(ms: number) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  })
+}
+
 async function main() {
-  await Promise.all([
-    takeFromNetwork("labels", 100),
-    takeFromNetwork("artists", 100),
-    takeFromNetwork("masters", 100),
-    takeFromNetwork("releases", 100),
-  ]);
+  for (let i = 1; i < 101; i++) {
+    const start = Date.now();
+    console.log(`take ${i}...`)
+    await Promise.all([
+      takeFromNetwork("labels", 100),
+      takeFromNetwork("artists", 100),
+      takeFromNetwork("masters", 100),
+      takeFromNetwork("releases", 100),
+    ]);
+    console.log(`... took ${Date.now() - start} ms`);
+    await sleep(500);
+  }
 }
 
 main().catch((err) => {

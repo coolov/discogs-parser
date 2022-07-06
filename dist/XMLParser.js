@@ -1,17 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.XMLParser = void 0;
-/*
- * 1) node-expat does a depth first traversal of the XML-tree
- * 2) the assumption is that the xml file has a single root node,
- *    containing one long homegenous list of child nodes
- *    (e.g. artist, release, label, master)
- * 3) the streaming parser will emit each child node in the list
- */
-const node_expat_1 = __importDefault(require("node-expat"));
+const saxes_1 = require("saxes");
 function createEmptyNode(tag, attrs, parent) {
     return {
         tag,
@@ -42,17 +32,18 @@ function peek(stack) {
         return stack[stack.length - 1];
     }
 }
-class XMLParser extends node_expat_1.default.Parser {
+class XMLParser extends saxes_1.SaxesParser {
     constructor() {
         super("UTF-8");
         this.stack = [];
-        this.on("startElement", this.handleStartElement.bind(this));
+        this.on("opentag", this.handleStartElement.bind(this));
         this.on("text", this.handleText.bind(this));
-        this.on("endElement", this.handleEndElement.bind(this));
+        this.on("closetag", this.handleEndElement.bind(this));
     }
-    handleStartElement(name, attrs) {
+    handleStartElement(n) {
+        console.log(n);
         const parentNode = peek(this.stack);
-        const node = createEmptyNode(name, attrs, parentNode);
+        const node = createEmptyNode(n.name, n.attributes, parentNode);
         this.stack.push(node);
     }
     handleEndElement() {

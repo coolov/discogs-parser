@@ -1,4 +1,4 @@
-import expat from "node-expat";
+import { SaxesParser } from 'saxes';
 interface keyval {
     [key: string]: string | undefined;
 }
@@ -13,11 +13,15 @@ export interface XmlNode {
     isRoot: Boolean;
     appendText: (str: string) => void;
 }
-export declare class XMLParser extends expat.Parser {
+declare type N = {
+    name: string;
+    attributes: keyval;
+};
+export declare class XMLParser extends SaxesParser {
     stack: XmlNode[];
     constructor();
-    handleStartElement(name: string, attrs: any): void;
-    handleEndElement(): boolean | undefined;
+    handleStartElement(n: N): void;
+    handleEndElement(): any;
     handleText(txt: string): void;
 }
 export {};

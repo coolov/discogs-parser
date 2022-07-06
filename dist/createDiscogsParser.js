@@ -20,6 +20,7 @@ async function* createDiscogsParser(readStream) {
             }
         }
     }
+    console.log("done iter");
 }
 exports.createDiscogsParser = createDiscogsParser;
 //# sourceMappingURL=createDiscogsParser.js.map
