@@ -6,11 +6,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const https_1 = __importDefault(require("https"));
-const zlib_1 = __importDefault(require("zlib"));
 const assert_1 = __importDefault(require("assert"));
 const main_1 = require("../main");
 const STUBS_DIR = path_1.default.join(__dirname, "../../stubs/");
-const BASE_URL = 'https://discogs-data-dumps.s3-us-west-2.amazonaws.com';
+const BASE_URL = "https://discogs-data-dumps.s3-us-west-2.amazonaws.com";
 function get(url) {
     return new Promise((resolve, reject) => {
         const req = https_1.default.get(url, resolve);
@@ -18,19 +17,10 @@ function get(url) {
         req.end();
     });
 }
-async function fromDisk() {
-    const xmlFile = path_1.default.join(STUBS_DIR, "labels.xml");
-    const discogsStream = main_1.createDiscogsParser(fs_1.default.createReadStream(xmlFile));
-    for await (const label of discogsStream) {
-        return;
-    }
-}
 async function takeFromNetwork(type, count) {
     const url = `${BASE_URL}/data/2021/discogs_20210501_${type}.xml.gz`;
-    console.log(url);
-    const httpStream = await get(url);
-    const readStream = httpStream.pipe(zlib_1.default.createGunzip());
-    const discogsStream = main_1.createDiscogsParser(readStream);
+    const stream = await get(url);
+    const discogsStream = main_1.createDiscogsParser(stream);
     const items = [];
     let i = 0;
     for await (const chunk of discogsStream) {
@@ -39,11 +29,6 @@ async function takeFromNetwork(type, count) {
             break;
         }
     }
-    // uncomment to update snapshot
-    // fs.writeFileSync(
-    //   path.join(STUBS_DIR, `snap-${type}.json`),
-    //   JSON.stringify(items, null, 2)
-    // );
     const snapshot = fs_1.default
         .readFileSync(path_1.default.join(STUBS_DIR, `snap-${type}.json`))
         .toString();

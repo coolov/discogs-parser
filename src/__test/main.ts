@@ -2,14 +2,12 @@ import fs from "fs";
 import path from "path";
 import https from "https";
 import { IncomingMessage } from "http";
-import zlib from "zlib";
 import assert from "assert";
-import { hrtime } from 'node:process';
 
 import { Label, DiscogsItem, createDiscogsParser } from "../main";
 
 const STUBS_DIR = path.join(__dirname, "../../stubs/");
-const BASE_URL = 'https://discogs-data-dumps.s3-us-west-2.amazonaws.com'
+const BASE_URL = "https://discogs-data-dumps.s3-us-west-2.amazonaws.com";
 
 function get(url: string): Promise<IncomingMessage> {
   return new Promise((resolve, reject) => {
@@ -19,27 +17,13 @@ function get(url: string): Promise<IncomingMessage> {
   });
 }
 
-async function fromDisk() {
-  const xmlFile = path.join(STUBS_DIR, "labels.xml");
-
-  const discogsStream = createDiscogsParser<Label>(
-    fs.createReadStream(xmlFile)
-  );
-
-  for await (const label of discogsStream) {
-    return;
-  }
-}
-
 async function takeFromNetwork<T extends DiscogsItem>(
   type: string,
   count: number
 ) {
-  const url = `${BASE_URL}/data/2021/discogs_20210501_${type}.xml.gz`
-  console.log(url)
-  const httpStream = await get(url);
-  const readStream = httpStream.pipe(zlib.createGunzip());
-  const discogsStream = createDiscogsParser<T>(readStream);
+  const url = `${BASE_URL}/data/2021/discogs_20210501_${type}.xml.gz`;
+  const stream = await get(url);
+  const discogsStream = createDiscogsParser<T>(stream);
 
   const items: T[] = [];
   let i = 0;
@@ -49,12 +33,6 @@ async function takeFromNetwork<T extends DiscogsItem>(
       break;
     }
   }
-
-  // uncomment to update snapshot
-  // fs.writeFileSync(
-  //   path.join(STUBS_DIR, `snap-${type}.json`),
-  //   JSON.stringify(items, null, 2)
-  // );
 
   const snapshot = fs
     .readFileSync(path.join(STUBS_DIR, `snap-${type}.json`))
@@ -77,13 +55,13 @@ async function takeFromNetwork<T extends DiscogsItem>(
 function sleep(ms: number) {
   return new Promise((resolve) => {
     setTimeout(resolve, ms);
-  })
+  });
 }
 
 async function main() {
   for (let i = 1; i < 101; i++) {
     const start = Date.now();
-    console.log(`take ${i}...`)
+    console.log(`take ${i}...`);
     await Promise.all([
       takeFromNetwork("labels", 100),
       takeFromNetwork("artists", 100),

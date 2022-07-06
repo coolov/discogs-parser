@@ -3,19 +3,15 @@
 The streaming parser takes a read stream and returns an async iterator
 
 ```javascript
-const zlib = require("zlib");
 const https = require("https");
 const { createDiscogsParser } = require("discogs-parser");
 
 // more info here http://data.discogs.com/
 const DISCOGS_DATA_URL =
-  "https://discogs-data.s3-us-west-2.amazonaws.com/data/2021/discogs_20210501_artists.xml.gz";
+  "https://discogs-data-dumps.s3-us-west-2.amazonaws.com/data/2021/discogs_20210501_artists.xml.gz";
 
-https.get(DISCOGS_DATA_URL, async (response) => {
-  const httpStream = response.pipe(zlib.createGunzip());
-  const stream = createDiscogsParser(httpStream);
-
-  for await (const chunk of stream) {
+https.get(DISCOGS_DATA_URL, async (httpStream) => {
+  for await (const chunk of createDiscogsParser(httpStream)) {
     console.log(chunk.id);
   }
 
@@ -30,7 +26,7 @@ import fs from "fs";
 import path from "path";
 import { Label, createDiscogsParser } from "discogs-parser";
 
-const xmlFile = path.join(__dirname, "labels.xml");
+const xmlFile = path.join(__dirname, "discogs_20210501_labels.xml.gz");
 
 async function parseLabels() {
   const stream = createDiscogsParser<Label>(fs.createReadStream(xmlFile));
