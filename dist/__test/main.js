@@ -10,6 +10,7 @@ const assert_1 = __importDefault(require("assert"));
 const main_1 = require("../main");
 const STUBS_DIR = path_1.default.join(__dirname, "../../stubs/");
 const BASE_URL = "https://discogs-data-dumps.s3-us-west-2.amazonaws.com";
+const TAKES = 10;
 function get(url) {
     return new Promise((resolve, reject) => {
         const req = https_1.default.get(url, resolve);
@@ -29,6 +30,12 @@ async function takeFromNetwork(type, count) {
             break;
         }
     }
+    // comment out to update snapshots
+    // fs.writeFileSync(
+    //   path.join(STUBS_DIR, `snap-${type}.json`),
+    //   JSON.stringify(items, null, 2)
+    // );
+    // return;
     const snapshot = fs_1.default
         .readFileSync(path_1.default.join(STUBS_DIR, `snap-${type}.json`))
         .toString();
@@ -51,7 +58,7 @@ function sleep(ms) {
     });
 }
 async function main() {
-    for (let i = 1; i < 101; i++) {
+    for (let i = 1; i < TAKES; i++) {
         const start = Date.now();
         console.log(`take ${i}...`);
         await Promise.all([

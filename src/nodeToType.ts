@@ -137,7 +137,7 @@ export function newRelease(node: XmlNode): Release {
       value: node.attrs.value || "",
     })),
     labels: mapChildren(fields.labels, (node) => ({
-      labelId: node.attrs.id || "",
+      labelId: node.attrs.id !== undefined ? parseInt(node.attrs.id, 10) : null,
       labelName: node.attrs.name || "",
       catNo: node.attrs.catno || "",
     })),

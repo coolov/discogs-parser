@@ -166,7 +166,7 @@
     ],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK032"
       }
@@ -373,12 +373,12 @@
     ],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK 026"
       },
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK026"
       }
@@ -534,7 +534,7 @@
     ],
     "labels": [
       {
-        "labelId": "6",
+        "labelId": 6,
         "labelName": "Ruffhouse Records",
         "catNo": "CK 63628"
       }
@@ -940,7 +940,7 @@
     ],
     "labels": [
       {
-        "labelId": "7",
+        "labelId": 7,
         "labelName": "F-111 Records",
         "catNo": "9 47555-2"
       }
@@ -1220,12 +1220,12 @@
     ],
     "labels": [
       {
-        "labelId": "8",
+        "labelId": 8,
         "labelName": "Rather Interesting",
         "catNo": "RI 026"
       },
       {
-        "labelId": "8",
+        "labelId": 8,
         "labelName": "Rather Interesting",
         "catNo": "RI026"
       }
@@ -1389,12 +1389,12 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK025"
       },
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK 025"
       }
@@ -1566,7 +1566,7 @@
     ],
     "labels": [
       {
-        "labelId": "9",
+        "labelId": 9,
         "labelName": "Deep4Life",
         "catNo": "D4L12002"
       }
@@ -1709,7 +1709,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "9",
+        "labelId": 9,
         "labelName": "Deep4Life",
         "catNo": "D4L12004"
       }
@@ -2182,7 +2182,7 @@
     ],
     "labels": [
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "NM008"
       }
@@ -2510,12 +2510,12 @@
     ],
     "labels": [
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "NM003"
       },
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "nm 003"
       }
@@ -2999,12 +2999,12 @@
     ],
     "labels": [
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "NM002"
       },
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "nm 002"
       }
@@ -3363,7 +3363,7 @@
     ],
     "labels": [
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "NM004"
       }
@@ -3627,7 +3627,7 @@
     ],
     "labels": [
       {
-        "labelId": "9",
+        "labelId": 9,
         "labelName": "Deep4Life",
         "catNo": "D4L12007"
       }
@@ -3768,7 +3768,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "2",
+        "labelId": 2,
         "labelName": "Earthtones Recordings",
         "catNo": "ET12-003"
       }
@@ -3958,7 +3958,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "3",
+        "labelId": 3,
         "labelName": "Seasons Recordings",
         "catNo": "SEA12-015"
       }
@@ -4079,7 +4079,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "26",
+        "labelId": 26,
         "labelName": "Intrinsic Design",
         "catNo": "ID002-6"
       }
@@ -4293,7 +4293,7 @@
     ],
     "labels": [
       {
-        "labelId": "26",
+        "labelId": 26,
         "labelName": "Intrinsic Design",
         "catNo": "ID001-6"
       }
@@ -4435,7 +4435,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "26",
+        "labelId": 26,
         "labelName": "Intrinsic Design",
         "catNo": "ID003-6"
       }
@@ -4566,7 +4566,7 @@
     ],
     "labels": [
       {
-        "labelId": "27",
+        "labelId": 27,
         "labelName": "Leaf Recordings",
         "catNo": "LRCAN004"
       }
@@ -4699,7 +4699,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "24",
+        "labelId": 24,
         "labelName": "Immigrant",
         "catNo": "IMM005"
       }
@@ -4892,7 +4892,7 @@
     ],
     "labels": [
       {
-        "labelId": "18",
+        "labelId": 18,
         "labelName": "Soma Quality Recordings",
         "catNo": "SOMA 92"
       }
@@ -5141,7 +5141,7 @@
     ],
     "labels": [
       {
-        "labelId": "9",
+        "labelId": 9,
         "labelName": "Deep4Life",
         "catNo": "D4L12005"
       }
@@ -5282,7 +5282,7 @@
     ],
     "labels": [
       {
-        "labelId": "9",
+        "labelId": 9,
         "labelName": "Deep4Life",
         "catNo": "D4L12006"
       }
@@ -5430,7 +5430,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-043"
       }
@@ -5659,7 +5659,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-053"
       }
@@ -5905,7 +5905,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-029"
       }
@@ -6076,7 +6076,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-034"
       }
@@ -6220,7 +6220,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "29",
+        "labelId": 29,
         "labelName": "Recline",
         "catNo": "RECLINE003"
       }
@@ -6374,7 +6374,7 @@
     ],
     "labels": [
       {
-        "labelId": "30",
+        "labelId": 30,
         "labelName": "Palette Recordings",
         "catNo": "PAL-11"
       }
@@ -6532,7 +6532,7 @@
     ],
     "labels": [
       {
-        "labelId": "31",
+        "labelId": 31,
         "labelName": "Mosaic",
         "catNo": "MOSAIC026"
       }
@@ -6799,7 +6799,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-048"
       }
@@ -6990,7 +6990,7 @@
     ],
     "labels": [
       {
-        "labelId": "32",
+        "labelId": 32,
         "labelName": "Worship Recordings",
         "catNo": "WOR.04"
       }
@@ -7175,7 +7175,7 @@
     ],
     "labels": [
       {
-        "labelId": "29074",
+        "labelId": 29074,
         "labelName": "Moonshine Music",
         "catNo": "MM 80123-2"
       }
@@ -7583,7 +7583,7 @@
     ],
     "labels": [
       {
-        "labelId": "34",
+        "labelId": 34,
         "labelName": "Statra Recordings",
         "catNo": "STATCD-9901"
       }
@@ -7942,7 +7942,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "35",
+        "labelId": 35,
         "labelName": "Ovum Recordings",
         "catNo": "OVM117"
       }
@@ -8149,7 +8149,7 @@
     ],
     "labels": [
       {
-        "labelId": "36",
+        "labelId": 36,
         "labelName": "End Recordings",
         "catNo": "ENDLP002.1"
       }
@@ -8362,7 +8362,7 @@
     ],
     "labels": [
       {
-        "labelId": "37",
+        "labelId": 37,
         "labelName": "Zebra Recordings",
         "catNo": "ZR 001"
       }
@@ -8502,7 +8502,7 @@
     ],
     "labels": [
       {
-        "labelId": "39",
+        "labelId": 39,
         "labelName": "i! Records",
         "catNo": "IR-157"
       }
@@ -8750,7 +8750,7 @@
     ],
     "labels": [
       {
-        "labelId": "39",
+        "labelId": 39,
         "labelName": "i! Records",
         "catNo": "IR-188"
       }
@@ -8994,12 +8994,12 @@
     ],
     "labels": [
       {
-        "labelId": "38",
+        "labelId": 38,
         "labelName": "Metro Trax Records",
         "catNo": "Mt-002"
       },
       {
-        "labelId": "38",
+        "labelId": 38,
         "labelName": "Metro Trax Records",
         "catNo": "MT 002"
       }
@@ -9107,7 +9107,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK021"
       }
@@ -9309,7 +9309,7 @@
     ],
     "labels": [
       {
-        "labelId": "40",
+        "labelId": 40,
         "labelName": "Loaded Records",
         "catNo": "LOAD 65"
       }
@@ -9464,7 +9464,7 @@
     ],
     "labels": [
       {
-        "labelId": "40",
+        "labelId": 40,
         "labelName": "Loaded Records",
         "catNo": "LOAD 59"
       }
@@ -9621,7 +9621,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "40",
+        "labelId": 40,
         "labelName": "Loaded Records",
         "catNo": "super 5"
       }
@@ -9910,7 +9910,7 @@
     ],
     "labels": [
       {
-        "labelId": "41",
+        "labelId": 41,
         "labelName": "Fathom",
         "catNo": "HS11059-2"
       }
@@ -10150,12 +10150,12 @@
     ],
     "labels": [
       {
-        "labelId": "4243",
+        "labelId": 4243,
         "labelName": "DMC",
         "catNo": "MIX60010-2"
       },
       {
-        "labelId": "25",
+        "labelId": 25,
         "labelName": "Mixer",
         "catNo": "MIX60010-2"
       }
@@ -10555,7 +10555,7 @@
     ],
     "labels": [
       {
-        "labelId": "10",
+        "labelId": 10,
         "labelName": "Naked Music Recordings",
         "catNo": "NM011"
       }
@@ -10943,17 +10943,17 @@
     ],
     "labels": [
       {
-        "labelId": "40",
+        "labelId": 40,
         "labelName": "Loaded Records",
         "catNo": "LOAD 66"
       },
       {
-        "labelId": "15",
+        "labelId": 15,
         "labelName": "20:20 Vision",
         "catNo": "LOAD 66"
       },
       {
-        "labelId": "40",
+        "labelId": 40,
         "labelName": "Loaded Records",
         "catNo": "LOAD66"
       }
@@ -11151,7 +11151,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-041"
       }
@@ -11351,12 +11351,12 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "28",
+        "labelId": 28,
         "labelName": "Deep Vision Records",
         "catNo": "DVR 013"
       },
       {
-        "labelId": "28",
+        "labelId": 28,
         "labelName": "Deep Vision Records",
         "catNo": "dvr13"
       }
@@ -11685,7 +11685,7 @@
     ],
     "labels": [
       {
-        "labelId": "47",
+        "labelId": 47,
         "labelName": "IntelliNET",
         "catNo": "INTELLI002"
       }
@@ -12432,7 +12432,7 @@
     ],
     "labels": [
       {
-        "labelId": "45",
+        "labelId": 45,
         "labelName": "Groovin' Records",
         "catNo": "GRCD2888"
       }
@@ -13029,7 +13029,7 @@
     ],
     "labels": [
       {
-        "labelId": "24",
+        "labelId": 24,
         "labelName": "Immigrant",
         "catNo": "IMM 007"
       }
@@ -13223,12 +13223,12 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "19",
+        "labelId": 19,
         "labelName": "Track Mode",
         "catNo": "TM-021"
       },
       {
-        "labelId": "1488",
+        "labelId": 1488,
         "labelName": "Alleviated Records",
         "catNo": "ML-2215"
       }
@@ -13463,7 +13463,7 @@
     ],
     "labels": [
       {
-        "labelId": "60",
+        "labelId": 60,
         "labelName": "Fax +49-69/450464",
         "catNo": "PS 08/63"
       }
@@ -13646,7 +13646,7 @@
     ],
     "labels": [
       {
-        "labelId": "61",
+        "labelId": 61,
         "labelName": "Instinct Ambient",
         "catNo": "amb6002-2"
       }
@@ -13819,7 +13819,7 @@
     ],
     "labels": [
       {
-        "labelId": "60",
+        "labelId": 60,
         "labelName": "Fax +49-69/450464",
         "catNo": "PS 08/43"
       }
@@ -13958,7 +13958,7 @@
     ],
     "labels": [
       {
-        "labelId": "51",
+        "labelId": 51,
         "labelName": "Electrik Soul",
         "catNo": "ES 8003"
       }
@@ -14198,7 +14198,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "4",
+        "labelId": 4,
         "labelName": "Siesta Music",
         "catNo": "SM-012"
       }
@@ -14342,7 +14342,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "42",
+        "labelId": 42,
         "labelName": "Viva!",
         "catNo": "VV9806"
       }
@@ -14716,7 +14716,7 @@
     ],
     "labels": [
       {
-        "labelId": "59",
+        "labelId": 59,
         "labelName": "Tresor",
         "catNo": "Tresor.122"
       }
@@ -15032,7 +15032,7 @@
     ],
     "labels": [
       {
-        "labelId": "58",
+        "labelId": 58,
         "labelName": "A13",
         "catNo": "AA004LP"
       }
@@ -15397,12 +15397,12 @@
     ],
     "labels": [
       {
-        "labelId": "57",
+        "labelId": 57,
         "labelName": "Distance",
         "catNo": "Di 1226"
       },
       {
-        "labelId": "57",
+        "labelId": 57,
         "labelName": "Distance",
         "catNo": "S047"
       }
@@ -15611,7 +15611,7 @@
     ],
     "labels": [
       {
-        "labelId": "56",
+        "labelId": 56,
         "labelName": "Rising High Records",
         "catNo": "RSN 82"
       }
@@ -15761,7 +15761,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "2",
+        "labelId": 2,
         "labelName": "Earthtones Recordings",
         "catNo": "ET12-007"
       }
@@ -15976,7 +15976,7 @@
     ],
     "labels": [
       {
-        "labelId": "55",
+        "labelId": 55,
         "labelName": "Transport Recordings",
         "catNo": "TSP 003"
       }
@@ -16214,7 +16214,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "18",
+        "labelId": 18,
         "labelName": "Soma Quality Recordings",
         "catNo": "SOMA LP 14"
       }
@@ -16413,7 +16413,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "39",
+        "labelId": 39,
         "labelName": "i! Records",
         "catNo": "IR-184"
       }
@@ -16617,7 +16617,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "15",
+        "labelId": 15,
         "labelName": "20:20 Vision",
         "catNo": "VIS042"
       }
@@ -16773,7 +16773,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "54",
+        "labelId": 54,
         "labelName": "Cross Section Records",
         "catNo": "C.S. 114RX"
       }
@@ -17062,7 +17062,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "21",
+        "labelId": 21,
         "labelName": "Drop Music",
         "catNo": "DRM013"
       }
@@ -17277,7 +17277,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "53",
+        "labelId": 53,
         "labelName": "Camouflage Recordings",
         "catNo": "CM 006"
       }
@@ -17428,7 +17428,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "42",
+        "labelId": 42,
         "labelName": "Viva!",
         "catNo": "VV9803"
       }
@@ -17618,7 +17618,7 @@
     ],
     "labels": [
       {
-        "labelId": "39",
+        "labelId": 39,
         "labelName": "i! Records",
         "catNo": "IR-151"
       }
@@ -17786,7 +17786,7 @@
     ],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK029"
       }
@@ -18072,7 +18072,7 @@
     ],
     "labels": [
       {
-        "labelId": "35",
+        "labelId": 35,
         "labelName": "Ovum Recordings",
         "catNo": "OVM121"
       }
@@ -18251,7 +18251,7 @@
     ],
     "labels": [
       {
-        "labelId": "64",
+        "labelId": 64,
         "labelName": "Ritual Recordings",
         "catNo": "RITUAL#2"
       }
@@ -18529,7 +18529,7 @@
     ],
     "labels": [
       {
-        "labelId": "35",
+        "labelId": 35,
         "labelName": "Ovum Recordings",
         "catNo": "OVM125"
       }
@@ -18698,7 +18698,7 @@
     ],
     "labels": [
       {
-        "labelId": "30",
+        "labelId": 30,
         "labelName": "Palette Recordings",
         "catNo": "006"
       }
@@ -18918,7 +18918,7 @@
     ],
     "labels": [
       {
-        "labelId": "68",
+        "labelId": 68,
         "labelName": "Residual Recordings",
         "catNo": "rez 004"
       }
@@ -19272,7 +19272,7 @@
     ],
     "labels": [
       {
-        "labelId": "52",
+        "labelId": 52,
         "labelName": "Low Pressings",
         "catNo": "LPLP001"
       }
@@ -19445,7 +19445,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "48",
+        "labelId": 48,
         "labelName": "Wave Music",
         "catNo": "WM50056-1"
       }
@@ -19588,7 +19588,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "44",
+        "labelId": 44,
         "labelName": "Nordic Trax",
         "catNo": "NT013"
       }
@@ -19808,7 +19808,7 @@
     ],
     "labels": [
       {
-        "labelId": "48",
+        "labelId": 48,
         "labelName": "Wave Music",
         "catNo": "WM50029-1"
       }
@@ -20156,7 +20156,7 @@
     ],
     "labels": [
       {
-        "labelId": "66",
+        "labelId": 66,
         "labelName": "Pagan",
         "catNo": "PAGAN 017"
       }
@@ -20453,7 +20453,7 @@
     ],
     "labels": [
       {
-        "labelId": "67",
+        "labelId": 67,
         "labelName": "MAW Records",
         "catNo": "MAW-035"
       }
@@ -20629,7 +20629,7 @@
     ],
     "labels": [
       {
-        "labelId": "12",
+        "labelId": 12,
         "labelName": "Large Records",
         "catNo": "LAR-046"
       }
@@ -20790,7 +20790,7 @@
     ],
     "labels": [
       {
-        "labelId": "3",
+        "labelId": 3,
         "labelName": "Seasons Recordings",
         "catNo": "SEA12-014"
       }
@@ -20915,7 +20915,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "49",
+        "labelId": 49,
         "labelName": "Cytrax",
         "catNo": "Cytrax 14"
       }
@@ -21098,7 +21098,7 @@
     ],
     "labels": [
       {
-        "labelId": "50",
+        "labelId": 50,
         "labelName": "Fair Park",
         "catNo": "FPR 006"
       }
@@ -21312,7 +21312,7 @@
     ],
     "labels": [
       {
-        "labelId": "65",
+        "labelId": 65,
         "labelName": "Airtight",
         "catNo": "air002"
       }
@@ -21487,7 +21487,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK024"
       }
@@ -21739,7 +21739,7 @@
     ],
     "labels": [
       {
-        "labelId": "35",
+        "labelId": 35,
         "labelName": "Ovum Recordings",
         "catNo": "OVM118"
       }
@@ -21873,7 +21873,7 @@
     ],
     "labels": [
       {
-        "labelId": "70",
+        "labelId": 70,
         "labelName": "7th City",
         "catNo": "SCD 013"
       }
@@ -22038,7 +22038,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "24",
+        "labelId": 24,
         "labelName": "Immigrant",
         "catNo": "IMM006"
       }
@@ -22195,7 +22195,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "4",
+        "labelId": 4,
         "labelName": "Siesta Music",
         "catNo": "SM-011"
       }
@@ -22307,7 +22307,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "5",
+        "labelId": 5,
         "labelName": "Svek",
         "catNo": "SK020"
       }
@@ -22448,7 +22448,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "64",
+        "labelId": 64,
         "labelName": "Ritual Recordings",
         "catNo": "RITUAL 1"
       }
@@ -22590,7 +22590,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "44",
+        "labelId": 44,
         "labelName": "Nordic Trax",
         "catNo": "NT006"
       }
@@ -22778,7 +22778,7 @@
     "identifiers": [],
     "labels": [
       {
-        "labelId": "69",
+        "labelId": 69,
         "labelName": "Yoshitoshi Recordings",
         "catNo": "YR038"
       }

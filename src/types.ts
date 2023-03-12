@@ -68,7 +68,7 @@ export interface Release extends BaseRelease {
     value: string;
   }[];
   labels: {
-    labelId: string;
+    labelId: number | null;
     labelName: string;
     catNo: string;
   }[];

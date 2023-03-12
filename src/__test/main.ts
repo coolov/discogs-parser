@@ -8,6 +8,7 @@ import { Label, DiscogsItem, createDiscogsParser } from "../main";
 
 const STUBS_DIR = path.join(__dirname, "../../stubs/");
 const BASE_URL = "https://discogs-data-dumps.s3-us-west-2.amazonaws.com";
+const TAKES = 10;
 
 function get(url: string): Promise<IncomingMessage> {
   return new Promise((resolve, reject) => {
@@ -34,6 +35,13 @@ async function takeFromNetwork<T extends DiscogsItem>(
     }
   }
 
+  // comment out to update snapshots
+  // fs.writeFileSync(
+  //   path.join(STUBS_DIR, `snap-${type}.json`),
+  //   JSON.stringify(items, null, 2)
+  // );
+  // return;
+
   const snapshot = fs
     .readFileSync(path.join(STUBS_DIR, `snap-${type}.json`))
     .toString();
@@ -59,7 +67,7 @@ function sleep(ms: number) {
 }
 
 async function main() {
-  for (let i = 1; i < 101; i++) {
+  for (let i = 1; i < TAKES; i++) {
     const start = Date.now();
     console.log(`take ${i}...`);
     await Promise.all([
